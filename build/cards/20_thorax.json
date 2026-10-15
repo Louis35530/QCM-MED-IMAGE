@@ -1,0 +1,931 @@
+[
+ {
+  "id": "thx_normal_1",
+  "img": "mpx/thx_ptx_ct_2.png",
+  "region": "thorax",
+  "type": "normal",
+  "modality": "rx",
+  "plane": "face",
+  "title": "Radiographie thoracique de face normale",
+  "q": "Femme de 31 ans, radiographie de thorax d'admission. Concernant ce cliché :",
+  "opts": [
+   [
+    "Il s'agit d'une radiographie thoracique de face",
+    true,
+    "Une seule image en projection, on voit les deux poumons, le cœur, les côtes et les clavicules superposés : radiographie de face."
+   ],
+   [
+    "L'index cardio-thoracique paraît inférieur à 0,5",
+    true,
+    "La largeur du cœur est nettement inférieure à la moitié de la largeur du thorax : pas de cardiomégalie."
+   ],
+   [
+    "Les culs-de-sac costo-diaphragmatiques sont pointus et libres",
+    true,
+    "Les angles entre les côtes et les coupoles, en bas et en dehors, sont bien aigus et noirs : pas d'épanchement pleural."
+   ],
+   [
+    "La coupole diaphragmatique droite est normalement un peu plus haute que la gauche",
+    true,
+    "Le foie, sous la coupole droite, la pousse vers le haut : elle est en général 1 à 2 cm plus haute que la gauche."
+   ],
+   [
+    "Les poumons sont trop blancs, ce qui évoque une pneumonie bilatérale",
+    false,
+    "Les poumons sont noirs (remplis d'air) avec de fins vaisseaux blancs qui partent des hiles : c'est l'aspect normal. Les ombres arrondies en bas sont les seins."
+   ]
+  ],
+  "lecture": "<p>Radiographie de thorax de <b>face</b>, debout, en <b>PA</b> (postéro-antérieur : rayons qui entrent par le dos). Le repère « L » en haut à droite rappelle que c'est le côté gauche du patient.</p><p>Méthode de lecture : qualité du cliché → contenant (os, parties molles) → contenu (médiastin, cœur, hiles, poumons, plèvre, coupoles) → sous les coupoles.</p>",
+  "analyse": "<ul><li><b>Trachée</b> médiane (bande noire verticale au-dessus du cœur).</li><li><b>Cœur</b> : bord droit formé par l'oreillette droite, bord gauche par le ventricule gauche ; ICT &lt; 0,5.</li><li><b>Hiles</b> : artères pulmonaires, le gauche un peu plus haut que le droit.</li><li><b>Poumons</b> clairs, symétriques, vaisseaux de plus en plus fins vers la périphérie.</li><li><b>Coupoles</b> nettes, culs-de-sac libres. Ombres mammaires en projection des bases (normal chez la femme).</li></ul>",
+  "retenir": "Avant de chercher une anomalie, il faut connaître le normal : trachée médiane, ICT &lt; 0,5, poumons noirs et symétriques, culs-de-sac pointus, coupole droite plus haute.",
+  "marks": [
+   {
+    "t": "a",
+    "x1": 0.75,
+    "y1": 0.1,
+    "x2": 0.52,
+    "y2": 0.2,
+    "l": "Trachée"
+   },
+   {
+    "t": "e",
+    "x": 0.55,
+    "y": 0.62,
+    "rx": 0.13,
+    "ry": 0.15,
+    "l": "Cœur"
+   },
+   {
+    "t": "a",
+    "x1": 0.2,
+    "y1": 0.93,
+    "x2": 0.32,
+    "y2": 0.71,
+    "l": "Coupole droite"
+   },
+   {
+    "t": "a",
+    "x1": 0.06,
+    "y1": 0.62,
+    "x2": 0.15,
+    "y2": 0.77,
+    "l": "Cul-de-sac"
+   }
+  ]
+ },
+ {
+  "id": "thx_ptx_1",
+  "img": "mpx/thx_ptx_compressif_1.png",
+  "region": "thorax",
+  "type": "air_liquide",
+  "modality": "rx",
+  "plane": "face",
+  "title": "Pneumothorax gauche compressif",
+  "q": "Dyspnée brutale. Concernant cette radiographie au lit :",
+  "opts": [
+   [
+    "L'hémithorax gauche est hyperclair, sans trame vasculaire en périphérie",
+    true,
+    "À droite de l'image (côté gauche du patient), le thorax est tout noir, sans les petits vaisseaux blancs qu'on voit normalement : c'est de l'air libre dans la plèvre."
+   ],
+   [
+    "Le médiastin est refoulé vers la droite du patient",
+    true,
+    "Le cœur et la trachée sont poussés vers le côté opposé à l'air : la pression de l'air dans la plèvre gauche est si forte qu'elle pousse tout le médiastin."
+   ],
+   [
+    "Ce refoulement du médiastin traduit un pneumothorax compressif",
+    true,
+    "Un pneumothorax qui dévie le médiastin est dit <b>compressif</b> (ou suffocant) : il gêne le retour veineux au cœur et peut entraîner un arrêt cardiaque."
+   ],
+   [
+    "Il s'agit d'un épanchement pleural liquidien",
+    false,
+    "Un épanchement liquidien est <b>blanc</b> (opacité), pas noir. Ici on voit une hyperclarté : c'est de l'<b>air</b>."
+   ],
+   [
+    "Le traitement d'un pneumothorax compressif peut attendre le résultat d'un scanner",
+    false,
+    "C'est une <b>urgence vitale</b> : exsufflation à l'aiguille puis drainage thoracique immédiat. Le diagnostic est d'ailleurs souvent clinique, avant même la radio."
+   ]
+  ],
+  "lecture": "<p>Radio de thorax de face, réalisée au lit (« portable »). Compare les deux côtés : le poumon droit (gauche de l'image) a sa trame vasculaire normale ; le côté gauche du patient est noir et vide.</p>",
+  "analyse": "<ul><li><b>Hyperclarté</b> de l'hémithorax gauche sans trame vasculaire.</li><li>Poumon gauche rétracté vers le hile (moignon dense près du cœur).</li><li><b>Déviation du médiastin et de la trachée vers la droite</b>, coupole gauche abaissée.</li></ul><p>Le pneumothorax est de l'air entre les deux feuillets de la plèvre ; le poumon, élastique, se rétracte. On cherche la <b>ligne pleurale</b> : fin liseré blanc (le bord du poumon) au-delà duquel il n'y a plus de vaisseaux.</p>",
+  "retenir": "Pneumothorax = <b>hyperclarté sans trame</b> + ligne pleurale. Médiastin dévié du côté opposé = <b>compressif</b> = exsufflation / drainage en urgence.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.74,
+    "y": 0.5,
+    "rx": 0.13,
+    "ry": 0.25,
+    "l": "Air sans trame"
+   },
+   {
+    "t": "a",
+    "x1": 0.22,
+    "y1": 0.92,
+    "x2": 0.43,
+    "y2": 0.62,
+    "l": "Médiastin refoulé"
+   }
+  ]
+ },
+ {
+  "id": "thx_ptx_2",
+  "img": "mpx/thx_ptx_ct_0.png",
+  "region": "thorax",
+  "type": "air_liquide",
+  "modality": "ct",
+  "plane": "axial",
+  "title": "Pneumothorax gauche antérieur au scanner",
+  "q": "Patiente hospitalisée, porteuse d'un pacemaker. Concernant ce scanner thoracique :",
+  "opts": [
+   [
+    "Il est affiché en fenêtre parenchymateuse (pulmonaire)",
+    true,
+    "On voit bien les vaisseaux et le tissu pulmonaire, et tout ce qui n'est pas de l'air est blanc uniforme : c'est la fenêtre faite pour étudier le poumon."
+   ],
+   [
+    "Il existe de l'air libre en avant du poumon gauche, sans vaisseaux, limité par le bord du poumon",
+    true,
+    "À droite de l'image, en avant, une zone noire sans aucun vaisseau est séparée du poumon par une fine ligne : c'est le pneumothorax."
+   ],
+   [
+    "Chez un patient couché, l'air d'un pneumothorax se collecte en avant",
+    true,
+    "L'air monte vers la partie la plus haute : chez un patient couché sur le dos, c'est l'avant du thorax. C'est pourquoi un petit pneumothorax antérieur peut être invisible sur une radio de face."
+   ],
+   [
+    "Le scanner est moins sensible que la radiographie pour détecter un petit pneumothorax",
+    false,
+    "C'est l'inverse : le scanner, en coupes, détecte des pneumothorax de quelques millimètres que la radio ne voit pas."
+   ],
+   [
+    "La grosse tache blanche en haut à droite avec des stries correspond au boîtier du pacemaker",
+    true,
+    "Le métal est plus dense que l'os et crée des <b>artéfacts</b> en rayons (stries) autour de lui."
+   ]
+  ],
+  "lecture": "<p>Scanner thoracique en coupe <b>axiale</b>. En <b>fenêtre parenchymateuse</b>, le poumon est gris foncé avec des vaisseaux blancs ; l'air libre (pneumothorax) est encore plus noir et ne contient aucun vaisseau.</p>",
+  "analyse": "<p>Pneumothorax gauche antérieur et médial, cloisonné (des brides pleurales le divisent). Le poumon droit montre des plages grisâtres (verre dépoli) liées à la maladie pulmonaire sous-jacente.</p>",
+  "retenir": "Le scanner est l'examen <b>le plus sensible</b> pour le pneumothorax. Patient couché : l'air se met en <b>avant</b>.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.53,
+    "y": 0.31,
+    "rx": 0.08,
+    "ry": 0.08,
+    "l": "Air libre (pneumothorax)"
+   },
+   {
+    "t": "e",
+    "x": 0.58,
+    "y": 0.72,
+    "rx": 0.07,
+    "ry": 0.09
+   },
+   {
+    "t": "a",
+    "x1": 0.9,
+    "y1": 0.4,
+    "x2": 0.74,
+    "y2": 0.2,
+    "l": "Pacemaker"
+   }
+  ]
+ },
+ {
+  "id": "thx_card_1",
+  "img": "mpx/thx_cardiomeg_2.png",
+  "region": "thorax",
+  "type": "chronique",
+  "modality": "rx",
+  "plane": "face",
+  "title": "Cardiomégalie après chirurgie cardiaque",
+  "q": "Patient opéré d'une malformation de la valve tricuspide (maladie d'Ebstein). Concernant cette radiographie :",
+  "opts": [
+   [
+    "L'index cardio-thoracique est supérieur à 0,5",
+    true,
+    "Le cœur occupe plus de la moitié de la largeur du thorax : c'est une <b>cardiomégalie</b>."
+   ],
+   [
+    "Les petites boucles métalliques sur la ligne médiane sont des fils de sternotomie",
+    true,
+    "Après une chirurgie à cœur ouvert, le sternum est refermé avec des fils d'acier, visibles comme de petites boucles blanches alignées."
+   ],
+   [
+    "L'index cardio-thoracique se mesure de façon fiable sur un cliché couché de face en AP",
+    false,
+    "En incidence AP (patient couché, rayons d'avant en arrière), le cœur est loin de la plaque et paraît <b>agrandi</b>. L'ICT se mesure sur un cliché <b>PA debout</b>."
+   ],
+   [
+    "Le bord droit de la silhouette cardiaque correspond surtout à l'oreillette droite",
+    true,
+    "Sur une radio de face, le bord droit du cœur est formé par l'oreillette droite ; le bord gauche par le ventricule gauche. Dans la maladie d'Ebstein, l'oreillette droite est très dilatée."
+   ],
+   [
+    "Une cardiomégalie se voit uniquement au scanner",
+    false,
+    "La radio de thorax suffit pour la suspecter (ICT). L'examen de référence pour explorer le cœur est ensuite l'<b>échographie cardiaque</b>."
+   ]
+  ],
+  "lecture": "<p>Radiographie de thorax de face. Pour l'<b>ICT</b> : mesure la plus grande largeur du cœur (de son bord droit à son bord gauche), divise-la par la plus grande largeur interne du thorax. Normal &lt; 0,5 chez l'adulte.</p>",
+  "analyse": "<ul><li>Silhouette cardiaque très élargie, surtout vers la droite.</li><li>Fils de sternotomie médians (chirurgie antérieure).</li><li>Champs pulmonaires clairs.</li></ul><p>La maladie d'Ebstein est une malformation congénitale de la valve tricuspide, implantée trop bas dans le ventricule droit : l'oreillette droite devient énorme.</p>",
+  "retenir": "<b>ICT &gt; 0,5</b> sur une radio PA debout = cardiomégalie. Le cliché AP couché grossit le cœur : ne pas conclure trop vite.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.53,
+    "y": 0.63,
+    "rx": 0.26,
+    "ry": 0.18,
+    "l": "Cœur très élargi",
+    "ly": 0.83,
+    "lx": 0.53
+   },
+   {
+    "t": "a",
+    "x1": 0.8,
+    "y1": 0.22,
+    "x2": 0.53,
+    "y2": 0.33,
+    "l": "Fils de sternotomie"
+   }
+  ]
+ },
+ {
+  "id": "thx_peric_1",
+  "img": "mpx/thx_pericarde_3.png",
+  "region": "thorax",
+  "type": "air_liquide",
+  "modality": "rx",
+  "plane": "face",
+  "title": "Péricardite : cœur « en carafe »",
+  "q": "Homme de 76 ans, infarctus il y a 3 mois, douleur thoracique et essoufflement. Concernant cette radiographie :",
+  "opts": [
+   [
+    "La silhouette cardiaque est très élargie, symétrique, en forme de carafe ou de gourde",
+    true,
+    "Le cœur est élargi des deux côtés, avec une base large et des bords rectilignes : aspect « en carafe » typique d'un grand épanchement péricardique."
+   ],
+   [
+    "Cet aspect évoque un épanchement péricardique abondant",
+    true,
+    "Le liquide dans le sac péricardique s'accumule en bas (pesanteur) et élargit toute l'ombre du cœur."
+   ],
+   [
+    "L'examen de référence pour confirmer un épanchement péricardique est l'échographie cardiaque",
+    true,
+    "L'échographie voit directement le liquide (noir) autour du cœur et recherche des signes de compression des cavités (tamponnade)."
+   ],
+   [
+    "Une radiographie permet de distinguer un épanchement péricardique d'une dilatation des cavités cardiaques",
+    false,
+    "Sur une radio, liquide et muscle cardiaque ont la même densité (eau) : on ne peut pas faire la différence. Il faut une <b>échographie</b>."
+   ],
+   [
+    "Un épanchement péricardique abondant peut comprimer le cœur : c'est la tamponnade",
+    true,
+    "Le liquide empêche les cavités droites de se remplir : chute de la tension, turgescence jugulaire. C'est une urgence (ponction péricardique)."
+   ]
+  ],
+  "lecture": "<p>Radiographie de thorax de face. Le cœur et le liquide qui l'entoure ont la même densité (eau) : la radio ne voit qu'une seule « ombre » cardiaque globale.</p>",
+  "analyse": "<p>Cardiomégalie globale, symétrique, en carafe, avec des poumons clairs (pas d'œdème). Après un infarctus, un épanchement péricardique tardif peut correspondre au <b>syndrome de Dressler</b> (péricardite auto-immune).</p>",
+  "retenir": "Cœur « <b>en carafe</b> » = épanchement péricardique abondant → <b>échographie cardiaque</b>, rechercher une tamponnade.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.5,
+    "y": 0.67,
+    "rx": 0.33,
+    "ry": 0.24,
+    "l": "Cœur « en carafe »",
+    "ly": 0.42
+   }
+  ]
+ },
+ {
+  "id": "thx_peric_2",
+  "img": "mpx/thx_pericarde_2.png",
+  "region": "thorax",
+  "type": "air_liquide",
+  "modality": "ct",
+  "plane": "axial",
+  "title": "Épanchement péricardique abondant au scanner",
+  "q": "Jeune femme lupique, douleur thoracique. Concernant ce scanner injecté :",
+  "opts": [
+   [
+    "Il s'agit d'une coupe axiale de scanner thoracique après injection",
+    true,
+    "Coupe horizontale du thorax, os blanc, et les cavités cardiaques sont rehaussées (plus blanches) par le produit de contraste iodé."
+   ],
+   [
+    "Le cœur est entouré d'une épaisse couronne de densité liquidienne",
+    true,
+    "Autour des cavités opacifiées, une large bande grise homogène, moins dense que le sang injecté, fait le tour du cœur : c'est du liquide dans le péricarde."
+   ],
+   [
+    "Cette couronne correspond à un épanchement péricardique",
+    true,
+    "Le péricarde est le sac qui entoure le cœur ; le liquide s'y accumule tout autour."
+   ],
+   [
+    "Les poumons sont affichés en fenêtre parenchymateuse",
+    false,
+    "Les poumons sont tout noirs sans détail et le cœur bien analysable : c'est une fenêtre <b>médiastinale</b> (tissus mous)."
+   ],
+   [
+    "Le lupus peut donner une atteinte des séreuses comme la péricardite",
+    true,
+    "Le lupus touche volontiers les séreuses : péricardite et pleurésie (sérites) font partie des critères de la maladie."
+   ]
+  ],
+  "lecture": "<p>Scanner thoracique injecté, fenêtre <b>médiastinale</b> : graisse gris foncé, muscles et liquide gris, sang injecté blanc, poumons noirs.</p>",
+  "analyse": "<p>Épanchement péricardique circonférentiel abondant. On aperçoit aussi un épanchement pleural gauche en arrière (zone grise déclive contre la paroi). Le scanner confirme et mesure, mais en urgence c'est l'<b>échographie</b> qui juge du retentissement.</p>",
+  "retenir": "Péricarde = sac autour du cœur. Épanchement = couronne liquidienne autour des cavités. Lupus → sérites (péricarde, plèvre).",
+  "marks": [
+   {
+    "t": "a",
+    "x1": 0.96,
+    "y1": 0.16,
+    "x2": 0.87,
+    "y2": 0.4,
+    "l": "Liquide péricardique"
+   },
+   {
+    "t": "a",
+    "x1": 0.95,
+    "y1": 0.92,
+    "x2": 0.85,
+    "y2": 0.72,
+    "l": "Épanchement pleural"
+   }
+  ]
+ },
+ {
+  "id": "thx_k_1",
+  "img": "mpx/thx_cancer2_2.png",
+  "region": "thorax",
+  "type": "tumeur",
+  "modality": "ct",
+  "plane": "axial",
+  "title": "Cancer bronchique spiculé du lobe inférieur gauche",
+  "q": "Homme de 69 ans, ancien fumeur. Concernant ce scanner :",
+  "opts": [
+   [
+    "Il est affiché en fenêtre parenchymateuse",
+    true,
+    "Les vaisseaux pulmonaires sont visibles, et tout ce qui n'est pas de l'air (cœur, muscles, os) est blanc uniforme."
+   ],
+   [
+    "On voit une masse du lobe inférieur gauche aux contours spiculés",
+    true,
+    "Dans le poumon gauche (à droite de l'image), en arrière, une masse blanche émet des prolongements en rayons : contours <b>spiculés</b>, « en étoile »."
+   ],
+   [
+    "Des contours spiculés sont un argument en faveur de la malignité",
+    true,
+    "Les spicules traduisent l'infiltration du poumon autour de la tumeur. Un nodule lisse et bien limité est plus souvent bénin (mais pas toujours)."
+   ],
+   [
+    "Le diagnostic de certitude est apporté par le scanner seul",
+    false,
+    "Le scanner oriente mais seul l'examen <b>anatomopathologique</b> d'un prélèvement (biopsie) prouve le cancer et donne son type."
+   ],
+   [
+    "Le premier facteur de risque du cancer bronchique est le tabac",
+    true,
+    "Le tabac est en cause dans environ 8 cancers bronchiques sur 10."
+   ]
+  ],
+  "lecture": "<p>Scanner thoracique en coupe axiale, <b>fenêtre parenchymateuse</b> (dite « pulmonaire ») : elle est faite pour voir les nodules et les opacités du poumon.</p>",
+  "analyse": "<p>Masse spiculée du lobe inférieur gauche, au contact de la plèvre. Le bilan d'extension associe un scanner thoraco-abdomino-pelvien, souvent une <b>TEP</b> (tomographie par émission de positons) et une IRM cérébrale selon le type. Chez ce patient, le foie était envahi par des métastases.</p>",
+  "retenir": "Nodule ou masse <b>spiculée</b> chez un fumeur = cancer jusqu'à preuve du contraire. La preuve = <b>biopsie</b>.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.72,
+    "y": 0.66,
+    "rx": 0.075,
+    "ry": 0.09,
+    "l": "Masse spiculée"
+   }
+  ]
+ },
+ {
+  "id": "thx_ep_1",
+  "img": "mpx/thx_ep_0.png",
+  "region": "thorax",
+  "type": "vasculaire",
+  "modality": "ct",
+  "plane": "axial",
+  "title": "Embolie pulmonaire « en selle »",
+  "q": "Homme de 62 ans, quelques jours après un pontage coronarien : douleur thoracique brutale, dyspnée, hypotension. Concernant cet angioscanner :",
+  "opts": [
+   [
+    "Les artères pulmonaires sont opacifiées par le produit de contraste",
+    true,
+    "Le tronc de l'artère pulmonaire et ses branches droite et gauche sont blancs : l'injection a été faite pour les opacifier. C'est un <b>angioscanner</b> thoracique."
+   ],
+   [
+    "On voit une lacune (zone grise) à cheval sur la bifurcation de l'artère pulmonaire",
+    true,
+    "Au milieu du blanc du produit de contraste, un caillot gris s'étend dans les deux branches : c'est un embole « <b>en selle</b> » (à cheval)."
+   ],
+   [
+    "Un caillot apparaît plus blanc que le sang opacifié",
+    false,
+    "Le caillot ne prend pas le contraste : il apparaît comme un <b>défaut de remplissage</b> (une lacune grise) dans l'artère blanche."
+   ],
+   [
+    "Une embolie pulmonaire avec hypotension est une embolie grave (à haut risque)",
+    true,
+    "L'hypotension traduit une défaillance du ventricule droit : risque de décès élevé, on discute une <b>thrombolyse</b>."
+   ],
+   [
+    "Une chirurgie récente et l'alitement sont des facteurs de risque de maladie thromboembolique",
+    true,
+    "Chirurgie, immobilisation, cancer, antécédents de phlébite, contraception œstrogénique… favorisent les caillots dans les veines des jambes, qui migrent vers les poumons."
+   ]
+  ],
+  "lecture": "<p>Coupe axiale de scanner thoracique au niveau de la bifurcation de l'artère pulmonaire, après injection au <b>temps artériel pulmonaire</b>. Repères : aorte ascendante (rond blanc au centre), aorte descendante (rond contre la colonne), tronc pulmonaire qui se divise en Y.</p>",
+  "analyse": "<ul><li>Volumineuse lacune endoluminale à cheval sur la bifurcation pulmonaire et étendue dans les deux artères.</li><li>Fils de sternotomie en avant (chirurgie cardiaque récente) avec leurs artéfacts.</li></ul>",
+  "retenir": "Embolie pulmonaire à l'angioscanner = <b>lacune</b> (gris) dans une artère pulmonaire <b>blanche</b>. Hypotension = haut risque.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.53,
+    "y": 0.56,
+    "rx": 0.13,
+    "ry": 0.08,
+    "l": "Caillot à la bifurcation",
+    "ly": 0.66,
+    "lx": 0.53
+   }
+  ]
+ },
+ {
+  "id": "thx_tb_1",
+  "img": "mpx/thx_tb_2.png",
+  "region": "thorax",
+  "type": "infection",
+  "modality": "rx",
+  "plane": "face",
+  "title": "Tuberculose pulmonaire active cavitaire",
+  "q": "Toux productive et amaigrissement depuis plusieurs mois. Concernant cette radiographie :",
+  "opts": [
+   [
+    "Il existe des opacités prédominant dans les lobes supérieurs",
+    true,
+    "Les parties hautes des deux poumons sont envahies d'opacités blanches irrégulières, alors que les bases sont plus claires."
+   ],
+   [
+    "On voit des cavités (excavations) : zones claires arrondies entourées d'une paroi",
+    true,
+    "Dans les opacités, plusieurs zones noires arrondies limitées par un anneau blanc : ce sont des <b>cavernes</b>, où le tissu détruit a été évacué par les bronches."
+   ],
+   [
+    "La tuberculose touche préférentiellement les sommets car ils sont plus riches en oxygène",
+    true,
+    "Le bacille de Koch aime l'oxygène ; les sommets sont mieux ventilés que perfusés, d'où une pression en oxygène plus élevée."
+   ],
+   [
+    "Un patient avec une tuberculose cavitaire est peu contagieux",
+    false,
+    "Les cavernes contiennent énormément de bacilles qui passent dans les crachats : c'est la forme la <b>plus contagieuse</b>. Isolement respiratoire (masque FFP2 pour les soignants)."
+   ],
+   [
+    "Le diagnostic repose sur la recherche de bacilles dans les crachats (examen direct et culture)",
+    true,
+    "On recherche les BAAR (bacilles acido-alcoolo-résistants) à l'examen direct, puis on cultive pour identifier la mycobactérie et tester les antibiotiques."
+   ]
+  ],
+  "lecture": "<p>Radiographie de thorax de face. Compare le haut et le bas de chaque poumon : ici l'anomalie est <b>apicale</b> et bilatérale.</p>",
+  "analyse": "<p>Opacités alvéolaires et nodulaires des deux lobes supérieurs avec de multiples <b>excavations</b>. Les hiles sont attirés vers le haut par la rétraction des lobes supérieurs. Tableau typique de tuberculose post-primaire (réactivation).</p>",
+  "retenir": "Opacités <b>apicales excavées</b> = tuberculose jusqu'à preuve du contraire → isolement + crachats (BAAR).",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.29,
+    "y": 0.3,
+    "rx": 0.18,
+    "ry": 0.2,
+    "l": "Lésions excavées"
+   },
+   {
+    "t": "e",
+    "x": 0.72,
+    "y": 0.28,
+    "rx": 0.17,
+    "ry": 0.2
+   }
+  ]
+ },
+ {
+  "id": "thx_oap_1",
+  "img": "mpx/thx_oap_0.png",
+  "region": "thorax",
+  "type": "air_liquide",
+  "modality": "rx",
+  "plane": "face",
+  "title": "Œdème pulmonaire avec lignes de Kerley B",
+  "q": "Homme de 26 ans, toux et essoufflement après une longue nage en mer. Les flèches rouges montrent un signe. Concernant cette radiographie :",
+  "opts": [
+   [
+    "Les flèches rouges désignent des lignes de Kerley B",
+    true,
+    "Ce sont de courtes lignes horizontales fines, à la périphérie des bases, perpendiculaires à la plèvre."
+   ],
+   [
+    "Les lignes de Kerley B correspondent à des cloisons interlobulaires épaissies par du liquide",
+    true,
+    "Le poumon est divisé en petits lobules séparés par des cloisons ; quand elles se gorgent de liquide (œdème interstitiel), elles deviennent visibles."
+   ],
+   [
+    "Ces lignes sont un signe d'œdème pulmonaire interstitiel",
+    true,
+    "Elles apparaissent quand le liquide sort des capillaires vers l'interstitium, avant d'envahir les alvéoles."
+   ],
+   [
+    "La flèche blanche montre la crosse de l'aorte",
+    false,
+    "Elle est légendée « carina » : c'est la <b>carène</b>, l'endroit où la trachée se divise en deux bronches souches."
+   ],
+   [
+    "Un œdème pulmonaire est toujours d'origine cardiaque",
+    false,
+    "La cause la plus fréquente est l'insuffisance cardiaque gauche, mais il existe des œdèmes non cardiogéniques : ici un œdème d'immersion chez le nageur, ou un SDRA (syndrome de détresse respiratoire aiguë)."
+   ]
+  ],
+  "lecture": "<p>Radiographie de thorax de face légendée : <b>liver</b> = foie (sous la coupole droite), <b>spleen</b> = rate (sous la coupole gauche), <b>carina</b> = carène.</p>",
+  "analyse": "<p>Discret flou périhilaire, parois bronchiques épaissies et <b>lignes de Kerley B</b> aux bases : œdème pulmonaire léger. Ici il est lié à l'immersion et à l'effort (œdème pulmonaire du nageur), réversible en quelques jours.</p><p>Progression typique de l'œdème : redistribution vasculaire vers les sommets → œdème <b>interstitiel</b> (Kerley, flou des hiles) → œdème <b>alvéolaire</b> (opacités en « ailes de papillon » autour des hiles).</p>",
+  "retenir": "<b>Lignes de Kerley B</b> = courtes lignes horizontales des bases = œdème interstitiel. Cause n°1 de l'OAP : insuffisance cardiaque gauche.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.1,
+    "y": 0.74,
+    "rx": 0.07,
+    "ry": 0.12,
+    "l": "Lignes de Kerley B",
+    "lx": 0.18
+   },
+   {
+    "t": "e",
+    "x": 0.93,
+    "y": 0.79,
+    "rx": 0.05,
+    "ry": 0.07
+   }
+  ]
+ },
+ {
+  "id": "thx_pnp_1",
+  "img": "mpx/thx_pneumonie3_0.png",
+  "region": "thorax",
+  "type": "infection",
+  "modality": "rx",
+  "plane": "face",
+  "title": "Pneumonie du lobe moyen (signe de la silhouette)",
+  "q": "Fièvre et toux depuis quelques jours. Concernant cette radiographie de face :",
+  "opts": [
+   [
+    "Il existe une opacité de la partie basse du poumon droit, près du cœur",
+    true,
+    "À gauche de l'image (droite du patient), en bas, contre le cœur, une zone plus blanche et floue remplace le poumon noir."
+   ],
+   [
+    "Le bord droit du cœur n'est plus visible nettement à cet endroit",
+    true,
+    "Normalement le bord droit du cœur se détache comme une ligne nette sur le poumon noir. Ici il est flou, « effacé » par l'opacité."
+   ],
+   [
+    "L'effacement du bord droit du cœur indique que l'opacité est au contact du cœur, donc dans le lobe moyen",
+    true,
+    "C'est le <b>signe de la silhouette</b> : deux densités « eau » en contact perdent leur limite. Le lobe moyen est en avant, au contact de l'oreillette droite."
+   ],
+   [
+    "Une pneumonie du lobe inférieur droit effacerait typiquement le bord droit du cœur",
+    false,
+    "Le lobe inférieur est en <b>arrière</b>, loin du cœur : il efface plutôt la <b>coupole diaphragmatique</b> droite, pas le bord du cœur."
+   ],
+   [
+    "Une opacité alvéolaire de pneumonie peut contenir un bronchogramme aérique",
+    true,
+    "Les alvéoles se remplissent de pus mais les bronches restent pleines d'air : on voit alors des branches noires dans l'opacité blanche."
+   ]
+  ],
+  "lecture": "<p>Radiographie de thorax de face. Le <b>signe de la silhouette</b> permet de localiser une opacité sans profil : si elle efface un bord (cœur, aorte, coupole), elle le touche.</p>",
+  "analyse": "<p>Opacité alvéolaire du lobe moyen effaçant partiellement le bord droit du cœur. Le cliché de profil la montrera en avant, en projection du cœur, entre les scissures.</p><table><tr><td>Bord droit du cœur effacé</td><td>lobe moyen</td></tr><tr><td>Bord gauche du cœur effacé</td><td>lingula</td></tr><tr><td>Coupole effacée</td><td>lobe inférieur</td></tr><tr><td>Bouton aortique effacé</td><td>lobe supérieur gauche (segment apical)</td></tr></table>",
+  "retenir": "<b>Signe de la silhouette</b> : une opacité qui efface un bord le touche. Bord droit du cœur = <b>lobe moyen</b> ; coupole = <b>lobe inférieur</b>.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.38,
+    "y": 0.44,
+    "rx": 0.08,
+    "ry": 0.07,
+    "l": "Opacité"
+   },
+   {
+    "t": "a",
+    "x1": 0.14,
+    "y1": 0.66,
+    "x2": 0.44,
+    "y2": 0.48,
+    "l": "Bord du cœur effacé"
+   }
+  ]
+ },
+ {
+  "id": "thx_pnp_2",
+  "img": "mpx/thx_pneumonie3_1.png",
+  "region": "thorax",
+  "type": "infection",
+  "modality": "rx",
+  "plane": "profil",
+  "title": "Pneumonie du lobe moyen (profil)",
+  "q": "Même patient, cliché complémentaire. Concernant cette image :",
+  "opts": [
+   [
+    "Il s'agit d'une radiographie thoracique de profil",
+    true,
+    "On voit le thorax de côté : la colonne vertébrale en arrière (à droite de l'image), le sternum en avant, et les deux poumons superposés."
+   ],
+   [
+    "L'opacité se projette en avant, sur la silhouette du cœur",
+    true,
+    "Une bande ou un triangle plus blanc est visible dans la partie antérieure et moyenne du thorax, en projection du cœur."
+   ],
+   [
+    "Sur le profil, le lobe moyen est situé en avant, entre la petite et la grande scissure",
+    true,
+    "Les scissures sont les plis de plèvre qui séparent les lobes. Le lobe moyen est un « coin » antérieur limité en haut par la petite scissure et en arrière par la grande."
+   ],
+   [
+    "Le cliché de profil est inutile si la radio de face est anormale",
+    false,
+    "Le profil sert justement à <b>localiser</b> l'opacité (avant/arrière, quel lobe) et à voir ce qui est caché derrière le cœur ou les coupoles."
+   ],
+   [
+    "Les vertèbres deviennent normalement de plus en plus claires (noires) en descendant sur un profil",
+    true,
+    "Sur un profil normal, les vertèbres sont de plus en plus « noires » vers le bas, car il y a moins d'épaules et de tissus superposés. Si une vertèbre basse redevient blanche, c'est qu'une opacité (pneumonie du lobe inférieur…) se projette dessus : c'est le signe de la vertèbre."
+   ]
+  ],
+  "lecture": "<p>Radiographie de thorax de <b>profil</b> : l'avant du patient est à gauche de l'image (sternum), le dos à droite (colonne). Les deux poumons sont superposés.</p>",
+  "analyse": "<p>Opacité antérieure triangulaire en projection de la silhouette cardiaque, limitée par les scissures : condensation du lobe moyen. Le reste du poumon est clair.</p>",
+  "retenir": "Face + profil = localisation 3D. Lobe moyen sur le profil = <b>triangle antérieur</b> sur le cœur, entre les scissures.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.47,
+    "y": 0.43,
+    "rx": 0.11,
+    "ry": 0.08,
+    "l": "Opacité du lobe moyen"
+   }
+  ]
+ },
+ {
+  "id": "thx_dissec_1",
+  "img": "mpx/thx_dissection_4.png",
+  "region": "thorax",
+  "type": "vasculaire",
+  "modality": "ct",
+  "plane": "axial",
+  "title": "Dissection aortique (voile intimal)",
+  "q": "Homme de 22 ans, douleur thoracique brutale et déchirante irradiant dans le dos. Concernant ce scanner injecté :",
+  "opts": [
+   [
+    "On voit une fine ligne qui divise la lumière de l'aorte en deux chenaux",
+    true,
+    "Dans l'aorte descendante (rond contre la colonne), une fine membrane sépare deux compartiments : c'est le <b>voile intimal</b> décollé."
+   ],
+   [
+    "Les deux chenaux sont le vrai et le faux chenal",
+    true,
+    "Le sang s'est engouffré dans une déchirure de l'intima et circule dans la paroi (faux chenal), à côté de la lumière normale (vrai chenal)."
+   ],
+   [
+    "L'atteinte de l'aorte ascendante définit une dissection de type A de Stanford",
+    true,
+    "Type A = l'aorte <b>ascendante</b> est touchée (quel que soit le point de départ) ; type B = elle est épargnée."
+   ],
+   [
+    "Une dissection de type A se traite habituellement par simple surveillance",
+    false,
+    "Type A = <b>urgence chirurgicale</b> (risque de rupture, de tamponnade, d'atteinte des coronaires). Le type B non compliqué peut être traité médicalement (contrôle de la tension)."
+   ],
+   [
+    "Le facteur de risque principal de dissection aortique chez l'adulte est l'hypertension artérielle",
+    true,
+    "L'HTA est le facteur de risque n°1. Chez un sujet jeune, on recherche aussi une maladie du tissu conjonctif (syndrome de Marfan)."
+   ]
+  ],
+  "lecture": "<p>Scanner thoracique injecté en coupe axiale au niveau du cœur. Repères : aorte ascendante en avant (naît du cœur), aorte descendante en arrière, à gauche de la colonne vertébrale.</p>",
+  "analyse": "<p>Voile intimal dans l'aorte descendante, aorte ascendante dilatée par la dissection née près des sinus de Valsalva : <b>type A</b>. Les deux chenaux peuvent prendre le contraste différemment (le faux chenal est souvent moins opacifié).</p>",
+  "retenir": "Dissection = <b>voile intimal</b> + double chenal. Aorte ascendante touchée = <b>type A</b> = chirurgie urgente.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.33,
+    "y": 0.31,
+    "rx": 0.21,
+    "ry": 0.21,
+    "l": "Aorte ascendante dilatée"
+   },
+   {
+    "t": "a",
+    "x1": 0.95,
+    "y1": 0.55,
+    "x2": 0.62,
+    "y2": 0.72,
+    "l": "Voile intimal"
+   }
+  ]
+ },
+ {
+  "id": "thx_emph_1",
+  "img": "mpx/thx_emphyseme_0.png",
+  "region": "thorax",
+  "type": "chronique",
+  "modality": "rx",
+  "plane": "face",
+  "title": "Emphysème bulleux (BPCO)",
+  "q": "Grand fumeur, essoufflement chronique. Concernant cette radiographie :",
+  "opts": [
+   [
+    "Il existe des zones hyperclaires sans vaisseaux, correspondant à des bulles",
+    true,
+    "Plusieurs grandes zones très noires, où l'on ne voit plus aucun vaisseau, sont des <b>bulles</b> d'emphysème : des alvéoles détruites ont fusionné."
+   ],
+   [
+    "Les poumons paraissent distendus (hyperinflation)",
+    true,
+    "Les poumons sont très grands et très clairs, avec des espaces entre les côtes élargis : l'air reste piégé."
+   ],
+   [
+    "Une coupole aplatie est un signe de distension, surtout visible sur le profil",
+    true,
+    "Les poumons trop gonflés repoussent le diaphragme vers le bas : les coupoles perdent leur forme bombée."
+   ],
+   [
+    "L'emphysème est une destruction irréversible des parois alvéolaires",
+    true,
+    "C'est une des formes de la BPCO (bronchopneumopathie chronique obstructive), due au tabac dans l'immense majorité des cas."
+   ],
+   [
+    "Ces zones noires correspondent à un pneumothorax bilatéral",
+    false,
+    "Dans un pneumothorax on verrait une <b>ligne pleurale</b> et un poumon rétracté vers le hile. Ici les zones claires sont dans le poumon, séparées par des cloisons : ce sont des bulles."
+   ]
+  ],
+  "lecture": "<p>Radiographie de thorax de face (ancien film). Repère les zones où la trame vasculaire disparaît : soit de l'air libre (pneumothorax), soit du poumon détruit (bulles d'emphysème).</p>",
+  "analyse": "<p>Distension thoracique, raréfaction vasculaire et grosses bulles des deux champs pulmonaires. Le scanner est l'examen de choix pour mesurer l'emphysème.</p>",
+  "retenir": "Emphysème = <b>hyperclarté + distension + bulles</b>, BPCO du fumeur. Ne pas confondre bulle (cloisons) et pneumothorax (ligne pleurale).",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.31,
+    "y": 0.24,
+    "rx": 0.12,
+    "ry": 0.17,
+    "l": "Bulles"
+   },
+   {
+    "t": "e",
+    "x": 0.78,
+    "y": 0.25,
+    "rx": 0.13,
+    "ry": 0.17
+   },
+   {
+    "t": "e",
+    "x": 0.25,
+    "y": 0.74,
+    "rx": 0.1,
+    "ry": 0.12
+   }
+  ]
+ },
+ {
+  "id": "thx_scinti_1",
+  "img": "mpx/thx_cancer2_4.png",
+  "region": "thorax",
+  "type": "vasculaire",
+  "modality": "scinti",
+  "plane": "",
+  "title": "Scintigraphie de perfusion : poumon gauche non perfusé",
+  "q": "Homme de 38 ans, toux chronique. Voici un examen de perfusion pulmonaire (images du haut, vues de face et de dos). Concernant cet examen :",
+  "opts": [
+   [
+    "Il s'agit d'une scintigraphie (médecine nucléaire)",
+    true,
+    "Image floue, en points, sans anatomie fine : elle montre où se fixe un traceur radioactif injecté. C'est une <b>scintigraphie</b> pulmonaire de perfusion."
+   ],
+   [
+    "Un seul poumon fixe le traceur",
+    true,
+    "On ne voit qu'une seule tache en forme de poumon sur chaque vue : l'autre poumon ne reçoit pas de sang."
+   ],
+   [
+    "Le traceur de perfusion est injecté dans une veine et se bloque dans les capillaires pulmonaires",
+    true,
+    "On injecte des macroagrégats d'albumine marqués au technétium : ils sont arrêtés dans les petits capillaires des zones perfusées. Une zone sans fixation n'est pas perfusée."
+   ],
+   [
+    "Cet examen utilise un champ magnétique",
+    false,
+    "C'est l'<b>IRM</b> qui utilise un champ magnétique. La scintigraphie utilise un traceur <b>radioactif</b> détecté par une gamma-caméra."
+   ],
+   [
+    "La scintigraphie de ventilation-perfusion peut être utilisée pour rechercher une embolie pulmonaire",
+    true,
+    "Une zone ventilée mais non perfusée évoque une embolie. C'est une alternative à l'angioscanner (grossesse, insuffisance rénale, allergie à l'iode)."
+   ]
+  ],
+  "lecture": "<p>La médecine nucléaire montre une <b>fonction</b> (où va le sang, où se fixe le traceur), pas l'anatomie fine. Les images du bas sont les mêmes vues avec un autre réglage.</p>",
+  "analyse": "<p>Absence complète de perfusion du poumon gauche : l'artère pulmonaire gauche est comprimée par une fibrose du médiastin. Chez ce patient, il ne s'agit pas d'une embolie.</p>",
+  "retenir": "Scintigraphie = traceur <b>radioactif</b>, image floue fonctionnelle. Perfusion pulmonaire : zone non fixante = zone non perfusée.",
+  "marks": [
+   {
+    "t": "a",
+    "x1": 0.12,
+    "y1": 0.4,
+    "x2": 0.15,
+    "y2": 0.25,
+    "l": "Poumon droit perfusé"
+   },
+   {
+    "t": "e",
+    "x": 0.36,
+    "y": 0.2,
+    "rx": 0.08,
+    "ry": 0.15,
+    "l": "Poumon gauche : rien"
+   }
+  ]
+ },
+ {
+  "id": "rachis_borgne_1",
+  "img": "mpx/thx_meta_2.png",
+  "region": "rachis",
+  "type": "tumeur",
+  "modality": "rx",
+  "plane": "face",
+  "title": "Vertèbre « borgne » : métastase pédiculaire",
+  "q": "Patient atteint d'un cancer bronchique. Radiographie du rachis de face où les pédicules sont marqués « P ». Concernant cette image :",
+  "opts": [
+   [
+    "Normalement, chaque vertèbre montre deux pédicules de face, comme deux « yeux »",
+    true,
+    "De face, les pédicules apparaissent comme deux ovales blancs de part et d'autre du corps vertébral : la vertèbre a l'air de regarder avec deux yeux."
+   ],
+   [
+    "La vertèbre du milieu n'a plus qu'un seul pédicule visible",
+    true,
+    "Sur la vertèbre centrale, un seul « P » : l'autre pédicule a disparu. C'est la <b>vertèbre borgne</b>."
+   ],
+   [
+    "La disparition d'un pédicule évoque une lyse osseuse, souvent métastatique",
+    true,
+    "Le pédicule a été détruit par une lésion <b>lytique</b>. Chez un patient cancéreux, c'est une métastase jusqu'à preuve du contraire."
+   ],
+   [
+    "Le cancer bronchique ne donne jamais de métastases osseuses",
+    false,
+    "Les cancers les plus pourvoyeurs de métastases osseuses sont : <b>sein, prostate, poumon, rein, thyroïde</b>."
+   ],
+   [
+    "Une métastase vertébrale peut comprimer la moelle et donner une paraplégie",
+    true,
+    "C'est la <b>compression médullaire</b> : urgence (IRM en urgence, corticoïdes, radiothérapie ou chirurgie)."
+   ]
+  ],
+  "lecture": "<p>Radiographie du rachis dorso-lombaire de <b>face</b>. Chaque vertèbre : un corps rectangulaire, deux pédicules ovales en haut et sur les côtés, l'épineuse au milieu.</p>",
+  "analyse": "<p>Absence d'un pédicule sur la vertèbre centrale : signe de la « vertèbre borgne ». Les pédicules des vertèbres au-dessus et au-dessous sont normaux.</p>",
+  "retenir": "<b>Vertèbre borgne</b> (un pédicule disparu) = lyse = métastase jusqu'à preuve du contraire. Ostéophiles : sein, prostate, poumon, rein, thyroïde.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.41,
+    "y": 0.48,
+    "rx": 0.06,
+    "ry": 0.05,
+    "l": "Pédicule disparu"
+   },
+   {
+    "t": "a",
+    "x1": 0.85,
+    "y1": 0.4,
+    "x2": 0.66,
+    "y2": 0.48,
+    "l": "Pédicule restant"
+   }
+  ]
+ }
+]

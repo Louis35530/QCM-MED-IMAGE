@@ -1,0 +1,644 @@
+[
+ {
+  "id": "neuro_hed_1",
+  "img": "mpx/neuro_hed_0.png",
+  "region": "neuro",
+  "type": "vasculaire",
+  "modality": "ct",
+  "plane": "axial",
+  "title": "Hématome extradural gauche (enfant)",
+  "q": "Garçon de 5 ans, chute de cheval avec perte de connaissance ; pupille gauche dilatée. Concernant cette image :",
+  "opts": [
+   [
+    "Il s'agit d'un scanner cérébral en coupe axiale",
+    true,
+    "On voit une coupe horizontale du crâne entier, l'os est blanc franc, le cerveau gris : c'est la signature d'un scanner (TDM)."
+   ],
+   [
+    "La collection anormale a une forme biconvexe, en lentille",
+    true,
+    "Elle est bombée des deux côtés : bord externe collé à l'os, bord interne qui repousse le cerveau. C'est la forme typique de l'hématome extradural."
+   ],
+   [
+    "La lésion siège dans l'hémisphère droit du patient",
+    false,
+    "Convention : la droite du patient est à gauche de l'écran. La collection est à droite de l'image, donc à <b>gauche</b> du patient (le repère « L », pour left, est d'ailleurs de ce côté)."
+   ],
+   [
+    "Le diagnostic le plus probable est un hématome extradural",
+    true,
+    "Collection hyperdense, biconvexe, collée à l'os, après un traumatisme : hématome extradural (HED)."
+   ],
+   [
+    "La collection est hypodense, ce qui signe un saignement ancien",
+    false,
+    "Elle est <b>hyperdense</b> (plus blanche que le cerveau) : c'est du sang <b>frais</b>. Un hématome devient progressivement hypodense en quelques semaines."
+   ]
+  ],
+  "lecture": "<p>Scanner <b>sans injection</b> (rien n'est rehaussé, les vaisseaux ne sont pas blancs), coupe <b>axiale</b> : on regarde le crâne « par les pieds », l'avant (le front) en haut, la droite du patient à gauche de l'image.</p><p>Le sang qui vient de coaguler est <b>plus blanc que le cerveau</b> au scanner (environ 60 à 80 UH contre 30 à 40). C'est pour cela qu'on fait un scanner sans injection en urgence devant un traumatisme crânien : le sang frais saute aux yeux.</p>",
+  "analyse": "<ul><li>Grande collection <b>hyperdense</b> contre la voûte du côté gauche, en <b>lentille biconvexe</b>.</li><li><b>Effet de masse</b> : le ventricule latéral gauche est écrasé et la ligne médiane est poussée vers la droite (engagement sous-falcoriel).</li><li>Le sang est entre l'os et la dure-mère. La dure-mère est très adhérente aux sutures du crâne : l'hématome ne peut pas les franchir, il s'épaissit donc au lieu de s'étaler, d'où la forme en lentille.</li><li>Cause classique : <b>fracture de l'os temporal</b> qui déchire l'<b>artère méningée moyenne</b> (saignement artériel, rapide).</li></ul><p>La pupille gauche dilatée (mydriase) du même côté que l'hématome traduit un <b>engagement temporal</b> qui comprime le nerf III : urgence vitale.</p>",
+  "retenir": "HED = <b>lentille biconvexe</b>, ne franchit pas les sutures, artère méningée moyenne, classique <b>intervalle libre</b> (le patient se réveille puis s'aggrave). Urgence neurochirurgicale.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.8,
+    "y": 0.53,
+    "rx": 0.11,
+    "ry": 0.21,
+    "l": "Hématome extradural"
+   }
+  ]
+ },
+ {
+  "id": "neuro_hed_2",
+  "img": "mpx/neuro_hed_3.png",
+  "region": "neuro",
+  "type": "vasculaire",
+  "modality": "ct",
+  "plane": "axial",
+  "title": "Hématome extradural droit (enfant)",
+  "q": "Garçon de 5 ans, chute d'un caddie, somnolent et céphalalgique. Parmi les propositions suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+  "opts": [
+   [
+    "La collection est extra-axiale, c'est-à-dire en dehors du cerveau lui-même",
+    true,
+    "Elle est plaquée contre l'os et refoule le cortex : elle est entre l'os et le cerveau, donc extra-axiale."
+   ],
+   [
+    "Elle siège du côté droit du patient",
+    true,
+    "Elle est à gauche de l'image ; par convention la gauche de l'image correspond à la droite du patient."
+   ],
+   [
+    "Elle a la forme d'un croissant qui suit toute la convexité de l'hémisphère",
+    false,
+    "Le croissant étendu sur toute la convexité est l'aspect de l'hématome <b>sous-dural</b>. Ici la collection est courte et bombée, en lentille."
+   ],
+   [
+    "L'origine classique de ce type d'hématome est une déchirure de l'artère méningée moyenne",
+    true,
+    "Dans environ 9 cas sur 10, un trait de fracture temporal déchire l'artère méningée moyenne, qui chemine dans un sillon de la face interne de l'os."
+   ],
+   [
+    "Un hématome extradural symptomatique se traite par simple surveillance",
+    false,
+    "Un HED qui donne des symptômes ou qui est volumineux est une <b>urgence neurochirurgicale</b> (évacuation par trépanation). La surveillance ne concerne que les petits HED asymptomatiques."
+   ]
+  ],
+  "lecture": "<p>Coupe axiale de scanner sans injection, au niveau des noyaux gris et du 3e ventricule. Repère-toi : en haut le front, en bas l'occiput, les ventricules au centre.</p><p>Compare toujours les deux côtés : ce qui est asymétrique est suspect. Ici le bord gauche de l'image est épaissi par une bande blanche que l'on ne retrouve pas en face.</p>",
+  "analyse": "<p>Fine lentille <b>hyperdense</b> temporo-occipitale droite, collée à l'os, avec un discret effet de masse sur le ventricule latéral droit. Chez l'enfant, la dure-mère est encore plus adhérente à l'os, et l'HED survient souvent sans fracture visible.</p><p>Distinguer les trois saignements « autour » du cerveau :</p><ul><li><b>Extradural</b> : entre os et dure-mère, lentille, artériel.</li><li><b>Sous-dural</b> : entre dure-mère et arachnoïde, croissant, veineux (veines « en pont »), sujet âgé ou sous anticoagulant.</li><li><b>Sous-arachnoïdien</b> (hémorragie méningée) : dans les sillons et citernes, dessine le relief du cerveau.</li></ul>",
+  "retenir": "Extra-axial + biconvexe = <b>extradural</b> ; extra-axial + croissant = <b>sous-dural</b> ; sang dans les sillons et les citernes = <b>méningée</b>.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.14,
+    "y": 0.53,
+    "rx": 0.07,
+    "ry": 0.18,
+    "l": "Hématome extradural"
+   }
+  ]
+ },
+ {
+  "id": "neuro_hsa_1",
+  "img": "mpx/neuro_hsa_3.png",
+  "region": "neuro",
+  "type": "vasculaire",
+  "modality": "ct",
+  "plane": "axial",
+  "title": "Hémorragie méningée (rupture d'anévrisme)",
+  "q": "Femme de 27 ans, « la pire céphalée de sa vie », d'installation brutale. Concernant ce scanner :",
+  "opts": [
+   [
+    "Il a été réalisé sans injection de produit de contraste",
+    true,
+    "En urgence, devant une céphalée brutale, on fait d'abord un scanner <b>sans injection</b> : le sang frais est spontanément blanc, il ne faut pas le confondre avec du produit de contraste."
+   ],
+   [
+    "On voit une hyperdensité spontanée dans les citernes de la base du crâne",
+    true,
+    "Les citernes autour du tronc cérébral et de la selle, normalement noires (remplies de LCS), sont ici blanches, en forme d'étoile : elles sont remplies de sang."
+   ],
+   [
+    "Chez un adulte jeune sans traumatisme, la cause la plus fréquente est la rupture d'un anévrisme artériel",
+    true,
+    "Environ 85 % des hémorragies méningées non traumatiques sont dues à la rupture d'un anévrisme du polygone de Willis."
+   ],
+   [
+    "Le mode d'installation typique est une céphalée progressive sur plusieurs jours",
+    false,
+    "La céphalée de l'hémorragie méningée est <b>brutale</b>, maximale en quelques secondes, « en coup de tonnerre ». Une céphalée progressive oriente vers autre chose (hypertension intracrânienne, tumeur…)."
+   ],
+   [
+    "Un scanner normal dans les premières heures élimine formellement le diagnostic",
+    false,
+    "Le scanner est très sensible les premières heures mais pas à 100 %, et sa sensibilité baisse avec le temps. S'il est normal et que la clinique est évocatrice, on fait une <b>ponction lombaire</b>."
+   ]
+  ],
+  "lecture": "<p>Coupe axiale basse, au niveau du tronc cérébral (au centre, en bas), des lobes temporaux (de chaque côté) et des orbites (en haut). Les <b>citernes de la base</b> sont les espaces de LCS qui entourent le tronc cérébral : elles sont normalement <b>noires</b>.</p>",
+  "analyse": "<ul><li>Hyperdensité qui remplit les citernes suprasellaire et périmésencéphalique et dessine les sillons : aspect en <b>étoile</b> typique de l'hémorragie sous-arachnoïdienne.</li><li>Les cornes temporales des ventricules latéraux sont dilatées : c'est une <b>hydrocéphalie aiguë</b>, le sang bloque la résorption du LCS. Complication précoce classique.</li><li>Étape suivante : angioscanner ou artériographie pour trouver l'anévrisme, puis le traiter (embolisation ou clip) pour éviter le resaignement.</li></ul>",
+  "retenir": "Céphalée <b>brutale</b> en coup de tonnerre → scanner sans injection : sang <b>blanc</b> dans les <b>citernes</b> et les sillons = hémorragie méningée, rupture d'anévrisme jusqu'à preuve du contraire.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.5,
+    "y": 0.44,
+    "rx": 0.17,
+    "ry": 0.12,
+    "l": "Sang dans les citernes"
+   }
+  ]
+ },
+ {
+  "id": "neuro_hiv_1",
+  "img": "mpx/neuro_hsa_2.png",
+  "region": "neuro",
+  "type": "vasculaire",
+  "modality": "ct",
+  "plane": "axial",
+  "title": "Hémorragie intraventriculaire + drain ventriculaire",
+  "q": "Homme de 64 ans, rupture d'anévrisme il y a un mois, porteur d'une dérivation posée en urgence. Concernant cette coupe :",
+  "opts": [
+   [
+    "Les ventricules latéraux contiennent du sang hyperdense",
+    true,
+    "Les cornes postérieures des ventricules latéraux, qui devraient être noires (LCS), sont remplies d'un matériel blanc : c'est du sang, qui sédimente dans la partie déclive."
+   ],
+   [
+    "Le petit point très blanc près de la ligne médiane correspond à l'extrémité d'un cathéter",
+    true,
+    "Un objet beaucoup plus blanc que l'os, parfaitement rond et net, est du matériel : ici l'extrémité d'une <b>dérivation ventriculaire externe</b> qui évacue le LCS et le sang."
+   ],
+   [
+    "Le sang dans les ventricules se dépose dans les cornes occipitales parce que le patient est couché sur le dos",
+    true,
+    "Le sang est plus lourd que le LCS : chez un patient couché sur le dos, il tombe dans la partie la plus postérieure, les cornes occipitales."
+   ],
+   [
+    "Les ventricules sont de taille normale",
+    false,
+    "Ils sont dilatés, surtout leur partie postérieure. Le sang dans le LCS gêne sa circulation et sa résorption : risque d'<b>hydrocéphalie</b>, d'où la dérivation."
+   ],
+   [
+    "La dérivation ventriculaire externe sert à injecter du produit de contraste",
+    false,
+    "Elle sert à <b>drainer</b> le LCS (et le sang) vers l'extérieur pour faire baisser la pression intracrânienne en cas d'hydrocéphalie."
+   ]
+  ],
+  "lecture": "<p>Coupe axiale de scanner passant par les ventricules latéraux, qui ont la forme d'un papillon au centre. Repère normal : les ventricules contiennent du <b>LCS, noir</b> (densité de l'eau).</p><p>Le matériel médical (cathéter, clip, électrode) est encore plus blanc que l'os et peut donner des stries (artéfacts).</p>",
+  "analyse": "<ul><li>Hémorragie <b>intraventriculaire</b> : sang hyperdense dans les cornes occipitales des ventricules latéraux.</li><li>Fines hyperdensités dans quelques sillons : sang sous-arachnoïdien résiduel.</li><li>Extrémité de drain ventriculaire en place.</li></ul>",
+  "retenir": "Le sang est <b>plus lourd</b> que le LCS : dans les ventricules d'un patient couché, il s'accumule dans les <b>cornes occipitales</b>. Sang dans le LCS → risque d'<b>hydrocéphalie</b>.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.48,
+    "y": 0.56,
+    "rx": 0.13,
+    "ry": 0.09,
+    "l": "Sang dans les ventricules",
+    "ly": 0.66,
+    "lx": 0.48
+   },
+   {
+    "t": "a",
+    "x1": 0.25,
+    "y1": 0.3,
+    "x2": 0.47,
+    "y2": 0.47,
+    "l": "Bout du drain"
+   }
+  ]
+ },
+ {
+  "id": "neuro_avc_1",
+  "img": "mpx/neuro_avc_irm_4.png",
+  "region": "neuro",
+  "type": "vasculaire",
+  "modality": "irm",
+  "plane": "axial",
+  "title": "AVC ischémique sylvien et cérébral antérieur gauche (IRM diffusion)",
+  "q": "Patient présentant un déficit neurologique brutal depuis 2 heures. Concernant cette IRM :",
+  "opts": [
+   [
+    "Il s'agit d'une séquence de diffusion",
+    true,
+    "Image floue, peu détaillée, où presque tout est gris sauf une zone très blanche : c'est l'aspect d'une séquence de <b>diffusion</b>, la séquence clé de l'AVC ischémique."
+   ],
+   [
+    "L'anomalie siège dans l'hémisphère gauche du patient",
+    true,
+    "La zone blanche est à droite de l'image, donc à gauche du patient."
+   ],
+   [
+    "Un hypersignal en diffusion traduit une ischémie récente, de quelques heures à quelques jours",
+    true,
+    "Dans l'ischémie, les cellules gonflent (œdème cytotoxique) et l'eau ne bouge plus : la diffusion devient « restreinte », ce qui apparaît en blanc dès les premières minutes."
+   ],
+   [
+    "Le patient présente probablement un déficit de l'hémicorps gauche",
+    false,
+    "Les voies motrices croisent la ligne médiane (décussation des pyramides) : une lésion de l'hémisphère <b>gauche</b> donne un déficit de l'hémicorps <b>droit</b>, et souvent une aphasie (hémisphère dominant)."
+   ],
+   [
+    "Le scanner sans injection est souvent normal dans les premières heures d'un AVC ischémique",
+    true,
+    "L'hypodensité de l'infarctus n'apparaît au scanner qu'après plusieurs heures. Le scanner initial sert surtout à éliminer une <b>hémorragie</b> avant de thrombolyser."
+   ]
+  ],
+  "lecture": "<p>IRM en coupe axiale, séquence de <b>diffusion</b> : image peu résolue, le liquide est noir et le cerveau gris uniforme. Tout ce qui est <b>très blanc</b> en diffusion doit faire penser à une ischémie aiguë.</p>",
+  "analyse": "<p>Vaste hypersignal cortico-sous-cortical de l'hémisphère gauche, couvrant le territoire de l'<b>artère cérébrale moyenne</b> (sylvienne, face latérale de l'hémisphère) et de l'<b>artère cérébrale antérieure</b> (partie interne frontale, le long de la ligne médiane). Les deux territoires sont touchés car c'est la <b>carotide interne</b> gauche, leur tronc commun, qui est occluse.</p>",
+  "retenir": "AVC ischémique : <b>IRM diffusion</b> = hypersignal dès les premières minutes. Lésion gauche → déficit <b>droit</b> (+ aphasie). Le scanner initial sert à éliminer une hémorragie.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.66,
+    "y": 0.5,
+    "rx": 0.22,
+    "ry": 0.45,
+    "l": "Zone d'infarctus (hypersignal)"
+   }
+  ]
+ },
+ {
+  "id": "neuro_avc_2",
+  "img": "mpx/neuro_avc_irm_0.png",
+  "region": "neuro",
+  "type": "vasculaire",
+  "modality": "irm",
+  "plane": "axial",
+  "title": "Petit infarctus cortical frontal droit (diffusion)",
+  "q": "Femme de 36 ans, lupique, hémiparésie gauche brutale. Parmi les propositions suivantes, laquelle (lesquelles) est (sont) exacte(s) ?",
+  "opts": [
+   [
+    "L'image montre un hypersignal dans l'hémisphère droit",
+    true,
+    "La petite bande blanche est à gauche de l'image, c'est-à-dire du côté <b>droit</b> du patient."
+   ],
+   [
+    "La localisation est cohérente avec un déficit de l'hémicorps gauche",
+    true,
+    "Le cortex moteur droit commande l'hémicorps gauche : la lésion est bien du côté opposé au déficit."
+   ],
+   [
+    "Il s'agit d'une séquence pondérée en T1",
+    false,
+    "En T1 la substance blanche est plus claire que la grise et l'image est détaillée. Ici l'image est floue avec un hypersignal isolé : séquence de <b>diffusion</b>."
+   ],
+   [
+    "Cette image prouve qu'il s'agit d'une hémorragie cérébrale",
+    false,
+    "Un hypersignal diffusion cortical, en bande, dans un territoire artériel est typique d'une <b>ischémie</b> récente. L'hémorragie se recherche sur d'autres séquences (T2*) ou au scanner."
+   ],
+   [
+    "Une thrombolyse intraveineuse peut être discutée si l'on est dans les 4 h 30 suivant le début des symptômes",
+    true,
+    "La fenêtre classique de la thrombolyse IV est de 4 h 30. D'où l'importance de noter l'heure de début des symptômes."
+   ]
+  ],
+  "lecture": "<p>Coupe axiale haute (on voit la partie supérieure des hémisphères, sans les ventricules). Séquence de <b>diffusion</b> : fond gris, peu de détails, la lésion ischémique ressort en blanc.</p>",
+  "analyse": "<p>Hypersignal cortical frontal droit, en bande, dans le territoire de l'artère cérébrale moyenne droite : petit infarctus récent. Sur l'image ADC (calculée à partir de la diffusion), la même zone serait noire, ce qui confirme une vraie restriction.</p><p>Le lupus favorise les thromboses (syndrome des antiphospholipides), ce qui explique un AVC chez une femme jeune.</p>",
+  "retenir": "Toujours vérifier que la <b>lésion est du côté opposé</b> au déficit moteur. Diffusion blanche + ADC noir = ischémie récente.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.37,
+    "y": 0.52,
+    "rx": 0.07,
+    "ry": 0.06,
+    "l": "Petit infarctus"
+   }
+  ]
+ },
+ {
+  "id": "neuro_avc_3",
+  "img": "mpx/neuro_engagement_1.png",
+  "region": "neuro",
+  "type": "vasculaire",
+  "modality": "ct",
+  "plane": "axial",
+  "title": "Infarctus hémisphérique droit œdémateux avec engagement",
+  "q": "Femme de 23 ans retrouvée inconsciente, scanner réalisé à J3. Concernant cette image :",
+  "opts": [
+   [
+    "On observe une vaste hypodensité de l'hémisphère droit",
+    true,
+    "La moitié gauche de l'image (côté droit du patient) est plus sombre et perd la différenciation entre substance grise et blanche."
+   ],
+   [
+    "La ligne médiane est déviée vers la gauche du patient : c'est un engagement sous-falcoriel",
+    true,
+    "Le cerveau droit gonflé passe sous la faux du cerveau et repousse la ligne médiane et les ventricules vers l'autre côté."
+   ],
+   [
+    "L'aspect est typique d'un hématome intracérébral aigu",
+    false,
+    "Un hématome aigu est <b>hyperdense</b> (blanc). Ici la lésion est <b>hypodense</b> (sombre), c'est l'aspect de l'infarctus ischémique constitué et de son œdème."
+   ],
+   [
+    "Il s'agit d'un infarctus ischémique constitué, devenu visible au scanner",
+    true,
+    "Après quelques heures, l'infarctus devient hypodense au scanner. À J3, il est bien visible et œdémateux."
+   ],
+   [
+    "L'œdème d'un grand infarctus est maximal entre le 2e et le 5e jour",
+    true,
+    "C'est la période à risque d'« infarctus malin » : l'œdème peut provoquer un engagement et justifier une craniectomie de décompression."
+   ]
+  ],
+  "lecture": "<p>Coupe axiale de scanner sans injection. Compare les deux hémisphères : à droite du patient (gauche de l'image), le parenchyme est gris foncé, les sillons ont disparu (effacés par le gonflement) et le ventricule latéral est écrasé.</p>",
+  "analyse": "<ul><li>Hypodensité étendue des territoires des artères cérébrales antérieure et moyenne droites.</li><li><b>Effet de masse</b> : effacement des sillons, compression du ventricule latéral droit.</li><li>Déviation de la ligne médiane vers la gauche = <b>engagement sous-falcoriel</b>.</li></ul>",
+  "retenir": "Scanner : AVC ischémique = <b>hypodense</b> (visible après quelques heures) ; AVC hémorragique = <b>hyperdense</b> d'emblée. Un grand infarctus peut gonfler et provoquer un engagement entre J2 et J5.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.31,
+    "y": 0.54,
+    "rx": 0.13,
+    "ry": 0.26,
+    "l": "Hypodensité = infarctus"
+   },
+   {
+    "t": "a",
+    "x1": 0.78,
+    "y1": 0.3,
+    "x2": 0.56,
+    "y2": 0.5,
+    "l": "Ligne médiane déviée"
+   }
+  ]
+ },
+ {
+  "id": "neuro_gbm_1",
+  "img": "mpx/neuro_gbm_4.png",
+  "region": "neuro",
+  "type": "tumeur",
+  "modality": "irm",
+  "plane": "axial",
+  "title": "Glioblastome pariéto-occipital gauche (T2)",
+  "q": "Femme de 66 ans, troubles de mémoire et confusion progressifs depuis plusieurs semaines. Concernant cette IRM :",
+  "opts": [
+   [
+    "Il s'agit d'une séquence pondérée en T2",
+    true,
+    "Le LCS (dans les ventricules et autour du cerveau) est <b>blanc</b> : c'est la signature du T2."
+   ],
+   [
+    "La masse est intra-axiale, développée dans le parenchyme cérébral",
+    true,
+    "Elle est au sein du lobe pariéto-occipital, entourée de cerveau, sans base d'implantation sur l'os ou la dure-mère."
+   ],
+   [
+    "Elle est entourée d'un hypersignal correspondant à de l'œdème",
+    true,
+    "La substance blanche autour de la masse est plus blanche que de l'autre côté : c'est un <b>œdème vasogénique</b> (l'eau sort des vaisseaux anormaux de la tumeur)."
+   ],
+   [
+    "Le glioblastome est la tumeur cérébrale primitive bénigne la plus fréquente de l'adulte",
+    false,
+    "C'est la tumeur cérébrale primitive <b>maligne</b> la plus fréquente de l'adulte, et la plus agressive (grade 4 de l'OMS). La plus fréquente des tumeurs bénignes est le méningiome."
+   ],
+   [
+    "La masse siège dans l'hémisphère droit du patient",
+    false,
+    "Elle est à droite de l'image, donc dans l'hémisphère <b>gauche</b> du patient."
+   ]
+  ],
+  "lecture": "<p>IRM axiale. Pour reconnaître la séquence, regarde le <b>LCS</b> : noir en T1, <b>blanc en T2</b>. Ici les ventricules et les sillons sont blancs : T2.</p>",
+  "analyse": "<ul><li>Masse pariéto-occipitale gauche <b>hétérogène</b> (zones de signal différent : tissu tumoral, nécrose, saignement).</li><li>Œdème en hypersignal autour, effet de masse sur le ventricule latéral gauche.</li><li>Après gadolinium, un glioblastome prend typiquement le contraste <b>en couronne</b> irrégulière autour d'un centre nécrotique.</li></ul>",
+  "retenir": "Glioblastome : tumeur gliale <b>maligne</b>, intra-axiale, hétérogène, nécrotique, entourée d'œdème, prise de contraste en anneau irrégulier. Pronostic sombre.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.7,
+    "y": 0.66,
+    "rx": 0.09,
+    "ry": 0.12,
+    "l": "Tumeur"
+   }
+  ]
+ },
+ {
+  "id": "neuro_gbm_2",
+  "img": "mpx/neuro_gbm_3.png",
+  "region": "neuro",
+  "type": "tumeur",
+  "modality": "irm",
+  "plane": "axial",
+  "title": "Lésions en cocarde périventriculaires (glioblastome)",
+  "q": "Patient présentant une faiblesse droite et une crise convulsive. IRM axiale. Concernant cette image :",
+  "opts": [
+   [
+    "Il s'agit d'une séquence T1 après injection de gadolinium",
+    true,
+    "Le LCS est noir (T1) et certaines lésions sont très blanches alors que le cerveau autour reste gris : ce blanc vient du produit de contraste."
+   ],
+   [
+    "Plusieurs lésions présentent une prise de contraste en anneau",
+    true,
+    "On voit des anneaux blancs avec un centre plus sombre, près des ventricules : c'est une <b>prise de contraste annulaire</b>."
+   ],
+   [
+    "Devant des lésions en anneau, il faut aussi évoquer des métastases et des abcès",
+    true,
+    "Les lésions en anneau ont un diagnostic différentiel classique : <b>tumeur gliale de haut grade, métastases, abcès</b>. Ici, la biopsie a montré un glioblastome."
+   ],
+   [
+    "Les ventricules sont blancs sur cette séquence",
+    false,
+    "En T1, le LCS est <b>noir</b> : les ventricules latéraux, en forme de papillon au centre, sont sombres."
+   ],
+   [
+    "Une prise de contraste dans le cerveau traduit une rupture de la barrière hémato-encéphalique",
+    true,
+    "Le cerveau sain ne laisse pas passer le gadolinium (barrière hémato-encéphalique). S'il passe, c'est que les vaisseaux sont anormaux ou que la barrière est lésée (tumeur, infection, inflammation)."
+   ]
+  ],
+  "lecture": "<p>T1 avec gadolinium : on le reconnaît parce que le LCS est noir et que les vaisseaux, les plexus choroïdes et les lésions vascularisées deviennent blancs. Compare toujours avec le T1 sans injection : seul ce qui « s'allume » après injection est une prise de contraste.</p>",
+  "analyse": "<p>Plusieurs lésions arrondies <b>périventriculaires</b> avec un rehaussement annulaire et un centre nécrotique. Les gliomes de haut grade peuvent s'étendre le long des fibres de substance blanche et traverser le corps calleux (aspect « en ailes de papillon »).</p>",
+  "retenir": "Prise de contraste <b>en anneau</b> : penser glioblastome, <b>métastases</b>, <b>abcès</b>. Gadolinium dans le cerveau = barrière hémato-encéphalique rompue.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.51,
+    "y": 0.53,
+    "rx": 0.1,
+    "ry": 0.13,
+    "l": "Prises de contraste en anneau"
+   }
+  ]
+ },
+ {
+  "id": "neuro_menin_1",
+  "img": "mpx/neuro_menin_3.png",
+  "region": "neuro",
+  "type": "tumeur",
+  "modality": "irm",
+  "plane": "axial",
+  "title": "Méningiome de la convexité gauche",
+  "q": "Homme de 70 ans, épisodes transitoires de faiblesse du bras droit et de troubles du langage. IRM T1 après gadolinium. Concernant cette image :",
+  "opts": [
+   [
+    "La lésion est extra-axiale, avec une large base d'implantation contre la dure-mère",
+    true,
+    "Elle est collée à la face interne du crâne par un bord large et plat, et repousse le cortex sans y pénétrer : c'est une lésion des <b>méninges</b>."
+   ],
+   [
+    "Elle prend le contraste de façon intense et homogène",
+    true,
+    "Elle est uniformément très blanche après gadolinium : rehaussement intense et homogène, typique du méningiome."
+   ],
+   [
+    "Le méningiome est une tumeur le plus souvent bénigne, développée à partir des méninges",
+    true,
+    "C'est la tumeur intracrânienne primitive la plus fréquente de l'adulte, bénigne (grade 1) dans la grande majorité des cas, née des cellules de l'arachnoïde."
+   ],
+   [
+    "Il s'agit d'une tumeur gliale infiltrant le parenchyme cérébral",
+    false,
+    "Une tumeur gliale (comme le glioblastome) est <b>intra-axiale</b> : elle naît dans le cerveau et l'infiltre. Ici la lésion est en dehors du cerveau."
+   ],
+   [
+    "La lésion siège à droite du patient",
+    false,
+    "Elle est à droite de l'image (du côté du repère « L »), donc à <b>gauche</b> du patient : cohérent avec les troubles du langage et la faiblesse droite."
+   ]
+  ],
+  "lecture": "<p>IRM axiale, T1 avec gadolinium : LCS noir, lésion très blanche. Le repère « L » sur le bord droit de l'image rappelle que c'est le côté gauche du patient.</p>",
+  "analyse": "<ul><li>Masse arrondie, bien limitée, de la convexité pariétale gauche.</li><li><b>Large base d'implantation</b> sur la dure-mère, angles de raccordement obtus avec l'os.</li><li>Rehaussement intense et homogène. On peut voir une « queue de comète » durale (dure-mère épaissie qui prend le contraste en périphérie).</li></ul>",
+  "retenir": "Méningiome : <b>extra-axial</b>, base durale large, rehaussement <b>homogène</b> intense, femme plutôt âgée, le plus souvent <b>bénin</b>. Tumeur intracrânienne primitive la plus fréquente.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.69,
+    "y": 0.49,
+    "rx": 0.07,
+    "ry": 0.1,
+    "l": "Méningiome"
+   }
+  ]
+ },
+ {
+  "id": "neuro_hypo_1",
+  "img": "mpx/neuro_hypophyse_1.png",
+  "region": "neuro",
+  "type": "tumeur",
+  "modality": "irm",
+  "plane": "sagittal",
+  "title": "Macroadénome hypophysaire (sagittal T1)",
+  "q": "Femme de 21 ans. Concernant cette IRM :",
+  "opts": [
+   [
+    "Il s'agit d'une coupe sagittale médiane",
+    true,
+    "On voit le cerveau de profil, coupé pile au milieu : corps calleux en arc, tronc cérébral vertical, cervelet en arrière."
+   ],
+   [
+    "On reconnaît le corps calleux, le tronc cérébral et le cervelet",
+    true,
+    "Corps calleux : arc en haut ; tronc cérébral : colonne qui descend vers la moelle ; cervelet : en arrière, avec ses lamelles « en arbre de vie »."
+   ],
+   [
+    "Une masse arrondie occupe la selle turcique et s'étend vers le haut",
+    true,
+    "Juste au-dessus du sinus sphénoïdal (cavité d'air noire), une masse arrondie gonfle la selle et monte au-dessus d'elle (extension <b>suprasellaire</b>)."
+   ],
+   [
+    "Une telle masse peut comprimer le chiasma optique et donner une hémianopsie bitemporale",
+    true,
+    "Le chiasma est juste au-dessus de l'hypophyse. Comprimé par en dessous, ce sont les fibres croisées (qui voient les champs temporaux) qui souffrent : le patient perd la vision sur les côtés."
+   ],
+   [
+    "Il s'agit d'un scanner après injection",
+    false,
+    "Le détail des tissus mous, le corps calleux, l'os cortical noir : c'est une <b>IRM</b> (ici T1)."
+   ]
+  ],
+  "lecture": "<p><b>Sagittal médian</b> : la meilleure coupe pour l'hypophyse. Repères de l'avant vers l'arrière : sinus frontal et sphénoïdal (air noir), selle turcique (le « creux » de l'os sphénoïde où loge l'hypophyse), tronc cérébral, cervelet.</p>",
+  "analyse": "<p>Masse sellaire et suprasellaire arrondie, en « bonhomme de neige » parfois (étranglée par le diaphragme sellaire). Une tumeur hypophysaire de plus de 1 cm est un <b>macroadénome</b> (moins de 1 cm : microadénome). Ici il est non sécrétant : il se révèle par des signes de compression (vision, céphalées, insuffisance hypophysaire).</p>",
+  "retenir": "Masse de la <b>selle turcique</b> en sagittal = adénome hypophysaire jusqu'à preuve du contraire. Compression du chiasma → <b>hémianopsie bitemporale</b>.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.26,
+    "y": 0.36,
+    "rx": 0.08,
+    "ry": 0.13,
+    "l": "Macroadénome"
+   },
+   {
+    "t": "a",
+    "x1": 0.62,
+    "y1": 0.07,
+    "x2": 0.45,
+    "y2": 0.16,
+    "l": "Corps calleux"
+   },
+   {
+    "t": "a",
+    "x1": 0.62,
+    "y1": 0.75,
+    "x2": 0.46,
+    "y2": 0.55,
+    "l": "Tronc cérébral"
+   },
+   {
+    "t": "a",
+    "x1": 0.88,
+    "y1": 0.25,
+    "x2": 0.72,
+    "y2": 0.4,
+    "l": "Cervelet"
+   }
+  ]
+ },
+ {
+  "id": "neuro_schwan_1",
+  "img": "mpx/neuro_schwannome_1.png",
+  "region": "neuro",
+  "type": "tumeur",
+  "modality": "irm",
+  "plane": "axial",
+  "title": "Schwannome vestibulaire droit",
+  "q": "IRM en coupe axiale passant par la fosse postérieure, après injection. Concernant la masse visible :",
+  "opts": [
+   [
+    "Elle siège dans l'angle ponto-cérébelleux droit",
+    true,
+    "Elle est à gauche de l'image (repère « RF » = right), dans l'angle entre le pont (tronc cérébral) et le cervelet, contre le rocher."
+   ],
+   [
+    "Le symptôme révélateur classique est une surdité unilatérale progressive avec acouphènes",
+    true,
+    "La tumeur naît du nerf vestibulaire, accolé au nerf cochléaire dans le conduit auditif interne : l'audition baisse lentement d'un seul côté."
+   ],
+   [
+    "Elle naît le plus souvent du nerf facial (VII)",
+    false,
+    "Elle naît des cellules de Schwann du <b>nerf vestibulaire</b> (VIII). D'où son nom de schwannome vestibulaire (ancien nom : « neurinome de l'acoustique »)."
+   ],
+   [
+    "C'est une tumeur bénigne",
+    true,
+    "Le schwannome est bénin : il pousse lentement et pose problème par compression (audition, équilibre, puis nerf facial, tronc cérébral)."
+   ],
+   [
+    "Un schwannome vestibulaire bilatéral doit faire évoquer une neurofibromatose de type 2",
+    true,
+    "Schwannomes vestibulaires bilatéraux = critère majeur de <b>NF2</b>, maladie génétique autosomique dominante."
+   ]
+  ],
+  "lecture": "<p>Coupe axiale basse : en haut les orbites et les sinus, au centre le tronc cérébral (le pont) avec le 4e ventricule derrière, en bas le cervelet. Les <b>rochers</b> (os temporaux, très denses) forment un V de chaque côté.</p>",
+  "analyse": "<p>Masse arrondie bien limitée de l'angle ponto-cérébelleux droit, qui prend le contraste et s'engage dans le conduit auditif interne (aspect en « cornet de glace » : la boule dans l'angle, le cornet dans le conduit).</p>",
+  "retenir": "Masse de l'<b>angle ponto-cérébelleux</b> entrant dans le conduit auditif interne = <b>schwannome vestibulaire</b> (VIII). Surdité unilatérale progressive. Bilatéral = NF2.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.41,
+    "y": 0.475,
+    "rx": 0.05,
+    "ry": 0.05,
+    "l": "Schwannome"
+   }
+  ]
+ }
+]

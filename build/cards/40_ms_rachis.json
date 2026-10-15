@@ -1,0 +1,431 @@
+[
+ {
+  "id": "ms_lux_1",
+  "img": "mpx/ms_epaule_lux_0.png",
+  "region": "ms",
+  "type": "trauma",
+  "modality": "rx",
+  "plane": "face",
+  "title": "Luxation antérieure de l'épaule gauche",
+  "q": "Chute sur le bras tendu, épaule gauche douloureuse et bloquée, « coup de hache » sous l'acromion. Concernant cette radiographie de face :",
+  "opts": [
+   [
+    "La tête de l'humérus n'est plus en face de la glène de l'omoplate",
+    true,
+    "Normalement la tête humérale, ronde, s'emboîte en face de la glène (la petite cavité articulaire de la scapula). Ici, elle est descendue et partie vers l'intérieur, sous la coracoïde."
+   ],
+   [
+    "Il s'agit d'une luxation antéro-interne (antérieure), la plus fréquente des luxations de l'épaule",
+    true,
+    "Plus de 95 % des luxations d'épaule sont antérieures : la tête part en avant et en dedans, sous l'apophyse coracoïde."
+   ],
+   [
+    "Avant de réduire la luxation, il faut rechercher une atteinte du nerf axillaire",
+    true,
+    "Le nerf axillaire (circonflexe) passe sous la tête humérale. On teste la sensibilité du moignon de l'épaule (zone du « galon de caporal ») avant et après la réduction."
+   ],
+   [
+    "Une luxation se définit par une fracture de la tête humérale",
+    false,
+    "Une <b>luxation</b> est une perte de contact <b>complète</b> entre les surfaces articulaires, sans fracture obligatoire. Une perte de contact partielle = <b>subluxation</b>."
+   ],
+   [
+    "Il s'agit d'une épaule droite",
+    false,
+    "Le repère « L » (left) en haut à droite indique une épaule <b>gauche</b>."
+   ]
+  ],
+  "lecture": "<p>Radiographie de l'épaule de face. Repères : la <b>clavicule</b> en haut, l'<b>acromion</b> (le toit de l'épaule) qui prolonge l'omoplate en dehors, la <b>glène</b> (surface articulaire de l'omoplate, en forme de poire), la <b>tête humérale</b> ronde et la diaphyse de l'humérus qui descend.</p><p>Sur une épaule normale, la tête humérale chevauche un peu la glène de face, comme une balle posée contre une soucoupe.</p>",
+  "analyse": "<p>La tête humérale est déplacée en <b>bas et en dedans</b>, sous la coracoïde, et la glène est « vide » : <b>luxation antérieure</b> (antéro-interne). On complète par un profil d'omoplate (incidence en Y) et on recherche une fracture associée (encoche de Hill-Sachs sur la tête, fracture du trochiter, fracture du rebord de la glène).</p>",
+  "retenir": "Luxation antérieure de l'épaule = la plus fréquente : tête humérale <b>sous la coracoïde</b>, glène vide. Tester le <b>nerf axillaire</b> avant et après réduction.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.47,
+    "y": 0.5,
+    "rx": 0.1,
+    "ry": 0.13,
+    "l": "Tête humérale luxée"
+   },
+   {
+    "t": "a",
+    "x1": 0.8,
+    "y1": 0.22,
+    "x2": 0.53,
+    "y2": 0.33,
+    "l": "Glène vide"
+   }
+  ]
+ },
+ {
+  "id": "ms_tete_radiale_1",
+  "img": "mpx/ms_coude_2.png",
+  "region": "ms",
+  "type": "trauma",
+  "modality": "rx",
+  "plane": "face",
+  "title": "Fracture de la tête radiale",
+  "q": "Chute de 2 mètres sur la main, douleur du coude droit en dehors. Concernant cette radiographie de face :",
+  "opts": [
+   [
+    "On voit l'extrémité inférieure de l'humérus, le radius et l'ulna (cubitus)",
+    true,
+    "En haut l'humérus qui s'élargit (palette humérale), en bas deux os : le radius côté pouce (en dehors) et l'ulna côté auriculaire (en dedans)."
+   ],
+   [
+    "Un fin trait de fracture traverse la tête du radius",
+    true,
+    "Sur la petite « tête » en forme de disque, en haut du radius, une fine ligne noire interrompt l'os : c'est le trait de fracture."
+   ],
+   [
+    "Le trait atteint la surface articulaire : la fracture est articulaire",
+    true,
+    "La tête radiale s'articule avec l'humérus (capitulum) : une fracture qui la traverse touche l'articulation, ce qui compte pour le traitement et le risque d'arthrose."
+   ],
+   [
+    "La tête radiale est du côté de l'ulna (côté interne)",
+    false,
+    "Le radius est du côté du <b>pouce</b> (latéral, externe). L'ulna est côté auriculaire (médial)."
+   ],
+   [
+    "Sur le profil, un épanchement dans le coude soulève les coussinets graisseux (« signe du croissant »)",
+    true,
+    "Un épanchement de sang dans l'articulation repousse la graisse : le coussinet graisseux postérieur, normalement invisible, apparaît. C'est un signe indirect de fracture, utile quand le trait est invisible."
+   ]
+  ],
+  "lecture": "<p>Radiographie du coude de face. Repères de haut en bas : diaphyse humérale, <b>palette humérale</b> avec ses deux reliefs (épicondyle latéral et médial), puis la tête radiale (disque) et le <b>processus coronoïde</b> de l'ulna.</p>",
+  "analyse": "<p>Fracture de la tête radiale, peu déplacée, avec un trait articulaire. C'est la fracture la plus fréquente du coude de l'adulte, après une chute sur la main bras tendu.</p>",
+  "retenir": "Chute sur la main + douleur externe du coude = <b>tête radiale</b>. Trait parfois invisible : chercher un <b>épanchement</b> (coussinets graisseux soulevés) sur le profil.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.31,
+    "y": 0.54,
+    "rx": 0.13,
+    "ry": 0.07,
+    "l": "Trait de fracture",
+    "ly": 0.46
+   }
+  ]
+ },
+ {
+  "id": "ms_pouteau_1",
+  "img": "mpx/ms_pouteau2_5.png",
+  "region": "ms",
+  "type": "trauma",
+  "modality": "rx",
+  "plane": "face",
+  "title": "Fracture du radius distal (type Pouteau-Colles)",
+  "q": "Femme de 70 ans, chute de sa hauteur sur la paume de la main. Concernant cette radiographie du poignet de face :",
+  "opts": [
+   [
+    "Il existe une fracture de l'extrémité distale du radius",
+    true,
+    "Juste au-dessus du poignet, la partie basse du radius (côté pouce) est irrégulière, plus dense et raccourcie : les fragments sont tassés l'un dans l'autre."
+   ],
+   [
+    "Le fragment distal est impacté (enfoncé) dans le fragment proximal",
+    true,
+    "La bande plus blanche transversale correspond à l'os tassé : les deux fragments se sont emboîtés."
+   ],
+   [
+    "Dans la fracture de Pouteau-Colles, le fragment distal bascule vers l'arrière (déplacement postérieur)",
+    true,
+    "Sur le profil, l'épiphyse radiale est basculée vers le dos de la main : aspect en « dos de fourchette » cliniquement."
+   ],
+   [
+    "Ce type de fracture chez une femme âgée doit faire rechercher une ostéoporose",
+    true,
+    "C'est une fracture typique de fragilité osseuse : elle doit faire proposer une ostéodensitométrie."
+   ],
+   [
+    "Le radius est l'os situé du côté de l'auriculaire",
+    false,
+    "Le radius est du côté du <b>pouce</b>. L'ulna est du côté de l'auriculaire."
+   ]
+  ],
+  "lecture": "<p>Radiographie du poignet de face (main paume vers la plaque). Repères : les deux os de l'avant-bras (radius côté pouce, ulna côté auriculaire), les 8 os du carpe en deux rangées, puis les métacarpiens.</p>",
+  "analyse": "<p>Fracture de l'extrémité distale du radius, transversale, avec impaction et perte de hauteur du radius. Le profil est indispensable pour juger la bascule postérieure (Pouteau-Colles) ou antérieure (Goyrand-Smith).</p>",
+  "retenir": "Chute sur la paume chez une femme âgée = <b>Pouteau-Colles</b> : radius distal, bascule <b>postérieure</b>, « dos de fourchette ». Penser <b>ostéoporose</b>.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.4,
+    "y": 0.49,
+    "rx": 0.13,
+    "ry": 0.06,
+    "l": "Radius fracturé, impacté"
+   }
+  ]
+ },
+ {
+  "id": "ms_scapho_1",
+  "img": "mpx/ms_scaphoide_3.png",
+  "region": "ms",
+  "type": "trauma",
+  "modality": "rx",
+  "plane": "face",
+  "title": "Fracture du scaphoïde",
+  "q": "Jeune homme, chute sur la main, douleur de la tabatière anatomique. Radiographie légendée. Concernant cette image :",
+  "opts": [
+   [
+    "La flèche montre un trait de fracture du scaphoïde",
+    true,
+    "Le scaphoïde est l'os du carpe situé juste au-dessus du radius, côté pouce. La flèche montre un trait qui le traverse."
+   ],
+   [
+    "« Lunate » désigne le semi-lunaire, os du carpe situé au-dessus du radius, à côté du scaphoïde",
+    true,
+    "Le semi-lunaire (lunatum) est en forme de croissant, entre le scaphoïde et le triquetrum."
+   ],
+   [
+    "Une fracture du scaphoïde peut être invisible sur les premières radios",
+    true,
+    "Si la clinique est évocatrice et la radio normale, on immobilise et on refait une imagerie (radio à J10, scanner ou IRM)."
+   ],
+   [
+    "La vascularisation du scaphoïde vient par son pôle proximal, ce qui le protège de la nécrose",
+    false,
+    "C'est l'inverse : les artères entrent par le pôle <b>distal</b>. Une fracture prive le pôle proximal de sang → risque de <b>nécrose</b> et de <b>pseudarthrose</b> (os qui ne consolide pas)."
+   ],
+   [
+    "Les numéros 1 à 5 désignent les métacarpiens, du pouce à l'auriculaire",
+    true,
+    "1 = pouce, 5 = auriculaire."
+   ]
+  ],
+  "lecture": "<p>Radiographie du poignet de face, légendée : <b>radius</b>, <b>ulna</b>, <b>lunate</b> (semi-lunaire), métacarpiens 1 à 5. Le scaphoïde est l'os allongé entre le radius et la base du pouce.</p>",
+  "analyse": "<p>Trait de fracture à travers le scaphoïde (ici avec une condensation des berges : la fracture n'a pas consolidé, c'est une <b>pseudarthrose</b>). Les têtes de flèche montrent les cartilages de croissance du radius et de l'ulna : patient jeune.</p>",
+  "retenir": "Douleur de la <b>tabatière anatomique</b> après une chute = scaphoïde jusqu'à preuve du contraire. Radio parfois normale au début. Risque : <b>pseudarthrose et nécrose</b> du pôle proximal.",
+  "marks": [
+   {
+    "t": "a",
+    "x1": 0.95,
+    "y1": 0.4,
+    "x2": 0.8,
+    "y2": 0.6,
+    "l": "Fracture du scaphoïde"
+   }
+  ]
+ },
+ {
+  "id": "ms_motte_1",
+  "img": "mpx/ms_pouteau2_4.png",
+  "region": "ms",
+  "type": "pediatrie",
+  "modality": "rx",
+  "plane": "face",
+  "title": "Fracture en motte de beurre du radius (enfant)",
+  "q": "Enfant de 9 ans, chute sur la main, douleur du poignet gauche. Radiographies de face et de profil. Concernant ces images :",
+  "opts": [
+   [
+    "On voit des cartilages de croissance (bandes noires transversales) près des extrémités des os",
+    true,
+    "Chez l'enfant, entre l'épiphyse et la métaphyse, le cartilage de croissance (physe) apparaît comme une bande noire : il n'est pas encore ossifié."
+   ],
+   [
+    "La corticale du radius distal présente un petit bombement, sans trait qui traverse tout l'os",
+    true,
+    "Quelques centimètres au-dessus du cartilage de croissance, le contour du radius fait une petite bosse : la corticale s'est tassée, comme une motte de beurre écrasée."
+   ],
+   [
+    "Ce type de fracture s'appelle une fracture en motte de beurre (torus)",
+    true,
+    "L'os de l'enfant, souple, se tasse au lieu de casser net. C'est une fracture stable, de bon pronostic."
+   ],
+   [
+    "Chez l'enfant, la fracture en bois vert casse une seule corticale, l'autre restant pliée",
+    true,
+    "Autre fracture propre à l'os souple de l'enfant : comme une branche verte qu'on plie, un côté casse et l'autre se courbe."
+   ],
+   [
+    "Les bandes noires près du poignet sont des traits de fracture complets",
+    false,
+    "Ce sont les <b>cartilages de croissance</b>, normaux chez l'enfant. Il faut les connaître pour ne pas les prendre pour des fractures (et comparer avec le côté opposé en cas de doute)."
+   ]
+  ],
+  "lecture": "<p>Radiographies du poignet gauche de face (à gauche) et de profil (à droite). Le repère « L 19 » indique le côté gauche. Chez l'enfant, cherche systématiquement les <b>cartilages de croissance</b> : ce ne sont pas des fractures.</p>",
+  "analyse": "<p>Discret bombement de la corticale de la métaphyse radiale distale, mieux vu de profil : fracture en <b>motte de beurre</b>. Traitement : simple immobilisation quelques semaines.</p>",
+  "retenir": "Fractures propres à l'enfant : <b>motte de beurre</b> (corticale tassée), <b>bois vert</b> (une corticale cassée), <b>décollement épiphysaire</b> (Salter-Harris). Ne pas confondre physe et fracture.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.24,
+    "y": 0.62,
+    "rx": 0.06,
+    "ry": 0.07,
+    "l": "Bombement"
+   },
+   {
+    "t": "e",
+    "x": 0.71,
+    "y": 0.62,
+    "rx": 0.06,
+    "ry": 0.07,
+    "l": "Bombement"
+   }
+  ]
+ },
+ {
+  "id": "rachis_burst_1",
+  "img": "mpx/rachis_burst_1.png",
+  "region": "rachis",
+  "type": "trauma",
+  "modality": "ct",
+  "plane": "axial",
+  "title": "Fracture-éclatement de L1 (burst) au scanner",
+  "q": "Homme de 58 ans, douleur lombaire après une chute. Coupe de scanner en fenêtre osseuse. Concernant cette image :",
+  "opts": [
+   [
+    "Il s'agit d'une coupe axiale passant par une vertèbre",
+    true,
+    "On voit une vertèbre « par en dessous » : le corps vertébral rond en avant, le canal rachidien au centre, l'arc postérieur en arrière."
+   ],
+   [
+    "L'image est affichée en fenêtre osseuse",
+    true,
+    "L'os est bien détaillé (on voit sa structure interne) et les tissus mous sont tous gris foncé, sans contraste : fenêtre osseuse."
+   ],
+   [
+    "Un fragment du mur postérieur du corps vertébral recule dans le canal rachidien",
+    true,
+    "La partie arrière du corps vertébral est fragmentée et un morceau s'avance dans le canal, où passent la moelle ou les racines nerveuses : c'est le <b>recul du mur postérieur</b>."
+   ],
+   [
+    "Une fracture-éclatement avec recul du mur postérieur menace les structures nerveuses",
+    true,
+    "Le fragment peut comprimer la moelle (ou la queue de cheval sous L1-L2). Il faut un examen neurologique soigneux et souvent une IRM."
+   ],
+   [
+    "Le canal rachidien est situé en avant du corps vertébral",
+    false,
+    "Le canal est <b>en arrière</b> du corps vertébral, entouré par les pédicules et les lames."
+   ]
+  ],
+  "lecture": "<p>Scanner, coupe axiale d'une vertèbre lombaire, fenêtre <b>osseuse</b>. Une vertèbre : <b>corps</b> en avant (porteur), <b>pédicules</b> sur les côtés, <b>lames</b> et <b>épineuse</b> en arrière, et le <b>canal rachidien</b> au milieu.</p>",
+  "analyse": "<p>Corps vertébral de L1 fragmenté, avec un fragment du mur postérieur rétropulsé dans le canal rachidien : <b>fracture-éclatement</b> (burst). La charnière thoraco-lombaire (T12-L1) est la zone la plus souvent fracturée lors des chutes.</p>",
+  "retenir": "Burst = corps vertébral <b>éclaté</b> + <b>recul du mur postérieur</b> dans le canal → risque neurologique. Charnière <b>T12-L1</b>.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.5,
+    "y": 0.625,
+    "rx": 0.06,
+    "ry": 0.04,
+    "l": "Fragment dans le canal",
+    "ly": 0.7,
+    "lx": 0.5
+   }
+  ]
+ },
+ {
+  "id": "rachis_hernie_1",
+  "img": "mpx/rachis_hernie_0.png",
+  "region": "rachis",
+  "type": "chronique",
+  "modality": "irm",
+  "plane": "sagittal",
+  "title": "Hernie discale L5-S1 (IRM sagittale T2)",
+  "q": "Lombalgie et douleur irradiant dans la jambe. Concernant cette IRM :",
+  "opts": [
+   [
+    "Il s'agit d'une coupe sagittale du rachis lombaire",
+    true,
+    "On voit la colonne de profil : les corps vertébraux empilés en avant (à gauche de l'image), le canal rachidien et les épineuses en arrière."
+   ],
+   [
+    "Il s'agit d'une séquence pondérée en T2",
+    true,
+    "Le LCS dans le canal rachidien est <b>blanc</b> : c'est le signe du T2."
+   ],
+   [
+    "Du matériel discal fait saillie en arrière dans le canal au niveau du dernier disque lombaire",
+    true,
+    "Au dernier étage (L5-S1), le disque déborde en arrière dans le canal et refoule les racines : c'est la <b>hernie discale</b>."
+   ],
+   [
+    "Un disque sain et hydraté apparaît en hypersignal (blanc) au centre en T2",
+    true,
+    "Le nucleus pulposus (cœur du disque) est riche en eau, donc blanc en T2. Un disque abîmé et déshydraté devient noir."
+   ],
+   [
+    "Une hernie discale L5-S1 comprime typiquement la racine L2",
+    false,
+    "Une hernie L5-S1 comprime le plus souvent la racine <b>S1</b> (douleur à l'arrière de la jambe jusque sous le pied) ; une hernie L4-L5 comprime <b>L5</b> (face externe de la jambe, dos du pied)."
+   ]
+  ],
+  "lecture": "<p>IRM lombaire en coupe <b>sagittale T2</b>. Repères : corps vertébraux (rectangles gris), disques entre eux, canal rachidien (bande blanche = LCS) avec les racines, graisse sous-cutanée très blanche en arrière.</p>",
+  "analyse": "<p>Le disque L5-S1 est aplati et sombre (déshydraté) et du matériel discal migre en arrière dans le canal, comprimant les racines de la queue de cheval. Les disques des étages supérieurs gardent un centre plus clair.</p>",
+  "retenir": "Hernie discale : saillie du disque <b>en arrière</b> dans le canal. L4-L5 → racine <b>L5</b> ; L5-S1 → racine <b>S1</b>. IRM = examen de référence.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.57,
+    "y": 0.725,
+    "rx": 0.05,
+    "ry": 0.04,
+    "l": "Hernie L5-S1",
+    "lx": 0.75,
+    "ly": 0.68
+   },
+   {
+    "t": "a",
+    "x1": 0.86,
+    "y1": 0.3,
+    "x2": 0.525,
+    "y2": 0.4,
+    "l": "Canal (LCS blanc)"
+   }
+  ]
+ },
+ {
+  "id": "rachis_spondylo_1",
+  "img": "mpx/rachis_spondylo_2.png",
+  "region": "rachis",
+  "type": "chronique",
+  "modality": "rx",
+  "plane": "profil",
+  "title": "Spondylolisthésis L4-L5 (profil)",
+  "q": "Lombalgie chronique. Radiographie de profil centrée sur la charnière lombo-sacrée, avec une mesure. Concernant cette image :",
+  "opts": [
+   [
+    "La mesure montre un glissement d'une vertèbre vers l'avant par rapport à celle du dessous",
+    true,
+    "Le bord postérieur du corps vertébral du dessus n'est plus aligné avec celui du dessous : il a glissé vers l'avant d'environ 1,6 cm."
+   ],
+   [
+    "Le glissement d'une vertèbre sur une autre s'appelle un spondylolisthésis",
+    true,
+    "Spondylo = vertèbre, listhésis = glissement."
+   ],
+   [
+    "Une cause fréquente chez le jeune est la lyse isthmique (fracture de fatigue de l'isthme vertébral)",
+    true,
+    "L'isthme (pars interarticularis) relie les deux articulaires : s'il se casse des deux côtés, le corps vertébral peut glisser en avant. Chez le sujet âgé, la cause est plutôt l'arthrose."
+   ],
+   [
+    "Il s'agit d'une coupe de scanner",
+    false,
+    "C'est une <b>radiographie</b> de profil : tout est superposé, pas de coupe."
+   ],
+   [
+    "Sur un profil normal, les murs postérieurs des vertèbres forment une ligne continue et régulière",
+    true,
+    "C'est un repère de lecture essentiel : toute marche d'escalier sur cette ligne traduit un glissement."
+   ]
+  ],
+  "lecture": "<p>Radiographie du rachis lombaire de <b>profil</b>, agrandie sur les derniers étages. Trace mentalement la ligne des <b>murs postérieurs</b> (bords arrière des corps vertébraux) : elle doit être continue.</p>",
+  "analyse": "<p>Glissement antérieur de L4 sur L5 de 1,59 cm : spondylolisthésis de <b>grade 2</b> (classification de Meyerding selon le pourcentage de glissement : grade 1 &lt; 25 %, grade 2 = 25-50 %…).</p>",
+  "retenir": "Spondylolisthésis = <b>marche d'escalier</b> sur la ligne des murs postérieurs. Jeune : <b>lyse isthmique</b> ; âgé : arthrose.",
+  "marks": [
+   {
+    "t": "a",
+    "x1": 0.8,
+    "y1": 0.75,
+    "x2": 0.52,
+    "y2": 0.42,
+    "l": "Décalage des murs postérieurs"
+   }
+  ]
+ }
+]

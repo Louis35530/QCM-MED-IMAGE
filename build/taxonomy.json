@@ -1,0 +1,105 @@
+{
+  "regions": {
+    "neuro": {
+      "label": "Tête et cerveau",
+      "desc": "Crâne, encéphale, méninges : hématomes, AVC, tumeurs cérébrales."
+    },
+    "face": {
+      "label": "Face et cou",
+      "desc": "Massif facial, orbites, sinus, thyroïde."
+    },
+    "rachis": {
+      "label": "Colonne vertébrale",
+      "desc": "Rachis cervical, dorsal et lombaire, disques, moelle."
+    },
+    "thorax": {
+      "label": "Thorax",
+      "desc": "Poumons, plèvre, médiastin, cœur, aorte thoracique, côtes."
+    },
+    "abdomen": {
+      "label": "Abdomen et pelvis",
+      "desc": "Tube digestif, foie, pancréas, reins, vessie, organes pelviens, aorte abdominale."
+    },
+    "ms": {
+      "label": "Membre supérieur",
+      "desc": "Épaule, bras, coude, avant-bras, poignet, main."
+    },
+    "mi": {
+      "label": "Bassin et membre inférieur",
+      "desc": "Bassin, hanche, fémur, genou, jambe, cheville, pied."
+    },
+    "sein": {
+      "label": "Sein",
+      "desc": "Mammographie et échographie mammaire."
+    },
+    "global": {
+      "label": "Squelette (lésions diffuses)",
+      "desc": "Atteintes de plusieurs os : métastases, myélome, maladies osseuses."
+    }
+  },
+  "types": {
+    "examen": {
+      "label": "Reconnaître l'examen et le plan",
+      "desc": "Radio, scanner, IRM, échographie… et quel plan de coupe ? Apprendre à identifier l'appareil qui a produit l'image."
+    },
+    "normal": {
+      "label": "Anatomie normale et plans",
+      "desc": "Reconnaître l'examen, le plan de coupe et les structures normales. Indispensable avant la pathologie."
+    },
+    "trauma": {
+      "label": "Fractures, luxations, traumatismes",
+      "desc": "Siège, trait, déplacement : décrire une fracture comme au compte rendu."
+    },
+    "tumeur": {
+      "label": "Tumeurs et cancers",
+      "desc": "Tumeurs primitives, métastases, bénin ou malin."
+    },
+    "vasculaire": {
+      "label": "Hémorragies et vaisseaux",
+      "desc": "AVC, hématomes intracrâniens, embolie pulmonaire, anévrismes, dissections."
+    },
+    "air_liquide": {
+      "label": "Air et liquide anormaux",
+      "desc": "Pneumothorax, pneumopéritoine, épanchements, œdème."
+    },
+    "infection": {
+      "label": "Infections et inflammations",
+      "desc": "Pneumonie, abcès, appendicite, cholécystite, ostéomyélite…"
+    },
+    "obstacle": {
+      "label": "Occlusions, calculs, obstacles",
+      "desc": "Occlusion intestinale, volvulus, lithiases, hydronéphrose."
+    },
+    "chronique": {
+      "label": "Maladies chroniques et dégénératives",
+      "desc": "Arthrose, polyarthrite, SEP, emphysème, cirrhose…"
+    },
+    "pediatrie": {
+      "label": "Pédiatrie",
+      "desc": "Particularités de l'enfant : fractures, urgences du nourrisson."
+    }
+  },
+  "modalities": {
+    "rx": {
+      "label": "Radiographie"
+    },
+    "ct": {
+      "label": "Scanner (TDM)"
+    },
+    "irm": {
+      "label": "IRM"
+    },
+    "echo": {
+      "label": "Échographie"
+    },
+    "mammo": {
+      "label": "Mammographie"
+    },
+    "angio": {
+      "label": "Angiographie"
+    },
+    "scinti": {
+      "label": "Scintigraphie"
+    }
+  }
+}

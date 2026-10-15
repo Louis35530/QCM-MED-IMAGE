@@ -1,0 +1,68 @@
+[
+{
+ "id": "neuro_hip_1", "img": "mpx/neuro_hip2_0.png", "region": "neuro", "type": "vasculaire", "modality": "ct", "plane": "axial",
+ "title": "Hématome intracérébral hypertensif du thalamus gauche",
+ "q": "Homme hypertendu mal équilibré, hémiplégie droite brutale. Scanner sans injection. Concernant cette image :",
+ "opts": [
+  ["Il existe une zone hyperdense (blanche) arrondie au centre de l'hémisphère gauche", true, "Juste à côté du 3e ventricule, à droite de l'image (gauche du patient), une tache blanche bien plus dense que le cerveau : c'est du sang frais."],
+  ["Cette hyperdensité est située dans les noyaux gris centraux (thalamus)", true, "Elle est profonde, près de la ligne médiane, au niveau du thalamus : région typique des hématomes de l'hypertension."],
+  ["L'hypertension artérielle chronique est la première cause d'hématome intracérébral de l'adulte", true, "Elle abîme les petites artères perforantes profondes, qui finissent par se rompre : noyaux gris, thalamus, tronc cérébral, cervelet."],
+  ["On voit du sang dans les ventricules : l'hématome s'est rompu dans le système ventriculaire", true, "De petites zones blanches dans le 3e ventricule et la corne du ventricule latéral : inondation ventriculaire, facteur de gravité."],
+  ["Une lésion hyperdense au scanner sans injection évoque d'abord un AVC ischémique récent", false, "L'ischémie est <b>hypodense</b> (et souvent invisible au début). Une plage <b>hyperdense</b> spontanée = <b>sang</b>."]
+ ],
+ "lecture": "<p>Scanner cérébral sans injection, coupe axiale passant par les ventricules latéraux (le « papillon » sombre au centre) et le 3e ventricule (fente médiane). La droite du patient est à gauche de l'image.</p>",
+ "analyse": "<p>Hématome thalamique gauche avec effraction dans le 3e ventricule et le ventricule latéral. Un AVC hémorragique représente environ 15 % des AVC ; le scanner sans injection fait la différence avec l'ischémie en quelques secondes.</p>",
+ "retenir": "Hématome profond (noyaux gris, thalamus) chez un hypertendu = <b>hématome hypertensif</b>. Sang frais = <b>hyperdense</b>.",
+ "marks": [{"t":"e","x":0.56,"y":0.54,"rx":0.07,"ry":0.06,"l":"Hématome"}]
+},
+{
+ "id": "neuro_anev_1", "img": "mpx/neuro_anevrisme2_1.png", "region": "neuro", "type": "vasculaire", "modality": "ct", "plane": "axial",
+ "title": "Anévrisme de la carotide interne (angioscanner)",
+ "q": "Femme de 50 ans, céphalées et trouble de la vision. Angioscanner cérébral (scanner injecté au temps artériel). Concernant cette image :",
+ "opts": [
+  ["Les artères du cerveau sont blanches car elles contiennent du produit de contraste", true, "C'est un <b>angioscanner</b> : l'injection est faite pour que les artères (polygone de Willis) soient bien blanches."],
+  ["On voit une structure ronde, très blanche, près de la selle turcique, plus grosse que les artères normales", true, "Juste derrière les orbites, au centre de la base du crâne, une boule blanche de plus d'un centimètre : c'est une dilatation localisée d'une artère."],
+  ["Il s'agit d'un anévrisme artériel", true, "Un anévrisme est une poche qui se forme sur la paroi d'une artère. Ici, il naît de la carotide interne gauche."],
+  ["Un anévrisme intracrânien qui se rompt provoque une hémorragie méningée", true, "Le sang se répand dans les espaces sous-arachnoïdiens : céphalée brutale « en coup de tonnerre »."],
+  ["Les orbites et le globe oculaire ne sont pas visibles sur cette coupe", false, "On voit nettement les deux globes oculaires en haut de l'image, de part et d'autre des cavités nasales."]
+ ],
+ "lecture": "<p>Angioscanner, coupe axiale passant par les orbites (en haut) et la base du cerveau. Les artères opacifiées apparaissent comme de petits points ou traits blancs autour de la selle turcique (polygone de Willis).</p>",
+ "analyse": "<p>Volumineux anévrisme sacciforme (« en baie ») de la carotide interne gauche, portion supraclinoïdienne, d'environ 15 mm. Il peut comprimer le nerf optique ou le nerf oculomoteur. Traitement : embolisation (coils) ou clip chirurgical.</p>",
+ "retenir": "Anévrisme = <b>poche arrondie</b> sur une artère, au <b>polygone de Willis</b>. Rupture = hémorragie méningée. Exploration : <b>angioscanner</b> ou artériographie.",
+ "marks": [{"t":"e","x":0.525,"y":0.42,"rx":0.05,"ry":0.04,"l":"Anévrisme"}]
+},
+{
+ "id": "neuro_abces_1", "img": "mpx/neuro_abces2_0.png", "region": "neuro", "type": "infection", "modality": "irm", "plane": "axial",
+ "title": "Prise de contraste en anneau : glioblastome ou abcès ?",
+ "q": "Cette planche pédagogique compare deux IRM en T1 après gadolinium (« Ring lesion differences »). Concernant ces images :",
+ "opts": [
+  ["Les deux lésions prennent le contraste en anneau", true, "Dans les deux cas, on voit une couronne blanche autour d'un centre sombre."],
+  ["L'anneau du glioblastome (à gauche) est épais, irrégulier, avec un bord interne déchiqueté", true, "La tumeur nécrose son centre de façon anarchique : paroi épaisse et irrégulière."],
+  ["L'anneau de l'abcès (à droite) est fin, régulier et lisse", true, "La coque d'un abcès est une paroi inflammatoire fine et régulière. En diffusion, le pus d'un abcès est en hypersignal, ce qui aide aussi."],
+  ["La toxoplasmose cérébrale survient surtout chez les patients immunodéprimés", true, "Classiquement chez les patients VIH au stade SIDA (CD4 &lt; 200) : abcès multiples des noyaux gris."],
+  ["Une prise de contraste en anneau signe toujours une tumeur", false, "Diagnostics classiques d'une lésion en anneau : <b>tumeur gliale</b>, <b>métastase</b>, <b>abcès</b>, plaque de sclérose en plaques « pseudotumorale »… Le contexte et les séquences complémentaires tranchent."]
+ ],
+ "lecture": "<p>Deux IRM axiales T1 après gadolinium côte à côte. À gauche, « GBM » = glioblastome ; à droite, « Abscess - Toxo » = abcès à toxoplasme.</p>",
+ "analyse": "<p>Glioblastome : anneau épais, irrégulier, nodulaire. Abcès : anneau fin, lisse, régulier, souvent plus fin du côté des ventricules. L'IRM de <b>diffusion</b> est très utile : pus = restriction de diffusion (blanc).</p>",
+ "retenir": "Lésion en anneau : <b>épais et irrégulier</b> → tumeur ; <b>fin et régulier</b> → abcès. Diffusion blanche au centre → pus.",
+ "marks": [{"t":"e","x":0.34,"y":0.61,"rx":0.07,"ry":0.08,"l":"Glioblastome"},
+           {"t":"e","x":0.68,"y":0.57,"rx":0.06,"ry":0.06,"l":"Abcès"}]
+},
+{
+ "id": "neuro_sep_1", "img": "mpx/neuro_sep2_2.png", "region": "neuro", "type": "chronique", "modality": "irm", "plane": "axial",
+ "title": "Sclérose en plaques : hypersignaux de la substance blanche",
+ "q": "Femme de 30 ans, épisodes neurologiques successifs (baisse de vision, fourmillements). Planche de 6 coupes d'IRM pondérées en T2 (image difficile). Concernant ces images :",
+ "opts": [
+  ["Le liquide cérébro-spinal (dans les ventricules) est blanc : séquence pondérée en T2", true, "Ventricules et sillons blancs = T2."],
+  ["On voit de petites taches blanches dans la substance blanche, autour des ventricules", true, "Sur plusieurs coupes, en particulier en bas à gauche, de petites zones ovalaires plus blanches que la substance blanche, près des ventricules."],
+  ["Des lésions multiples de la substance blanche périventriculaire chez une femme jeune évoquent une sclérose en plaques", true, "La SEP détruit la myéline par plaques ; les plaques sont typiquement périventriculaires, juxtacorticales, sous-tentorielles et médullaires."],
+  ["Le diagnostic de SEP repose sur la dissémination des lésions dans l'espace et dans le temps", true, "Il faut des lésions dans plusieurs régions (espace) et d'âges différents (temps : nouvelles lésions ou lésions qui prennent le contraste et d'autres non)."],
+  ["La séquence FLAIR rend les lésions périventriculaires plus difficiles à voir", false, "C'est l'inverse : le <b>FLAIR</b> éteint le LCS (noir), ce qui fait <b>ressortir</b> les plaques collées aux ventricules."]
+ ],
+ "lecture": "<p>Planche de 6 coupes axiales d'IRM du cerveau en T2, de bas en haut. Regarde la substance blanche (zone homogène autour des ventricules) : elle doit être uniforme.</p>",
+ "analyse": "<p>Multiples hypersignaux ovalaires de la substance blanche périventriculaire et du centre semi-ovale : aspect compatible avec une <b>sclérose en plaques</b>. Les plaques sont souvent ovales, perpendiculaires aux ventricules (« doigts de Dawson »).</p>",
+ "retenir": "SEP : plaques en <b>hypersignal T2/FLAIR</b>, <b>périventriculaires</b>, ovoïdes, chez l'adulte jeune. Diagnostic : dissémination <b>spatiale et temporelle</b>.",
+ "marks": [{"t":"e","x":0.13,"y":0.72,"rx":0.06,"ry":0.07,"l":"Plaques"},
+           {"t":"e","x":0.48,"y":0.72,"rx":0.06,"ry":0.07}]
+}
+]

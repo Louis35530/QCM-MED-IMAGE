@@ -1,0 +1,47 @@
+{
+  "modalities": {
+    "rx": {
+      "nom": "une radiographie",
+      "oui": "C'est bien une <b>radiographie</b> : une seule image « plate » en projection, où tout est superposé (on voit à la fois les côtes de devant et de derrière, ou les deux corticales d'un os). Les os sont blancs, l'air est noir, et il n'y a pas de coupe.",
+      "non": "Une <b>radiographie</b> est une image en projection où toutes les structures se superposent (pas de coupe). Ici on voit une tranche du corps, sans superposition : ce n'est pas une radio."
+    },
+    "ct": {
+      "nom": "un scanner (TDM)",
+      "oui": "C'est bien un <b>scanner</b> (TDM, tomodensitométrie) : c'est une <b>coupe</b>, l'os est <b>blanc franc</b>, la graisse gris foncé, l'air noir, et les tissus mous ont un aspect gris assez homogène. On aperçoit souvent la table d'examen sous le patient.",
+      "non": "Au <b>scanner</b> (TDM), l'os cortical est blanc franc et les tissus mous sont gris, peu contrastés entre eux. Ce n'est pas l'aspect de cette image."
+    },
+    "irm": {
+      "nom": "une IRM",
+      "oui": "C'est bien une <b>IRM</b> : c'est une coupe très contrastée des tissus mous (on distingue nettement substance grise et blanche, muscles, graisse) et l'<b>os cortical est noir</b> (il ne donne pas de signal). Le liquide est noir en T1, blanc en T2.",
+      "non": "En <b>IRM</b>, l'os cortical est <b>noir</b> et les tissus mous sont très contrastés entre eux. Sur cette image, ce n'est pas le cas."
+    },
+    "echo": {
+      "nom": "une échographie",
+      "oui": "C'est bien une <b>échographie</b> : image en forme d'éventail ou de rectangle, aspect granuleux « neigeux », fond noir, liquide tout noir (anéchogène), et des inscriptions de la machine (profondeur, sonde).",
+      "non": "Une <b>échographie</b> a un aspect granuleux en éventail, sans vue d'ensemble d'un segment du corps. Ce n'est pas l'aspect de cette image."
+    },
+    "mammo": {
+      "nom": "une mammographie",
+      "oui": "C'est bien une <b>mammographie</b> : radiographie du sein comprimé entre deux plaques, en forme de triangle ou de demi-cercle, montrant la glande, la graisse et d'éventuelles calcifications.",
+      "non": "Une <b>mammographie</b> montre uniquement un sein comprimé, en forme de triangle ou de demi-cercle. Ce n'est pas le cas ici."
+    },
+    "angio": {
+      "nom": "une angiographie",
+      "oui": "C'est bien une <b>angiographie</b> : seuls les vaisseaux remplis de produit de contraste ressortent, en arbre, sur un fond presque uniforme.",
+      "non": "Une <b>angiographie</b> ne montre que des vaisseaux opacifiés (en arbre) sur un fond uniforme. Ici on voit les organes eux-mêmes."
+    },
+    "scinti": {
+      "nom": "une scintigraphie",
+      "oui": "C'est bien une <b>scintigraphie</b> : image de médecine nucléaire, floue, en points, qui montre où se fixe un traceur radioactif.",
+      "non": "Une <b>scintigraphie</b> (médecine nucléaire) donne une image floue, en taches de fixation d'un traceur radioactif, sans détail anatomique fin. Ce n'est pas le cas ici."
+    }
+  },
+  "planes": {
+    "axial": {"nom": "une coupe axiale (transversale)", "oui": "Coupe <b>axiale</b> : on regarde une tranche horizontale du corps, comme si on était aux pieds du patient couché. Le contour est rond ou ovale, l'avant du patient est en haut de l'image.", "non": "Une coupe <b>axiale</b> est une tranche horizontale : le contour du corps est rond ou ovale et on ne voit pas le haut et le bas du patient en même temps."},
+    "coronal": {"nom": "une coupe coronale (frontale)", "oui": "Coupe <b>coronale</b> : le patient est vu « de face », on voit sa droite et sa gauche, le haut et le bas en même temps.", "non": "Une coupe <b>coronale</b> montrerait le patient de face, avec la droite, la gauche, le haut et le bas sur la même image."},
+    "sagittal": {"nom": "une coupe sagittale", "oui": "Coupe <b>sagittale</b> : le patient est vu « de profil », on voit l'avant, l'arrière, le haut et le bas (par exemple toute la colonne vertébrale).", "non": "Une coupe <b>sagittale</b> montrerait le patient de profil (avant, arrière, haut, bas), par exemple toute la colonne d'un coup."},
+    "face": {"nom": "un cliché de face", "oui": "Cliché <b>de face</b> : les rayons traversent le patient d'avant en arrière (ou l'inverse). On voit la droite et la gauche.", "non": "Sur un cliché <b>de face</b>, on verrait la droite et la gauche du patient de part et d'autre."},
+    "profil": {"nom": "un cliché de profil", "oui": "Cliché <b>de profil</b> : les rayons traversent le patient d'un côté à l'autre. On voit l'avant et l'arrière ; les deux côtés se superposent.", "non": "Sur un cliché <b>de profil</b>, on verrait l'avant et l'arrière du patient, les côtés droit et gauche superposés."},
+    "oblique": {"nom": "une incidence oblique", "oui": "Incidence <b>oblique</b> : ni face ni profil, le segment est tourné d'environ 45° pour dégager une structure.", "non": "Une incidence <b>oblique</b> est tournée d'environ 45° : ni face, ni profil."}
+  }
+}

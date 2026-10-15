@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Radio QCM</title>
+<meta name="theme-color" content="#0f1216">
+<meta name="robots" content="noindex, nofollow">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Radio QCM">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <button class="brand" data-go="home" aria-label="Accueil">
+    <span class="logo">◐</span><span class="brand-txt">Radio QCM</span>
+  </button>
+  <nav>
+    <button data-go="home">Accueil</button>
+    <button data-go="bases">Les bases</button>
+  </nav>
+</header>
+
+<main id="app"></main>
+
+<div id="viewer" class="viewer" hidden>
+  <div class="viewer-bar">
+    <span>Pince ou double-tape pour zoomer</span>
+    <button id="vClose" aria-label="Fermer">✕</button>
+  </div>
+  <div class="viewer-stage" id="vStage"></div>
+</div>
+
+<script src="data/cards.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

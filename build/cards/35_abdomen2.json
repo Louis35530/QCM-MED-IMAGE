@@ -1,0 +1,212 @@
+[
+ {
+  "id": "abd_aeroportie_1",
+  "img": "mpx/abd_ischemie_1.png",
+  "region": "abdomen",
+  "type": "vasculaire",
+  "modality": "ct",
+  "plane": "axial",
+  "title": "Aéroportie : air dans les veines du foie (ischémie intestinale)",
+  "q": "Homme de 76 ans, vomissements et ventre très distendu depuis 36 h. Scanner sans injection passant par le foie. Concernant cette image :",
+  "opts": [
+   [
+    "Le foie contient de nombreuses lignes noires ramifiées, en arbre",
+    true,
+    "Dans le foie, qui est normalement gris homogène, des branches noires partent vers la périphérie : c'est de l'<b>air</b> (densité de l'air = noir) dans des vaisseaux."
+   ],
+   [
+    "Ces lignes noires atteignent la périphérie du foie, ce qui est typique d'air dans les branches de la veine porte (aéroportie)",
+    true,
+    "L'air dans la veine porte suit le sang vers la périphérie du foie. L'air dans les voies biliaires (aérobilie) reste plutôt au centre, près du hile."
+   ],
+   [
+    "Une aéroportie chez un adulte évoque d'abord une ischémie intestinale grave",
+    true,
+    "Quand la paroi de l'intestin meurt (nécrose), l'air passe dans la paroi (pneumatose) puis dans les veines mésentériques et la veine porte. C'est une urgence chirurgicale."
+   ],
+   [
+    "Les lignes noires sont des voies biliaires normales",
+    false,
+    "Les voies biliaires normales ne sont pas visibles ainsi : elles contiennent de la <b>bile</b> (densité liquide, grise), pas de l'air."
+   ],
+   [
+    "Le scanner a été réalisé avec une injection de produit de contraste dans les veines",
+    false,
+    "L'aorte (rond devant la colonne) n'est pas plus blanche que les muscles : scanner <b>sans</b> injection."
+   ]
+  ],
+  "lecture": "<p>Coupe axiale de scanner de l'abdomen supérieur, sans injection. Le foie occupe presque toute la largeur de l'image. Rappel des densités : air = <b>noir</b>, liquide et tissus = gris, os = blanc.</p>",
+  "analyse": "<p>Air dans les branches portales jusqu'à la périphérie du foie (<b>aéroportie</b>), associé chez ce patient à de l'air dans la paroi de l'intestin grêle (<b>pneumatose</b>) et des anses dilatées : ischémie mésentérique avec nécrose intestinale.</p>",
+  "retenir": "Air dans le foie : <b>périphérique</b> = veine porte (aéroportie, gravissime) ; <b>central</b> = voies biliaires (aérobilie, souvent après chirurgie biliaire).",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.42,
+    "y": 0.33,
+    "rx": 0.25,
+    "ry": 0.14,
+    "l": "Air dans les veines portes"
+   }
+  ]
+ },
+ {
+  "id": "abd_geu_1",
+  "img": "mpx/abd_geu_1.png",
+  "region": "abdomen",
+  "type": "vasculaire",
+  "modality": "echo",
+  "plane": "",
+  "title": "Grossesse extra-utérine (échographie endovaginale)",
+  "q": "Femme de 28 ans, retard de règles, douleur pelvienne brutale et saignements. Échographie endovaginale de la région de l'ovaire gauche (image difficile). Concernant cette image :",
+  "opts": [
+   [
+    "Il s'agit d'une échographie",
+    true,
+    "Image en éventail, granuleuse, avec des croix de mesure : échographie. La sonde est introduite dans le vagin (en haut de l'image) pour être au plus près de l'utérus et des ovaires."
+   ],
+   [
+    "Les croix délimitent une masse hétérogène à côté de l'utérus, dans la région annexielle gauche",
+    true,
+    "« Annexes » = ovaire et trompe. Une masse hétérogène, plutôt claire (hyperéchogène), est mesurée entre les croix."
+   ],
+   [
+    "Devant une femme enceinte (test positif) sans grossesse visible dans l'utérus, une masse annexielle fait évoquer une grossesse extra-utérine",
+    true,
+    "L'œuf s'est implanté en dehors de l'utérus, le plus souvent dans la trompe. Ici, l'utérus était vide et du sang était présent dans le pelvis."
+   ],
+   [
+    "La grossesse extra-utérine rompue est une urgence en raison du risque d'hémorragie",
+    true,
+    "La trompe peut se rompre et saigner abondamment dans le ventre (hémopéritoine) : risque de choc hémorragique."
+   ],
+   [
+    "Une grossesse extra-utérine se diagnostique avec une radiographie de l'abdomen",
+    false,
+    "Le diagnostic associe le dosage des <b>βhCG</b> (hormone de grossesse) et l'<b>échographie endovaginale</b>. La radio ne sert à rien et irradie."
+   ]
+  ],
+  "lecture": "<p>Échographie <b>endovaginale</b> : la sonde est en haut, au centre (arc noir). La profondeur augmente vers le bas. Les zones très noires sont du liquide, les zones grises granuleuses sont des tissus.</p>",
+  "analyse": "<p>Masse annexielle gauche hétérogène, hyperéchogène, distincte de l'ovaire, avec du liquide échogène autour (sang) et un utérus vide : <b>grossesse extra-utérine</b> (ici probablement rompue).</p>",
+  "retenir": "Femme en âge de procréer + douleur pelvienne + métrorragies = <b>βhCG</b> et <b>échographie endovaginale</b>. Utérus vide + masse annexielle = GEU jusqu'à preuve du contraire.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.56,
+    "y": 0.29,
+    "rx": 0.09,
+    "ry": 0.15,
+    "l": "Masse (entre les croix)"
+   }
+  ]
+ },
+ {
+  "id": "abd_pylore_1",
+  "img": "mpx/abd_pylore_1.png",
+  "region": "abdomen",
+  "type": "pediatrie",
+  "modality": "echo",
+  "plane": "",
+  "title": "Sténose hypertrophique du pylore du nourrisson",
+  "q": "Nourrisson de 5 semaines, vomissements « en jet » après chaque biberon, a faim juste après, perd du poids. Échographie (image difficile). Concernant cette image :",
+  "opts": [
+   [
+    "Les croix mesurent un pylore allongé (1,89 cm)",
+    true,
+    "Le pylore est le muscle en forme d'anneau à la sortie de l'estomac. Ici il est allongé et épaissi ; normal : moins de 15 à 16 mm de long."
+   ],
+   [
+    "Le muscle du pylore est épaissi (paroi épaisse, sombre)",
+    true,
+    "On voit une paroi musculaire épaisse et hypoéchogène (gris foncé) de part et d'autre d'un canal central étroit. Seuil classique : épaisseur du muscle &gt; 3 à 4 mm."
+   ],
+   [
+    "La sténose du pylore se révèle typiquement entre la 3e et la 6e semaine de vie",
+    true,
+    "Elle touche surtout les garçons, souvent premiers-nés : vomissements en jet, non bilieux, enfant affamé."
+   ],
+   [
+    "Les vomissements de la sténose du pylore sont typiquement verts (bilieux)",
+    false,
+    "Ils ne sont <b>pas bilieux</b> : l'obstacle est <b>avant</b> l'arrivée de la bile dans le duodénum. Des vomissements verts chez un nourrisson font craindre un volvulus (urgence)."
+   ],
+   [
+    "L'échographie est l'examen de référence pour ce diagnostic",
+    true,
+    "Pas d'irradiation, mesures précises du muscle. Le traitement est chirurgical (pylorotomie)."
+   ]
+  ],
+  "lecture": "<p>Échographie de l'abdomen d'un nourrisson, coupe longitudinale (« LONG ») du pylore. Les deux petites croix marquent les extrémités du canal pylorique mesuré.</p>",
+  "analyse": "<p>Pylore allongé (19 mm) à paroi musculaire épaissie : <b>sténose hypertrophique du pylore</b>. Biologie possible : alcalose métabolique hypochlorémique (perte d'acide gastrique par les vomissements).</p>",
+  "retenir": "Nourrisson de 3-6 semaines, vomissements <b>en jet non bilieux</b>, faim : <b>sténose du pylore</b> → échographie (muscle &gt; 3-4 mm, canal &gt; 15-16 mm).",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.68,
+    "y": 0.45,
+    "rx": 0.2,
+    "ry": 0.09,
+    "l": "Pylore épaissi et allongé"
+   }
+  ]
+ },
+ {
+  "id": "abd_vessie_1",
+  "img": "mpx/abd_vessie_2.png",
+  "region": "abdomen",
+  "type": "tumeur",
+  "modality": "rx",
+  "plane": "face",
+  "title": "Tumeur de vessie : lacune sur une urographie",
+  "q": "Homme de 73 ans, ancien fumeur, urines rouges (hématurie) sans douleur. Radiographie après injection d'un produit de contraste éliminé par les reins (image difficile). Concernant cette image :",
+  "opts": [
+   [
+    "La vessie, en bas au centre, est remplie de produit de contraste blanc",
+    true,
+    "Le produit iodé, éliminé par les reins, s'accumule dans la vessie qui devient blanche."
+   ],
+   [
+    "Une partie de la vessie ne se remplit pas de contraste : il existe une image de « lacune »",
+    true,
+    "Le contraste ne remplit qu'un côté de la vessie ; de l'autre côté, une zone grise irrégulière occupe la place et empêche le contraste d'y aller : c'est la <b>tumeur</b>."
+   ],
+   [
+    "Une hématurie sans douleur chez un fumeur doit faire rechercher un cancer de la vessie",
+    true,
+    "Le tabac est le principal facteur de risque du cancer de vessie. L'examen clé est la <b>cystoscopie</b> (caméra dans la vessie) avec biopsie."
+   ],
+   [
+    "Le produit de contraste apparaît noir en radiographie",
+    false,
+    "Le produit de contraste <b>iodé</b> arrête les rayons X : il est <b>blanc</b>."
+   ],
+   [
+    "Cet examen est réalisé sans aucune injection",
+    false,
+    "Le produit de contraste a été <b>injecté dans une veine</b>, filtré par les reins puis éliminé dans les urines : c'est une <b>urographie</b> intraveineuse (remplacée aujourd'hui par l'uroscanner)."
+   ]
+  ],
+  "lecture": "<p>Radiographie de l'abdomen et du pelvis de face, après injection : les reins, les uretères et la vessie sont opacifiés (urographie). « R » = droite du patient (à gauche de l'image).</p>",
+  "analyse": "<p>Lacune (défaut de remplissage) irrégulière d'une grande partie de la vessie (côté gauche du patient), avec de fines calcifications à sa surface : <b>tumeur de vessie</b>. Aujourd'hui on fait un <b>uroscanner</b> et une cystoscopie.</p>",
+  "retenir": "Hématurie <b>indolore</b> du fumeur = cancer de vessie jusqu'à preuve du contraire. Lacune = défaut de remplissage par une masse. Cystoscopie + biopsie.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.53,
+    "y": 0.85,
+    "rx": 0.08,
+    "ry": 0.07,
+    "l": "Lacune (tumeur)",
+    "lx": 0.7,
+    "ly": 0.77
+   },
+   {
+    "t": "a",
+    "x1": 0.15,
+    "y1": 0.7,
+    "x2": 0.35,
+    "y2": 0.83,
+    "l": "Contraste"
+   }
+  ]
+ }
+]

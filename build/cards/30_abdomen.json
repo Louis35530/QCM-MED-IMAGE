@@ -1,0 +1,1024 @@
+[
+ {
+  "id": "abd_occl_1",
+  "img": "mpx/abd_occlusion_grele_0.png",
+  "region": "abdomen",
+  "type": "obstacle",
+  "modality": "rx",
+  "plane": "face",
+  "title": "Occlusion du grêle : niveaux hydro-aériques",
+  "q": "Vomissements, douleurs abdominales, arrêt des matières et des gaz. Radiographie de l'abdomen debout. Concernant cette image :",
+  "opts": [
+   [
+    "Les flèches montrent des niveaux hydro-aériques",
+    true,
+    "Ce sont des lignes horizontales parfaitement droites entre du liquide (blanc-gris, en bas) et de l'air (noir, au-dessus) dans des anses intestinales dilatées."
+   ],
+   [
+    "Des niveaux hydro-aériques ne sont visibles que sur un cliché pris debout (ou couché sur le côté)",
+    true,
+    "Il faut que le rayon soit horizontal et parallèle à la surface du liquide : patient debout ou en décubitus latéral. Couché sur le dos, on ne voit pas de niveaux."
+   ],
+   [
+    "Des niveaux plus larges que hauts, centraux, évoquent une occlusion du grêle",
+    true,
+    "Grêle : anses centrales, niveaux <b>plus larges que hauts</b>, valvules conniventes qui traversent toute l'anse. Côlon : niveaux <b>plus hauts que larges</b>, périphériques, haustrations qui ne traversent pas toute l'anse."
+   ],
+   [
+    "L'examen de référence pour explorer une occlusion aujourd'hui est le scanner abdominal",
+    true,
+    "Le scanner confirme l'occlusion, trouve l'endroit et la cause de l'obstacle (bride, hernie, tumeur) et cherche des signes de souffrance de l'intestin."
+   ],
+   [
+    "Un niveau hydro-aérique est le signe d'un pneumopéritoine",
+    false,
+    "Le pneumopéritoine est de l'air <b>libre</b> en dehors du tube digestif (sous les coupoles). Les niveaux hydro-aériques sont <b>dans</b> les anses."
+   ]
+  ],
+  "lecture": "<p>Radiographie de l'abdomen <b>debout</b>, de face : on voit la colonne lombaire au centre, les ailes iliaques en bas. Le gaz digestif est noir, le liquide gris.</p>",
+  "analyse": "<p>Multiples anses grêles dilatées avec niveaux hydro-aériques étagés : <b>occlusion du grêle</b> distale. Chez ce patient, la cause était une invagination sur une tumeur de la jonction iléo-cæcale.</p><p>Les 4 signes cliniques de l'occlusion : <b>douleur, vomissements, arrêt des matières et des gaz, météorisme</b> (ventre gonflé).</p>",
+  "retenir": "Occlusion : <b>niveaux hydro-aériques</b> (cliché debout). Grêle = centraux, plus larges que hauts. Côlon = périphériques, plus hauts que larges. Examen de référence : <b>scanner</b>.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.1,
+    "y": 0.56,
+    "rx": 0.09,
+    "ry": 0.04,
+    "l": "Niveau hydro-aérique",
+    "ly": 0.62
+   },
+   {
+    "t": "e",
+    "x": 0.41,
+    "y": 0.47,
+    "rx": 0.08,
+    "ry": 0.04
+   }
+  ]
+ },
+ {
+  "id": "abd_app_1",
+  "img": "mpx/abd_appendicite_2.png",
+  "region": "abdomen",
+  "type": "infection",
+  "modality": "ct",
+  "plane": "coronal",
+  "title": "Appendicite aiguë (coronal)",
+  "q": "Douleur de la fosse iliaque droite et fièvre. Concernant ce scanner :",
+  "opts": [
+   [
+    "Il s'agit d'une coupe coronale",
+    true,
+    "On voit l'abdomen « de face » : le foie (Liver) en haut à gauche de l'image, la vessie (Bladder) en bas au milieu."
+   ],
+   [
+    "Les flèches montrent un appendice épaissi dans la fosse iliaque droite",
+    true,
+    "Sous le cæcum, une structure tubulaire épaissie (plus de 6 mm), entourée de graisse « sale » (infiltrée, grisâtre)."
+   ],
+   [
+    "La graisse autour de l'appendice paraît infiltrée, signe d'inflammation",
+    true,
+    "Normalement la graisse est gris très foncé et homogène. Inflammée, elle devient plus grise et striée : on parle d'<b>infiltration</b> de la graisse."
+   ],
+   [
+    "Les anses blanches correspondent à de l'air dans l'intestin",
+    false,
+    "Elles sont <b>blanches</b> car remplies de produit de contraste avalé par le patient (opacification digestive). L'air, lui, est <b>noir</b>."
+   ],
+   [
+    "Chez l'enfant et la femme jeune, on commence souvent par une échographie",
+    true,
+    "L'échographie ne donne pas de rayons X : c'est l'examen de première intention chez l'enfant et la femme enceinte ou jeune."
+   ]
+  ],
+  "lecture": "<p>Scanner abdomino-pelvien en reconstruction <b>coronale</b>, après injection et opacification digestive. Repères légendés : <b>Liver</b> = foie, <b>Bladder</b> = vessie. La droite du patient est à gauche de l'image.</p>",
+  "analyse": "<p>Appendice augmenté de calibre, ne se remplissant pas de contraste, avec infiltration de la graisse autour et un peu de liquide : <b>appendicite aiguë</b>. Signes à chercher en plus : stercolithe (petit caillou calcifié dans l'appendice), abcès, air libre (perforation).</p>",
+  "retenir": "Appendicite : appendice <b>&gt; 6 mm</b>, paroi épaissie, <b>infiltration de la graisse</b> de la fosse iliaque droite. Écho d'abord chez l'enfant, scanner chez l'adulte.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.405,
+    "y": 0.66,
+    "rx": 0.06,
+    "ry": 0.1,
+    "l": "Appendice épaissi"
+   }
+  ]
+ },
+ {
+  "id": "abd_div_1",
+  "img": "mpx/abd_diverticulite_1.png",
+  "region": "abdomen",
+  "type": "infection",
+  "modality": "ct",
+  "plane": "axial",
+  "title": "Sigmoïdite diverticulaire + anatomie du pelvis",
+  "q": "Douleur de la fosse iliaque gauche et fièvre chez un adulte de 60 ans. Coupe axiale du pelvis légendée. Concernant cette image :",
+  "opts": [
+   [
+    "IP désigne le muscle ilio-psoas, en avant de l'aile iliaque",
+    true,
+    "Le psoas descend le long de la colonne puis rejoint le muscle iliaque dans la fosse iliaque : ensemble, ils forment l'ilio-psoas, fléchisseur de la hanche."
+   ],
+   [
+    "GM désigne le muscle grand fessier",
+    true,
+    "Gluteus Maximus : le plus gros et le plus superficiel des muscles fessiers, en arrière de l'aile iliaque. G1 = petit fessier (minimus), G2 = moyen fessier (medius)."
+   ],
+   [
+    "R désigne le rein droit",
+    false,
+    "R est en avant, sous la peau : c'est le muscle <b>grand droit</b> de l'abdomen (Rectus). Les reins sont beaucoup plus haut, dans la région lombaire."
+   ],
+   [
+    "Le côlon sigmoïde est épaissi avec des petites bulles d'air dans sa paroi et autour, et une infiltration de la graisse",
+    true,
+    "Les petites bulles d'air qui bordent l'anse sont les <b>diverticules</b> (petites hernies de la muqueuse). La paroi est épaisse et la graisse autour est grise : diverticulite."
+   ],
+   [
+    "La diverticulite touche le plus souvent le côlon sigmoïde, d'où la douleur de la fosse iliaque gauche",
+    true,
+    "C'est pourquoi on la surnomme « l'appendicite à gauche » du sujet âgé."
+   ]
+  ],
+  "lecture": "<p>Coupe axiale de scanner passant par les ailes iliaques. Repères légendés : <b>R</b> grand droit, <b>IP</b> ilio-psoas, <b>G1/G2/GM</b> petit, moyen et grand fessiers, <b>PI</b> piriforme, <b>S</b> sigmoïde/rectum. [R] et [L] indiquent la droite et la gauche du patient.</p>",
+  "analyse": "<p>Épaississement du côlon sigmoïde avec diverticules (petites images aériques) et infiltration de la graisse péri-sigmoïdienne, un peu de liquide : <b>sigmoïdite diverticulaire</b>. Complications à rechercher : abcès, perforation (air libre), fistule (vers la vessie…).</p>",
+  "retenir": "Diverticulite = <b>sigmoïde</b> (fosse iliaque gauche) : paroi épaissie + diverticules + graisse infiltrée. Diverticulose = diverticules sans inflammation.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.52,
+    "y": 0.47,
+    "rx": 0.1,
+    "ry": 0.14,
+    "l": "Sigmoïde épaissi + diverticules"
+   }
+  ]
+ },
+ {
+  "id": "abd_abces_1",
+  "img": "mpx/abd_diverticulite_4.png",
+  "region": "abdomen",
+  "type": "infection",
+  "modality": "ct",
+  "plane": "axial",
+  "title": "Abcès abdominal avec niveau hydro-aérique",
+  "q": "Fièvre persistante et douleur du flanc gauche. Concernant ce scanner injecté :",
+  "opts": [
+   [
+    "Les flèches montrent un niveau hydro-aérique dans une collection",
+    true,
+    "Dans la collection du flanc gauche (droite de l'image), l'air (noir) flotte au-dessus du liquide avec une limite horizontale."
+   ],
+   [
+    "La paroi de la collection se rehausse après injection",
+    true,
+    "Le pourtour de la collection est plus blanc que son contenu : c'est la <b>coque</b> d'un abcès, vascularisée et inflammatoire."
+   ],
+   [
+    "Collection + paroi qui se rehausse + air = aspect typique d'abcès",
+    true,
+    "L'air vient soit de bactéries qui produisent du gaz, soit d'une communication avec le tube digestif."
+   ],
+   [
+    "Le traitement repose uniquement sur la surveillance",
+    false,
+    "Un abcès se traite par <b>drainage</b> (souvent percutané sous scanner) et antibiotiques."
+   ],
+   [
+    "La collection se trouve du côté droit du patient",
+    false,
+    "Elle est à droite de l'<b>image</b>, donc du côté <b>gauche</b> du patient, contre le côlon descendant."
+   ]
+  ],
+  "lecture": "<p>Coupe axiale de scanner abdominal injecté, avec produit de contraste dans le tube digestif (anses blanches). La colonne et les reins sont en bas de l'image (patient sur le dos).</p>",
+  "analyse": "<p>Collection bien limitée du flanc gauche, contre le côlon descendant épaissi, à paroi rehaussée, contenant un niveau hydro-aérique : <b>abcès</b> (ici compliquant une atteinte colique).</p>",
+  "retenir": "Abcès = collection <b>à paroi qui se rehausse</b>, ± air (niveau hydro-aérique). Traitement : <b>drainage + antibiotiques</b>.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.89,
+    "y": 0.37,
+    "rx": 0.07,
+    "ry": 0.09,
+    "l": "Abcès"
+   }
+  ]
+ },
+ {
+  "id": "abd_hydro_1",
+  "img": "mpx/abd_hydronephrose_2.png",
+  "region": "abdomen",
+  "type": "obstacle",
+  "modality": "ct",
+  "plane": "axial",
+  "title": "Hydronéphrose bilatérale (cancer du col utérin)",
+  "q": "Femme suivie pour un cancer du col de l'utérus, créatinine en hausse. Concernant ce scanner :",
+  "opts": [
+   [
+    "On voit les deux reins, de part et d'autre de la colonne",
+    true,
+    "Les deux structures en forme de haricot, contre la colonne vertébrale, avec un cortex blanc après injection, sont les reins."
+   ],
+   [
+    "Les cavités au centre des deux reins (bassinets) sont dilatées",
+    true,
+    "Au centre de chaque rein, une zone sombre liquidienne élargie : ce sont les <b>cavités pyélocalicielles</b> (bassinet et calices) distendues par l'urine qui ne s'écoule plus."
+   ],
+   [
+    "Une dilatation des cavités rénales s'appelle une hydronéphrose",
+    true,
+    "Hydronéphrose (ou urétéro-hydronéphrose si l'uretère est aussi dilaté) = signe d'un <b>obstacle</b> sur la voie urinaire en aval."
+   ],
+   [
+    "Ici, l'obstacle le plus probable est la compression des deux uretères par la tumeur pelvienne",
+    true,
+    "Une atteinte <b>des deux côtés</b> fait chercher un obstacle bas situé, commun aux deux uretères : tumeur pelvienne (col utérin, vessie, prostate)."
+   ],
+   [
+    "Une hydronéphrose bilatérale n'a aucune conséquence sur la fonction rénale",
+    false,
+    "Un obstacle bilatéral donne une <b>insuffisance rénale aiguë obstructive</b>. Il faut dériver les urines (sondes double J ou néphrostomies)."
+   ]
+  ],
+  "lecture": "<p>Coupe axiale de scanner abdominal injecté passant par les hiles rénaux. Le cortex rénal est blanc (rehaussé), l'urine dans les cavités reste sombre (liquide) au temps précoce.</p>",
+  "analyse": "<p>Dilatation modérée des deux bassinets. Chez cette patiente, la tumeur du col comprime les deux uretères dans le pelvis.</p>",
+  "retenir": "Hydronéphrose = <b>cavités rénales dilatées</b> = obstacle en aval. Unilatérale : souvent un calcul. Bilatérale : obstacle pelvien (tumeur, prostate) → insuffisance rénale.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.36,
+    "y": 0.5,
+    "rx": 0.065,
+    "ry": 0.055,
+    "l": "Bassinet dilaté"
+   },
+   {
+    "t": "e",
+    "x": 0.66,
+    "y": 0.5,
+    "rx": 0.05,
+    "ry": 0.045,
+    "l": "Bassinet dilaté"
+   }
+  ]
+ },
+ {
+  "id": "abd_vb_1",
+  "img": "mpx/abd_cholecystite_0.png",
+  "region": "abdomen",
+  "type": "obstacle",
+  "modality": "echo",
+  "plane": "",
+  "title": "Calcul vésiculaire avec cône d'ombre (échographie)",
+  "q": "Douleur de l'hypochondre droit après un repas. Concernant cette image :",
+  "opts": [
+   [
+    "Il s'agit d'une échographie",
+    true,
+    "Image en éventail, aspect granuleux, inscriptions de la machine et échelle de profondeur en centimètres sur le bord : échographie."
+   ],
+   [
+    "La vésicule biliaire apparaît comme une poche sombre (anéchogène) car elle contient de la bile liquide",
+    true,
+    "En échographie, un liquide simple ne renvoie pas d'écho : il est <b>noir</b>. GB (gallbladder) = vésicule biliaire."
+   ],
+   [
+    "Le point très blanc dans la vésicule, suivi d'une bande sombre vers le bas, est un calcul avec son cône d'ombre",
+    true,
+    "Le calcul réfléchit tous les ultrasons : il est très blanc (hyperéchogène) et rien ne passe derrière lui, d'où une bande noire verticale : le <b>cône d'ombre postérieur</b>."
+   ],
+   [
+    "L'échographie est l'examen de première intention pour rechercher des calculs de la vésicule",
+    true,
+    "Elle est très performante pour la vésicule, sans irradiation, disponible au lit du patient."
+   ],
+   [
+    "Un calcul vésiculaire se voit toujours sur une radiographie standard",
+    false,
+    "La plupart des calculs biliaires (cholestérol) ne sont <b>pas</b> radio-opaques : moins de 20 % se voient sur une radio. D'où l'échographie."
+   ]
+  ],
+  "lecture": "<p>Échographie de l'hypochondre droit. La sonde est en haut (bord courbe de l'éventail) ; la profondeur augmente vers le bas (échelle en cm à droite). Les croix et la mesure (1,16 cm) mesurent le calcul.</p>",
+  "analyse": "<p>Calcul hyperéchogène de 12 mm au collet de la vésicule, avec cône d'ombre postérieur. Chez ce patient, la paroi était épaissie (4 mm) : <b>cholécystite aiguë lithiasique</b> (inflammation de la vésicule bloquée par un calcul).</p><p>Signes échographiques de cholécystite : paroi &gt; 3 mm, Murphy échographique (douleur quand on appuie la sonde sur la vésicule), liquide autour.</p>",
+  "retenir": "Calcul en écho = <b>hyperéchogène + cône d'ombre postérieur</b>. Liquide = noir (anéchogène). Vésicule : l'<b>échographie</b> en premier.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.51,
+    "y": 0.52,
+    "rx": 0.04,
+    "ry": 0.045,
+    "l": "Calcul"
+   },
+   {
+    "t": "a",
+    "x1": 0.78,
+    "y1": 0.88,
+    "x2": 0.53,
+    "y2": 0.7,
+    "l": "Cône d'ombre"
+   },
+   {
+    "t": "a",
+    "x1": 0.28,
+    "y1": 0.22,
+    "x2": 0.49,
+    "y2": 0.42,
+    "l": "Vésicule (bile = noir)"
+   }
+  ]
+ },
+ {
+  "id": "abd_panc_1",
+  "img": "mpx/abd_pancreatite_0.png",
+  "region": "abdomen",
+  "type": "infection",
+  "modality": "ct",
+  "plane": "axial",
+  "title": "Pancréatite aiguë",
+  "q": "Douleur épigastrique transfixiante (qui traverse jusque dans le dos), lipase à 10 fois la normale. Concernant ce scanner injecté :",
+  "opts": [
+   [
+    "Le pancréas, en avant de l'aorte et de la colonne, paraît augmenté de volume avec des contours flous",
+    true,
+    "Le pancréas est la glande allongée qui traverse l'abdomen en avant des gros vaisseaux. Ici il est gonflé (œdème) et ses bords sont mal définis."
+   ],
+   [
+    "La graisse autour du pancréas est infiltrée",
+    true,
+    "La graisse, normalement noire-gris foncé, est grisâtre et striée autour de la glande : c'est l'inflammation qui diffuse (« coulées »)."
+   ],
+   [
+    "Les deux causes les plus fréquentes de pancréatite aiguë sont la lithiase biliaire et l'alcool",
+    true,
+    "Un calcul qui bloque la papille, ou l'alcool : à eux deux, environ 80 % des cas."
+   ],
+   [
+    "Le scanner est indispensable dès l'arrivée pour poser le diagnostic",
+    false,
+    "Le diagnostic repose sur <b>douleur typique + lipase &gt; 3 fois la normale</b>. Le scanner sert à évaluer la gravité, idéalement <b>72 à 96 h</b> après le début (sauf doute diagnostique)."
+   ],
+   [
+    "Le repère « R » indique le côté droit du patient",
+    true,
+    "Les lettres R (right) et L (left) placées sur les bords de l'image confirment la convention : droite du patient à gauche de l'image."
+   ]
+  ],
+  "lecture": "<p>Coupe axiale de scanner de l'abdomen supérieur, injecté : foie à gauche de l'image, rate et côlon (plein d'air et de selles) à droite, estomac distendu par l'air en avant, aorte ronde blanche devant la colonne.</p>",
+  "analyse": "<p>Pancréas augmenté de volume, œdémateux, aux contours flous, avec infiltration de la graisse péri-pancréatique : <b>pancréatite aiguë</b>. La gravité au scanner dépend surtout de la <b>nécrose</b> (zones du pancréas qui ne se rehaussent plus) et des collections.</p>",
+  "retenir": "Pancréatite aiguë : diagnostic = <b>clinique + lipase &gt; 3N</b>. Scanner à 72-96 h pour la gravité (nécrose, collections). Causes : <b>calcul biliaire, alcool</b>.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.58,
+    "y": 0.47,
+    "rx": 0.2,
+    "ry": 0.08,
+    "l": "Pancréas gonflé, graisse infiltrée"
+   }
+  ]
+ },
+ {
+  "id": "abd_pkyste_1",
+  "img": "mpx/abd_pancreatite_4.png",
+  "region": "abdomen",
+  "type": "infection",
+  "modality": "ct",
+  "plane": "axial",
+  "title": "Pseudokyste du pancréas",
+  "q": "Patient aux antécédents de pancréatite aiguë il y a 2 mois, pesanteur épigastrique. Scanner sans injection. Concernant cette image :",
+  "opts": [
+   [
+    "On voit une volumineuse collection de densité liquidienne dans la partie gauche de l'abdomen",
+    true,
+    "Une grande masse arrondie, homogène, gris foncé (densité proche de l'eau), occupe l'arrière de l'estomac et refoule les anses."
+   ],
+   [
+    "Après une pancréatite, une collection liquidienne encapsulée persistant plus de 4 semaines s'appelle un pseudokyste",
+    true,
+    "C'est du suc pancréatique entouré d'une coque de tissu inflammatoire, sans vrai revêtement épithélial (d'où « pseudo »)."
+   ],
+   [
+    "Un pseudokyste peut se compliquer d'infection, d'hémorragie ou de compression des organes voisins",
+    true,
+    "La zone plus dense dans la collection peut correspondre à du sang ; la collection peut aussi comprimer l'estomac ou les voies biliaires."
+   ],
+   [
+    "Les reins ne sont pas visibles sur cette coupe",
+    false,
+    "On voit les deux reins de part et d'autre de la colonne, en arrière."
+   ],
+   [
+    "Un pseudokyste est une tumeur maligne du pancréas",
+    false,
+    "C'est une <b>collection</b> séquellaire d'inflammation, pas une tumeur. Il faut toutefois le distinguer des tumeurs kystiques du pancréas."
+   ]
+  ],
+  "lecture": "<p>Coupe axiale de scanner abdominal <b>sans injection</b> (l'aorte n'est pas plus blanche que les muscles). Une collection liquidienne apparaît homogène et gris foncé, proche de l'eau (environ 0 à 20 UH).</p>",
+  "analyse": "<p>Grosse collection de l'arrière-cavité des épiploons (derrière l'estomac), avec une zone plus dense en son sein (débris ou sang). Contexte de pancréatite récente : <b>pseudokyste</b>.</p>",
+  "retenir": "Pancréatite → collection liquidienne encapsulée &gt; 4 semaines = <b>pseudokyste</b>. Complications : infection, saignement, compression.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.6,
+    "y": 0.38,
+    "rx": 0.25,
+    "ry": 0.18,
+    "l": "Pseudokyste"
+   }
+  ]
+ },
+ {
+  "id": "abd_kpanc_1",
+  "img": "mpx/abd_pancreas_k_0.png",
+  "region": "abdomen",
+  "type": "tumeur",
+  "modality": "ct",
+  "plane": "axial",
+  "title": "Adénocarcinome du pancréas avec métastases hépatiques",
+  "q": "Amaigrissement, perte d'appétit. Concernant ce scanner injecté :",
+  "opts": [
+   [
+    "Il existe une masse hypodense dans le corps du pancréas",
+    true,
+    "En avant de l'aorte et des vaisseaux mésentériques, une zone plus sombre et mal limitée interrompt le pancréas qui, lui, se rehausse normalement."
+   ],
+   [
+    "On voit plusieurs lésions hypodenses dans le foie, évocatrices de métastases",
+    true,
+    "Le foie (gauche de l'image) contient plusieurs nodules plus sombres que le parenchyme : des <b>métastases</b>."
+   ],
+   [
+    "L'adénocarcinome du pancréas est un cancer de bon pronostic",
+    false,
+    "C'est l'un des cancers de <b>plus mauvais pronostic</b> : souvent découvert tard, il est fréquemment métastatique au diagnostic."
+   ],
+   [
+    "Une tumeur de la tête du pancréas se révèle souvent par un ictère",
+    true,
+    "La tête du pancréas entoure la fin du canal cholédoque : une tumeur à cet endroit bloque la bile → <b>ictère</b> (jaunisse) sans douleur."
+   ],
+   [
+    "Les deux reins sont visibles et se rehaussent normalement",
+    true,
+    "De part et d'autre de la colonne, les deux reins ont un cortex blanc après injection : ils fonctionnent."
+   ]
+  ],
+  "lecture": "<p>Scanner abdominal injecté, coupe axiale au niveau des reins. Le pancréas normal se rehausse bien (gris clair) ; une tumeur y apparaît souvent comme une zone <b>plus sombre</b> (hypodense, peu vascularisée).</p>",
+  "analyse": "<ul><li>Masse hypodense du corps du pancréas.</li><li>Multiples nodules hypodenses hépatiques : métastases.</li><li>Opacification digestive (anses blanches).</li></ul>",
+  "retenir": "Cancer du pancréas : masse <b>hypodense</b>, pronostic sombre. Tête → <b>ictère</b> ; corps/queue → découverte tardive (douleur, amaigrissement).",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.53,
+    "y": 0.4,
+    "rx": 0.08,
+    "ry": 0.07,
+    "l": "Masse du pancréas"
+   },
+   {
+    "t": "e",
+    "x": 0.15,
+    "y": 0.27,
+    "rx": 0.07,
+    "ry": 0.07,
+    "l": "Métastase"
+   }
+  ]
+ },
+ {
+  "id": "abd_metafoie_1",
+  "img": "mpx/abd_pancreas_k_3.png",
+  "region": "abdomen",
+  "type": "tumeur",
+  "modality": "ct",
+  "plane": "axial",
+  "title": "Métastases hépatiques multiples",
+  "q": "Patient suivi pour un cancer digestif. Concernant cette coupe de scanner :",
+  "opts": [
+   [
+    "Le foie contient de multiples nodules hypodenses de tailles variées",
+    true,
+    "On compte de nombreuses taches rondes plus sombres que le foie, de quelques millimètres à plusieurs centimètres."
+   ],
+   [
+    "Des lésions hépatiques multiples chez un patient cancéreux évoquent d'abord des métastases",
+    true,
+    "Le foie filtre tout le sang venant du tube digestif (veine porte) : c'est le premier site de métastases des cancers digestifs."
+   ],
+   [
+    "Les cancers colorectaux sont une cause fréquente de métastases hépatiques",
+    true,
+    "Le cancer colorectal métastase au foie par la veine porte ; ces métastases sont parfois opérables."
+   ],
+   [
+    "Il s'agit d'une coupe sagittale",
+    false,
+    "La coupe est horizontale, vue par les pieds : coupe <b>axiale</b>. On voit l'aorte en coupe ronde devant la colonne."
+   ],
+   [
+    "Le foie se situe du côté gauche du patient",
+    false,
+    "Le foie est à gauche de l'<b>image</b>, donc du côté <b>droit</b> du patient. L'estomac et la rate sont à gauche."
+   ]
+  ],
+  "lecture": "<p>Coupe axiale de scanner passant par le dôme du foie, injecté au temps artériel. Repères : foie à gauche de l'image (droite du patient), estomac en avant à droite de l'image, aorte ronde devant la vertèbre.</p>",
+  "analyse": "<p>Multiples nodules hépatiques hypodenses, certains avec un centre plus sombre (nécrose) : métastases hépatiques d'un adénocarcinome pancréatique. À distinguer des <b>kystes biliaires</b> simples, très noirs, à bords très nets, qui ne se rehaussent pas.</p>",
+  "retenir": "Nodules hépatiques <b>multiples</b> chez un cancéreux = <b>métastases</b> jusqu'à preuve du contraire. Foie = 1er site des métastases digestives (veine porte).",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.23,
+    "y": 0.42,
+    "rx": 0.16,
+    "ry": 0.22,
+    "l": "Métastases hépatiques"
+   }
+  ]
+ },
+ {
+  "id": "abd_chc_1",
+  "img": "mpx/abd_chc_1.png",
+  "region": "abdomen",
+  "type": "tumeur",
+  "modality": "ct",
+  "plane": "axial",
+  "title": "Carcinome hépatocellulaire volumineux",
+  "q": "Patient cirrhotique, alpha-fœtoprotéine élevée. Concernant ce scanner :",
+  "opts": [
+   [
+    "Une volumineuse masse hétérogène occupe la plus grande partie du foie droit",
+    true,
+    "Dans le foie (gauche de l'image), une grosse masse arrondie, marbrée, de densité différente du foie normal, est visible."
+   ],
+   [
+    "Le carcinome hépatocellulaire se développe le plus souvent sur une cirrhose",
+    true,
+    "Environ 80 à 90 % des CHC surviennent sur un foie cirrhotique (alcool, hépatites B et C, stéatose métabolique)."
+   ],
+   [
+    "Un patient cirrhotique doit avoir une échographie du foie de dépistage tous les 6 mois",
+    true,
+    "C'est la surveillance recommandée pour dépister un CHC à un stade traitable."
+   ],
+   [
+    "Le CHC typique se rehausse fortement au temps artériel puis devient plus sombre que le foie au temps portal (« lavage »)",
+    true,
+    "Il est nourri par l'artère hépatique : il s'allume au temps artériel puis se « lave » au temps portal. Ce profil permet souvent le diagnostic sans biopsie."
+   ],
+   [
+    "Le CHC est une métastase d'un cancer du côlon",
+    false,
+    "Le CHC est un cancer <b>primitif</b> du foie (né des hépatocytes), pas une métastase."
+   ]
+  ],
+  "lecture": "<p>Coupe axiale de scanner de l'abdomen supérieur. Le foie occupe toute la gauche de l'image et la rate est à droite, en arrière.</p>",
+  "analyse": "<p>Volumineuse masse hépatique droite hétérogène, avec une capsule et une architecture « en mosaïque ». Chez ce patient, la tumeur s'étendait dans les veines hépatiques, la veine cave inférieure et jusqu'à l'oreillette droite (les CHC envahissent volontiers les veines).</p>",
+  "retenir": "CHC = cancer primitif du foie, sur <b>cirrhose</b>, AFP élevée. Imagerie : <b>wash-in</b> artériel + <b>wash-out</b> portal. Dépistage : écho tous les 6 mois chez le cirrhotique.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.26,
+    "y": 0.5,
+    "rx": 0.17,
+    "ry": 0.2,
+    "l": "Carcinome hépatocellulaire"
+   }
+  ]
+ },
+ {
+  "id": "abd_hblast_1",
+  "img": "mpx/abd_chc_3.png",
+  "region": "abdomen",
+  "type": "pediatrie",
+  "modality": "ct",
+  "plane": "coronal",
+  "title": "Hépatoblastome du nourrisson",
+  "q": "Nourrisson de 4 mois, augmentation rapide du volume de l'abdomen à droite. Concernant ce scanner :",
+  "opts": [
+   [
+    "Il s'agit d'une coupe coronale",
+    true,
+    "On voit le thorax en haut (cœur entre les poumons) et l'abdomen en bas, avec la droite et la gauche ([R] et [L]) : coupe coronale, patient vu de face."
+   ],
+   [
+    "Une énorme masse hétérogène occupe le foie droit et refoule les anses intestinales",
+    true,
+    "Presque tout l'abdomen supérieur est rempli par une masse marbrée qui part du foie, et les intestins (blancs, opacifiés) sont repoussés à gauche."
+   ],
+   [
+    "L'hépatoblastome est la tumeur maligne primitive du foie la plus fréquente chez le jeune enfant",
+    true,
+    "Il survient surtout avant 3 ans et s'accompagne d'une alpha-fœtoprotéine très élevée."
+   ],
+   [
+    "Chez l'enfant, l'examen de première intention devant une masse abdominale est l'échographie",
+    true,
+    "Pas d'irradiation, pas d'anesthésie : l'échographie trouve l'organe d'origine. Le scanner ou l'IRM viennent ensuite pour le bilan."
+   ],
+   [
+    "La structure blanche au-dessus du diaphragme correspond au foie",
+    false,
+    "Au-dessus du diaphragme, entre les poumons noirs, c'est le <b>cœur</b> (rehaussé par l'injection). Le foie est sous le diaphragme."
+   ]
+  ],
+  "lecture": "<p>Scanner thoraco-abdominal en reconstruction <b>coronale</b>. Repères [R] = droite du patient (à gauche de l'image) et [L] = gauche. En haut : cœur et poumons ; en bas : abdomen.</p>",
+  "analyse": "<p>Volumineuse masse hépatique droite hétérogène, avec effet de masse sur le lobe gauche et les anses. Chez le jeune enfant, les deux grandes masses abdominales malignes sont le <b>neuroblastome</b> (surrénale) et le <b>néphroblastome</b> (rein) ; l'hépatoblastome est plus rare.</p>",
+  "retenir": "Masse hépatique du <b>nourrisson</b> + AFP très élevée = <b>hépatoblastome</b>. Masse abdominale de l'enfant : <b>échographie</b> d'abord.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.43,
+    "y": 0.56,
+    "rx": 0.27,
+    "ry": 0.28,
+    "l": "Tumeur hépatique"
+   },
+   {
+    "t": "a",
+    "x1": 0.8,
+    "y1": 0.1,
+    "x2": 0.57,
+    "y2": 0.18,
+    "l": "Cœur"
+   }
+  ]
+ },
+ {
+  "id": "abd_rein_1",
+  "img": "mpx/abd_rein_k_2.png",
+  "region": "abdomen",
+  "type": "tumeur",
+  "modality": "ct",
+  "plane": "coronal",
+  "title": "Cancer du rein droit (coronal)",
+  "q": "Masse rénale découverte lors du bilan d'une lésion osseuse. Concernant ce scanner :",
+  "opts": [
+   [
+    "Il s'agit d'une reconstruction coronale",
+    true,
+    "On voit toute la colonne de face, le foie et la rate en haut, le bassin en bas, la droite et la gauche : coupe coronale."
+   ],
+   [
+    "Une masse arrondie hétérogène déforme le pôle supérieur du rein droit",
+    true,
+    "Sous le foie (gauche de l'image), le rein droit est déformé par une masse ronde de densité hétérogène."
+   ],
+   [
+    "Une masse solide du rein chez l'adulte est un cancer du rein jusqu'à preuve du contraire",
+    true,
+    "Le carcinome à cellules rénales représente la grande majorité des masses rénales solides de l'adulte."
+   ],
+   [
+    "Le cancer du rein est souvent découvert de façon fortuite, sur une imagerie faite pour autre chose",
+    true,
+    "C'est le cas de plus de la moitié d'entre eux aujourd'hui (« incidentalome »). La triade hématurie-douleur-masse est devenue rare."
+   ],
+   [
+    "Les métastases osseuses du cancer du rein sont typiquement condensantes (blanches)",
+    false,
+    "Elles sont typiquement <b>lytiques</b> (os détruit, plus noir), souvent soufflantes et très vascularisées. Les métastases condensantes évoquent la prostate."
+   ]
+  ],
+  "lecture": "<p>Scanner abdomino-pelvien injecté, reconstruction <b>coronale</b>. Repère la colonne au centre, le foie en haut à gauche de l'image, la rate en haut à droite, les reins de chaque côté de la colonne.</p>",
+  "analyse": "<p>Masse rénale droite polaire supérieure de 5 cm, hétérogène : carcinome à cellules rénales. Chez ce patient, il existait une métastase osseuse lytique, qui a fait découvrir la tumeur.</p>",
+  "retenir": "Masse <b>solide</b> du rein de l'adulte = cancer du rein jusqu'à preuve du contraire. Souvent <b>fortuit</b>. Métastases osseuses <b>lytiques</b>.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.39,
+    "y": 0.44,
+    "rx": 0.07,
+    "ry": 0.07,
+    "l": "Masse rénale"
+   }
+  ]
+ },
+ {
+  "id": "abd_rein_2",
+  "img": "mpx/abd_rein_k_3.png",
+  "region": "abdomen",
+  "type": "normal",
+  "modality": "ct",
+  "plane": "sagittal",
+  "title": "Coupe sagittale de l'abdomen droit",
+  "q": "Même patient, autre reconstruction du scanner. Concernant cette image :",
+  "opts": [
+   [
+    "Il s'agit d'une coupe sagittale",
+    true,
+    "On voit l'abdomen de profil : l'avant du patient (paroi, anses) à gauche de l'image, le dos à droite, le haut (thorax) en haut."
+   ],
+   [
+    "Le gros organe homogène sous le diaphragme, en haut, est le foie",
+    true,
+    "Sous la coupole (avec un peu de poumon noir au-dessus), le grand organe homogène est le foie : la coupe passe à droite."
+   ],
+   [
+    "On voit la masse rénale sous le foie, en arrière",
+    true,
+    "Sous le foie, en arrière, une masse ronde hétérogène correspond au pôle supérieur du rein droit tumoral."
+   ],
+   [
+    "Les anses blanches en avant contiennent du produit de contraste avalé",
+    true,
+    "Le patient a bu un produit de contraste : les anses du tube digestif sont blanches."
+   ],
+   [
+    "Sur une coupe sagittale, on voit en même temps la droite et la gauche du patient",
+    false,
+    "Une coupe sagittale montre l'avant, l'arrière, le haut et le bas ; la droite et la gauche ne sont <b>pas</b> visibles en même temps. C'est la coupe <b>coronale</b> qui les montre."
+   ]
+  ],
+  "lecture": "<p>Reconstruction <b>sagittale</b> de scanner : comme si on regardait le patient de profil après l'avoir coupé en tranches de droite à gauche. Le scanner acquiert un volume, qu'on peut ensuite afficher dans les trois plans.</p>",
+  "analyse": "<p>De haut en bas : base pulmonaire, coupole, foie, masse du pôle supérieur rénal droit, puis le muscle psoas et l'aile iliaque en bas. En avant, le côlon et le grêle opacifiés.</p>",
+  "retenir": "Axial = tranche horizontale ; <b>coronal</b> = de face (droite + gauche) ; <b>sagittal</b> = de profil (avant + arrière).",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.6,
+    "y": 0.44,
+    "rx": 0.07,
+    "ry": 0.08,
+    "l": "Masse rénale"
+   },
+   {
+    "t": "a",
+    "x1": 0.2,
+    "y1": 0.12,
+    "x2": 0.4,
+    "y2": 0.27,
+    "l": "Foie"
+   }
+  ]
+ },
+ {
+  "id": "abd_aaa_1",
+  "img": "mpx/abd_aaa_2.png",
+  "region": "abdomen",
+  "type": "vasculaire",
+  "modality": "ct",
+  "plane": "axial",
+  "title": "Anévrisme de l'aorte abdominale",
+  "q": "Homme de 81 ans, douleurs lombaires. Concernant ce scanner injecté :",
+  "opts": [
+   [
+    "L'aorte, devant la colonne, a un diamètre très augmenté",
+    true,
+    "Le rond blanc devant la vertèbre (l'aorte opacifiée) est beaucoup plus large qu'une aorte normale (environ 2 cm) : c'est un anévrisme."
+   ],
+   [
+    "On parle d'anévrisme de l'aorte abdominale à partir d'un diamètre de 30 mm",
+    true,
+    "Au-delà de 3 cm, l'aorte est anévrismale. Le risque de rupture augmente fortement avec le diamètre."
+   ],
+   [
+    "Les principaux facteurs de risque sont le tabac, le sexe masculin, l'âge et l'hypertension",
+    true,
+    "Le tabac est le facteur de risque le plus important. Un dépistage par échographie est proposé aux hommes à risque après 65 ans."
+   ],
+   [
+    "Une chirurgie ou une endoprothèse est généralement proposée au-delà de 50 à 55 mm",
+    true,
+    "Au-dessus de ce seuil, le risque de rupture dépasse le risque de l'intervention. En dessous, on surveille."
+   ],
+   [
+    "La rupture d'un anévrisme de l'aorte abdominale est une situation bénigne",
+    false,
+    "La rupture est une urgence vitale, très souvent mortelle : douleur brutale, choc hémorragique."
+   ]
+  ],
+  "lecture": "<p>Coupe axiale de scanner abdominal injecté, au niveau des reins. L'aorte est le rond blanc juste devant le corps vertébral ; la veine cave inférieure est à sa droite (gauche de l'image).</p>",
+  "analyse": "<p>Dilatation anévrismale de l'aorte abdominale, à lumière bien opacifiée. On mesure le <b>plus grand diamètre</b> perpendiculaire à l'axe de l'aorte. On cherche aussi un thrombus le long de la paroi et des signes de fissuration.</p>",
+  "retenir": "AAA = aorte <b>≥ 30 mm</b>. Facteurs de risque : <b>tabac</b>, homme, âge, HTA. Traitement au-delà de 50-55 mm. Rupture = urgence vitale.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.495,
+    "y": 0.395,
+    "rx": 0.085,
+    "ry": 0.085,
+    "l": "Aorte anévrismale"
+   }
+  ]
+ },
+ {
+  "id": "abd_colon_1",
+  "img": "mpx/abd_colon_k_1.png",
+  "region": "abdomen",
+  "type": "tumeur",
+  "modality": "rx",
+  "plane": "face",
+  "title": "Cancer du côlon en « trognon de pomme » (lavement baryté)",
+  "q": "Homme de 72 ans, saignements rectaux indolores. Concernant cet examen :",
+  "opts": [
+   [
+    "Il s'agit d'une radiographie après remplissage du côlon par un produit de contraste",
+    true,
+    "Tout le cadre colique est blanc, rempli de baryte introduite par l'anus : c'est un <b>lavement baryté</b>, une radiographie avec contraste."
+   ],
+   [
+    "On voit un rétrécissement court et irrégulier d'un segment du côlon",
+    true,
+    "Au niveau de l'angle colique droit (près du foie), le côlon se rétrécit brutalement sur quelques centimètres avec des bords irréguliers."
+   ],
+   [
+    "Cet aspect est appelé « trognon de pomme » et évoque un cancer",
+    true,
+    "La tumeur fait le tour du côlon et le resserre : les bords en surplomb ressemblent à un trognon de pomme croqué. C'est un adénocarcinome jusqu'à preuve du contraire."
+   ],
+   [
+    "L'examen de référence actuel pour le diagnostic d'un cancer du côlon est la coloscopie avec biopsies",
+    true,
+    "La coloscopie voit directement la tumeur et permet de la biopsier. Le lavement baryté n'est presque plus utilisé."
+   ],
+   [
+    "Un saignement rectal chez un patient de 72 ans est toujours lié à des hémorroïdes",
+    false,
+    "Après 50 ans, un saignement rectal impose de rechercher un <b>cancer colorectal</b> (coloscopie)."
+   ]
+  ],
+  "lecture": "<p>Radiographie de l'abdomen après lavement baryté. Le contraste dessine l'intérieur du côlon : rectum en bas, côlon gauche (descendant) à droite de l'image, transverse en haut, côlon droit à gauche de l'image (R = droite).</p>",
+  "analyse": "<p>Sténose circonférentielle courte, irrégulière, à bords en surplomb, de l'angle colique droit : aspect « <b>en trognon de pomme</b> » d'un adénocarcinome colique.</p>",
+  "retenir": "« <b>Trognon de pomme</b> » = cancer colique circonférentiel. Diagnostic : <b>coloscopie + biopsies</b>. Rectorragie après 50 ans = coloscopie.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.49,
+    "y": 0.37,
+    "rx": 0.08,
+    "ry": 0.07,
+    "l": "« Trognon de pomme »"
+   }
+  ]
+ },
+ {
+  "id": "abd_invag_1",
+  "img": "mpx/abd_invagination_2.png",
+  "region": "abdomen",
+  "type": "obstacle",
+  "modality": "ct",
+  "plane": "axial",
+  "title": "Invagination intestinale de l'adulte (aspect en cocarde)",
+  "q": "Adulte, douleurs abdominales et vomissements. Concernant ce scanner :",
+  "opts": [
+   [
+    "La flèche montre une image en cocarde (anneaux concentriques) dans le côlon droit",
+    true,
+    "Dans la fosse iliaque/flanc droit, une structure ronde avec des couches successives (paroi, graisse, paroi) : aspect en <b>cocarde</b> ou « en cible »."
+   ],
+   [
+    "Une invagination est la pénétration d'un segment d'intestin dans le segment suivant",
+    true,
+    "Comme un doigt de gant qui rentre en lui-même : l'intestin et son méso (la graisse) se retrouvent dans l'anse d'aval, d'où les anneaux avec de la graisse au milieu."
+   ],
+   [
+    "Chez l'adulte, une invagination est souvent provoquée par une tumeur qui sert de « tête »",
+    true,
+    "Chez l'adulte, on cherche une lésion (tumeur, polype) qui a entraîné l'intestin. Ici c'était un adénocarcinome iléo-cæcal."
+   ],
+   [
+    "Chez le nourrisson, l'invagination est le plus souvent idiopathique, sans tumeur",
+    true,
+    "Entre 3 mois et 3 ans, l'invagination est le plus souvent liée à des ganglions inflammatoires ; elle se diagnostique en <b>échographie</b> et se réduit souvent par lavement."
+   ],
+   [
+    "La structure blanche arrondie à droite de l'image est le rein gauche dilaté",
+    false,
+    "C'est une anse colique remplie de produit de contraste (le côlon gauche/descendant). Les deux reins sont en arrière, de part et d'autre de la colonne."
+   ]
+  ],
+  "lecture": "<p>Coupe axiale de scanner abdominal injecté. Repères : reins de part et d'autre de la colonne, foie à gauche de l'image, estomac et côlon transverse pleins d'air en avant.</p>",
+  "analyse": "<p>Image en cocarde du côlon droit contenant de la graisse (le mésentère entraîné) : <b>invagination</b>. Chez ce patient, elle se compliquait d'une occlusion du grêle (cf. niveaux hydro-aériques sur la radio).</p>",
+  "retenir": "Invagination = image en <b>cocarde</b> / en cible. Enfant : idiopathique, échographie, réduction par lavement. Adulte : chercher une <b>tumeur</b>.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.22,
+    "y": 0.32,
+    "rx": 0.09,
+    "ry": 0.13,
+    "l": "Cocarde (invagination)"
+   }
+  ]
+ },
+ {
+  "id": "abd_rate_1",
+  "img": "mpx/abd_rate_0.png",
+  "region": "abdomen",
+  "type": "trauma",
+  "modality": "ct",
+  "plane": "axial",
+  "title": "Fracture de la rate (traumatisme abdominal)",
+  "q": "Accident de la route, douleur de l'hypochondre gauche. Concernant ce scanner injecté :",
+  "opts": [
+   [
+    "La rate présente une zone hypodense irrégulière qui traverse son parenchyme",
+    true,
+    "Dans la rate (droite de l'image, en arrière), une large bande sombre et déchiquetée interrompt l'organe : c'est une <b>lacération</b> (fracture) splénique."
+   ],
+   [
+    "Il existe du liquide autour de la rate, compatible avec un hémopéritoine",
+    true,
+    "Une couronne grise entoure la rate et le foie : c'est du sang dans la cavité péritonéale (hémopéritoine)."
+   ],
+   [
+    "La rate est l'organe plein le plus souvent touché dans les traumatismes fermés de l'abdomen",
+    true,
+    "Elle est fragile, très vascularisée et protégée seulement par les côtes basses gauches."
+   ],
+   [
+    "Un patient stable avec une lésion splénique peut souvent être traité sans splénectomie",
+    true,
+    "Si le patient est stable : surveillance ou <b>embolisation</b> de l'artère splénique. La splénectomie est réservée aux patients instables ou aux échecs."
+   ],
+   [
+    "La zone très blanche en avant est un saignement actif dans l'estomac",
+    false,
+    "C'est l'<b>estomac</b> rempli de produit de contraste avalé (opacification digestive), avec un peu d'air (noir) au-dessus."
+   ]
+  ],
+  "lecture": "<p>Coupe axiale de scanner de l'abdomen supérieur, injecté, avec opacification de l'estomac. Foie à gauche de l'image, rate à droite en arrière, estomac blanc en avant de la rate.</p>",
+  "analyse": "<p>Lacération profonde de la rate atteignant la capsule, avec hémopéritoine péri-splénique et péri-hépatique. On recherche en plus une fuite de produit de contraste (« blush ») qui signerait un saignement actif.</p>",
+  "retenir": "Traumatisme abdominal fermé : <b>rate</b> = organe plein le plus touché. Scanner injecté chez le patient stable. Stable → embolisation / surveillance ; instable → chirurgie.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.76,
+    "y": 0.58,
+    "rx": 0.1,
+    "ry": 0.13,
+    "l": "Rate fracturée"
+   },
+   {
+    "t": "a",
+    "x1": 0.97,
+    "y1": 0.85,
+    "x2": 0.89,
+    "y2": 0.6,
+    "l": "Sang"
+   }
+  ]
+ },
+ {
+  "id": "abd_angio_1",
+  "img": "mpx/abd_rate_1.png",
+  "region": "abdomen",
+  "type": "trauma",
+  "modality": "angio",
+  "plane": "face",
+  "title": "Artériographie de l'artère splénique",
+  "q": "Même patient, examen réalisé en salle de radiologie interventionnelle. Concernant cette image :",
+  "opts": [
+   [
+    "Il s'agit d'une angiographie (artériographie)",
+    true,
+    "Seuls des vaisseaux en arbre sont dessinés (ici en noir) sur un fond gris uniforme : on a injecté du contraste directement dans une artère."
+   ],
+   [
+    "Le fin trait qui monte depuis le bas de l'image est un cathéter",
+    true,
+    "Le cathéter est introduit par l'artère fémorale au pli de l'aine, puis monté jusqu'à l'artère à étudier (ici le tronc cœliaque / l'artère splénique)."
+   ],
+   [
+    "L'angiographie permet aussi de traiter, par exemple en bouchant une artère qui saigne (embolisation)",
+    true,
+    "C'est la <b>radiologie interventionnelle</b> : on peut boucher (embolisation), dilater (angioplastie) ou poser des stents."
+   ],
+   [
+    "Les vaisseaux sont noirs car l'image est en soustraction (inversée)",
+    true,
+    "En angiographie numérisée, on soustrait l'image sans contraste : les os disparaissent et les vaisseaux opacifiés apparaissent en noir sur fond gris."
+   ],
+   [
+    "Cet examen ne nécessite aucune ponction artérielle",
+    false,
+    "Il faut <b>ponctionner une artère</b> (le plus souvent fémorale) pour y introduire le cathéter."
+   ]
+  ],
+  "lecture": "<p>Artériographie numérisée en soustraction : on ne voit que les artères opacifiées, l'intestin apparaît en relief à cause des mouvements (artéfacts de soustraction).</p>",
+  "analyse": "<p>Cathétérisme sélectif de l'artère splénique : pas de fuite de contraste (pas de saignement actif), défaut de perfusion de la partie haute de la rate lié à la compression par l'hématome.</p>",
+  "retenir": "Angiographie = vaisseaux seuls, via un <b>cathéter</b> artériel. Diagnostic + <b>traitement</b> (embolisation).",
+  "marks": [
+   {
+    "t": "a",
+    "x1": 0.78,
+    "y1": 0.85,
+    "x2": 0.505,
+    "y2": 0.75,
+    "l": "Cathéter"
+   },
+   {
+    "t": "a",
+    "x1": 0.85,
+    "y1": 0.2,
+    "x2": 0.68,
+    "y2": 0.37,
+    "l": "Artère splénique"
+   }
+  ]
+ }
+]

@@ -1,0 +1,558 @@
+[
+ {
+  "id": "n_brain_ct_1",
+  "img": "wm2/n_ct_brain2_0.png",
+  "region": "neuro",
+  "type": "normal",
+  "modality": "ct",
+  "plane": "axial",
+  "title": "Scanner cérébral normal + vignette de repérage",
+  "q": "Jeune homme de 18 ans, traumatisme crânien en motocross. Scanner cérébral normal. À droite, la petite image montre où passe la coupe. Concernant ces images :",
+  "opts": [
+   [
+    "La grande image est une coupe axiale de scanner sans injection",
+    true,
+    "Tranche horizontale du crâne, os blanc, cerveau gris, rien n'est rehaussé : scanner sans injection, la règle en traumatologie crânienne."
+   ],
+   [
+    "La petite vignette à droite est une reconstruction sagittale (de profil) qui sert de repère",
+    true,
+    "On y voit la tête de profil (visage à gauche) ; la <b>ligne jaune</b> montre à quelle hauteur passe la coupe axiale affichée à gauche."
+   ],
+   [
+    "Sur la coupe axiale, les deux structures sombres en forme de papillon au centre sont les ventricules latéraux",
+    true,
+    "Ils contiennent du liquide cérébro-spinal, de densité eau, donc plus sombre que le cerveau."
+   ],
+   [
+    "Sur un scanner cérébral, la substance grise du cortex est plus sombre que la substance blanche",
+    false,
+    "Au scanner, la substance <b>grise</b> (cortex, noyaux) est légèrement <b>plus claire</b> que la substance blanche, plus riche en graisse (myéline)."
+   ],
+   [
+    "Les espaces noirs à la surface du cerveau, entre les circonvolutions, sont les sillons remplis de liquide cérébro-spinal",
+    true,
+    "Chez le sujet jeune, les sillons sont fins. Ils s'élargissent avec l'âge (atrophie) et disparaissent si le cerveau gonfle (œdème)."
+   ]
+  ],
+  "lecture": "<p>Grande image : coupe <b>axiale</b> passant par les ventricules latéraux. Le haut de l'image = l'avant (front), la droite du patient = gauche de l'image.</p><p>Petite image : reconstruction <b>sagittale</b> (profil) qui indique le niveau de coupe. Le scanner acquiert un volume : on peut l'afficher dans tous les plans.</p>",
+  "analyse": "<p>Anatomie normale : ventricules latéraux symétriques et fins, ligne médiane centrée, sillons visibles, aucune hyperdensité (pas de sang), voûte osseuse continue. Retiens cet aspect pour repérer ensuite tout ce qui est asymétrique.</p>",
+  "retenir": "Scanner cérébral : <b>os blanc</b>, cerveau gris (cortex un peu plus clair que la substance blanche), <b>LCS sombre</b> (ventricules, sillons). Comparer toujours droite et gauche.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.26,
+    "y": 0.43,
+    "rx": 0.1,
+    "ry": 0.12,
+    "l": "Ventricules latéraux"
+   },
+   {
+    "t": "a",
+    "x1": 0.8,
+    "y1": 0.3,
+    "x2": 0.8,
+    "y2": 0.63,
+    "l": "Niveau de coupe"
+   }
+  ]
+ },
+ {
+  "id": "n_brain_ct_2",
+  "img": "imgs/n_ct_brain_0.png",
+  "region": "neuro",
+  "type": "normal",
+  "modality": "ct",
+  "plane": "axial",
+  "title": "Scanner cérébral normal : coupe basse (fosse postérieure)",
+  "q": "Même patient, coupe plus basse (voir la ligne jaune sur la vignette). Concernant cette coupe :",
+  "opts": [
+   [
+    "La coupe passe par la base du crâne, sous le cerveau, au niveau du cervelet",
+    true,
+    "La vignette montre la ligne au niveau de la base : on voit l'os très blanc et épais de la base du crâne, les cavités de la face et le cervelet en arrière."
+   ],
+   [
+    "Les zones noires en avant correspondent aux sinus de la face et aux fosses nasales, remplis d'air",
+    true,
+    "L'air est noir. Ces cavités sont normalement aérées ; si elles sont remplies, on pense à une sinusite ou à du sang après un traumatisme."
+   ],
+   [
+    "Les petites zones noires de chaque côté, dans l'os très dense, sont les cellules aériennes des mastoïdes (os temporal)",
+    true,
+    "La mastoïde, derrière l'oreille, contient de l'air dans de petites cellules."
+   ],
+   [
+    "L'os de la base du crâne crée des artéfacts qui gênent l'analyse de la fosse postérieure au scanner",
+    true,
+    "Le rocher et l'occiput très denses créent des stries ; l'IRM voit mieux le tronc cérébral et le cervelet."
+   ],
+   [
+    "Cette coupe passe par les ventricules latéraux",
+    false,
+    "Les ventricules latéraux sont beaucoup <b>plus haut</b>. Ici on est à la base, sous le cerveau."
+   ]
+  ],
+  "lecture": "<p>Coupe axiale basse : en haut, la face (sinus maxillaires noirs, fosses nasales) ; au milieu, la base du crâne très blanche ; en bas, le cervelet dans la fosse postérieure.</p>",
+  "analyse": "<p>Anatomie normale de la base : sinus aérés, cellules mastoïdiennes aérées, cervelet sans anomalie. Savoir à quelle hauteur on se trouve est la première étape de toute lecture de coupe.</p>",
+  "retenir": "Pour s'orienter sur une coupe : chercher les <b>repères osseux et aériens</b> (orbites, sinus, rochers) et la <b>vignette de repérage</b>.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.3,
+    "y": 0.2,
+    "rx": 0.1,
+    "ry": 0.06,
+    "l": "Sinus (air)"
+   },
+   {
+    "t": "e",
+    "x": 0.3,
+    "y": 0.6,
+    "rx": 0.1,
+    "ry": 0.08,
+    "l": "Cervelet",
+    "ly": 0.7
+   }
+  ]
+ },
+ {
+  "id": "n_thorax_lat_1",
+  "img": "imgs/n_thorax_lat_0.jpg",
+  "region": "thorax",
+  "type": "normal",
+  "modality": "rx",
+  "plane": "profil",
+  "title": "Radiographie thoracique de profil normale",
+  "q": "Jeune femme de 21 ans, choc thoracique au football, radiographie normale. Concernant ce cliché :",
+  "opts": [
+   [
+    "Il s'agit d'un cliché de profil",
+    true,
+    "On voit le thorax de côté : la colonne vertébrale en arrière (à droite de l'image), le sternum en avant (à gauche), les deux poumons superposés."
+   ],
+   [
+    "L'espace clair en arrière du sternum, devant le cœur, est normalement bien noir (espace clair rétrosternal)",
+    true,
+    "C'est du poumon en avant du cœur. S'il devient blanc, une masse occupe le médiastin antérieur (lymphome, thymome…)."
+   ],
+   [
+    "Les vertèbres deviennent normalement de plus en plus sombres de haut en bas",
+    true,
+    "En haut, les épaules et les muscles se superposent ; en bas, il n'y a que du poumon devant. Une vertèbre basse plus blanche indique une opacité qui se projette dessus."
+   ],
+   [
+    "Les deux coupoles diaphragmatiques sont visibles sous les poumons",
+    true,
+    "Sur un profil, on voit deux lignes courbes en bas : les deux coupoles, plus ou moins superposées."
+   ],
+   [
+    "Le cœur se projette en arrière de la colonne vertébrale",
+    false,
+    "Le cœur est <b>en avant</b>, derrière le sternum, dans la partie antérieure et basse du thorax."
+   ]
+  ],
+  "lecture": "<p>Radiographie thoracique de <b>profil</b> : l'avant est à gauche de l'image. De l'avant vers l'arrière : sternum, espace clair rétrosternal, cœur, hiles, poumons, colonne.</p>",
+  "analyse": "<p>Profil normal : espace rétrosternal clair, silhouette cardiaque de taille normale, vertèbres de plus en plus claires vers le bas, culs-de-sac postérieurs fins et libres. Le profil voit les petits épanchements dans le cul-de-sac postérieur, invisibles de face.</p>",
+  "retenir": "Profil normal : <b>espace clair rétrosternal</b> noir, vertèbres qui <b>s'assombrissent vers le bas</b>, culs-de-sac postérieurs pointus.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.28,
+    "y": 0.43,
+    "rx": 0.07,
+    "ry": 0.08,
+    "l": "Espace clair rétrosternal"
+   },
+   {
+    "t": "a",
+    "x1": 0.95,
+    "y1": 0.62,
+    "x2": 0.73,
+    "y2": 0.55,
+    "l": "Colonne"
+   }
+  ]
+ },
+ {
+  "id": "n_ct_abdo_1",
+  "img": "wm2/n_ct_abdo2_0.png",
+  "region": "thorax",
+  "type": "normal",
+  "modality": "ct",
+  "plane": "axial",
+  "title": "Où passe cette coupe ? Base du thorax au scanner",
+  "q": "Scanner injecté d'un jeune homme après un traumatisme. Une vignette coronale (à droite) montre le niveau de la coupe. Concernant cette image :",
+  "opts": [
+   [
+    "La coupe passe par la base du thorax : on voit le cœur entre les deux poumons",
+    true,
+    "Les deux grandes zones noires sont les poumons ; au centre en avant, le cœur ; en arrière, l'aorte ronde devant la vertèbre."
+   ],
+   [
+    "Les poumons sont noirs et sans détail parce que la fenêtre est réglée pour les tissus mous (fenêtre médiastinale)",
+    true,
+    "Dans cette fenêtre, tout ce qui est plus noir que la graisse devient noir uniforme : on voit bien le cœur et les vaisseaux, mais pas le poumon."
+   ],
+   [
+    "Les cavités cardiaques sont rehaussées par le produit de contraste",
+    true,
+    "Le sang injecté est plus blanc que le muscle cardiaque : on distingue les cavités et la paroi."
+   ],
+   [
+    "Le rond blanc devant la vertèbre est l'aorte descendante",
+    true,
+    "L'aorte thoracique descend contre la colonne, un peu à gauche."
+   ],
+   [
+    "Sur la vignette coronale, on voit les reins et la colonne de face, ce qui permet de situer la coupe",
+    true,
+    "La ligne de repère est tout en haut de la vignette, au niveau des coupoles : la coupe est donc à la base du thorax, au-dessus de l'abdomen."
+   ]
+  ],
+  "lecture": "<p>Coupe axiale de scanner injecté, fenêtre <b>médiastinale</b>. « P » en bas = postérieur. La vignette à droite est une coupe <b>coronale</b> (patient de face) avec la ligne de niveau.</p>",
+  "analyse": "<p>Anatomie normale : cœur avec ses cavités opacifiées, aorte descendante, œsophage devant l'aorte, poumons noirs (fenêtre tissus mous), côtes et vertèbre.</p>",
+  "retenir": "Fenêtre <b>médiastinale</b> : poumons noirs, organes bien vus. Fenêtre <b>parenchymateuse</b> : poumons détaillés, le reste blanc. Même coupe, réglage différent.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.27,
+    "y": 0.3,
+    "rx": 0.1,
+    "ry": 0.12,
+    "l": "Cœur"
+   },
+   {
+    "t": "a",
+    "x1": 0.55,
+    "y1": 0.45,
+    "x2": 0.335,
+    "y2": 0.48,
+    "l": "Aorte"
+   }
+  ]
+ },
+ {
+  "id": "n_main_1",
+  "img": "wm2/n_main2_0.jpg",
+  "region": "ms",
+  "type": "normal",
+  "modality": "rx",
+  "plane": "face",
+  "title": "Radiographie normale de la main",
+  "q": "Homme de 31 ans, radiographie de la main normale (de face). Concernant ce cliché :",
+  "opts": [
+   [
+    "On distingue les phalanges, les métacarpiens et les os du carpe",
+    true,
+    "De haut en bas : phalanges des doigts, 5 métacarpiens (paume), 8 os du carpe (poignet), puis radius et ulna."
+   ],
+   [
+    "Le pouce a deux phalanges, les autres doigts en ont trois",
+    true,
+    "Pouce : phalanges proximale et distale. Doigts longs : proximale, moyenne et distale."
+   ],
+   [
+    "Les interlignes articulaires sont réguliers, de hauteur homogène",
+    true,
+    "Chaque articulation montre un espace noir régulier entre deux surfaces lisses : pas d'arthrose ni d'arthrite."
+   ],
+   [
+    "Le carpe comprend 8 os disposés en deux rangées",
+    true,
+    "Rangée proximale : scaphoïde, lunatum (semi-lunaire), triquetrum, pisiforme. Rangée distale : trapèze, trapézoïde, capitatum, hamatum."
+   ],
+   [
+    "Chez cet adulte, on voit encore les cartilages de croissance",
+    false,
+    "À 31 ans, ils sont <b>fermés</b> (soudés) : on ne voit plus de bande claire aux extrémités des os."
+   ]
+  ],
+  "lecture": "<p>Radiographie de la main de face (paume contre la plaque, incidence dorso-palmaire). L'inscription en haut à gauche est le marqueur du côté (ici gauche).</p>",
+  "analyse": "<p>Main normale de l'adulte : corticales nettes, densité osseuse normale, interlignes réguliers, pas de cartilage de croissance. Comparer avec une main d'enfant (cartilages visibles) et une main arthrosique ou rhumatoïde (pincements, érosions).</p>",
+  "retenir": "Main : <b>14 phalanges, 5 métacarpiens, 8 os du carpe</b>. Adulte = cartilages de croissance fermés.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.27,
+    "y": 0.83,
+    "rx": 0.13,
+    "ry": 0.08,
+    "l": "Carpe"
+   },
+   {
+    "t": "a",
+    "x1": 0.95,
+    "y1": 0.22,
+    "x2": 0.7,
+    "y2": 0.12,
+    "l": "Phalanges"
+   }
+  ]
+ },
+ {
+  "id": "n_pied_1",
+  "img": "wm2/n_main2_1.jpg",
+  "region": "mi",
+  "type": "normal",
+  "modality": "rx",
+  "plane": "face",
+  "title": "Radiographie normale du pied (face)",
+  "q": "Homme de 31 ans, pied droit normal, cliché dorso-plantaire (de face). Concernant ce cliché :",
+  "opts": [
+   [
+    "On voit les phalanges des orteils, les 5 métatarsiens et les os du tarse",
+    true,
+    "De haut en bas : orteils, métatarsiens (longs os du pied), puis le tarse (cunéiformes, cuboïde, naviculaire, talus, calcanéum)."
+   ],
+   [
+    "Le premier métatarsien (gros orteil) est le plus épais",
+    true,
+    "Il porte une grande partie du poids. Il a deux petits os sésamoïdes sous sa tête."
+   ],
+   [
+    "Le 5e métatarsien est du côté du petit orteil, au bord externe du pied",
+    true,
+    "Sa base (en bas, à l'extrémité proximale) est un site fréquent de fracture lors des entorses."
+   ],
+   [
+    "Le calcanéum est bien visible sur ce cliché de face",
+    false,
+    "Sur un cliché de face, le calcanéum est en grande partie <b>superposé</b> aux autres os et mal vu : on le regarde sur un <b>profil</b> ou une incidence spécifique."
+   ],
+   [
+    "Il s'agit d'un pied d'enfant",
+    false,
+    "Aucun cartilage de croissance n'est visible : c'est un pied d'<b>adulte</b>."
+   ]
+  ],
+  "lecture": "<p>Radiographie du pied de face (dorso-plantaire : les rayons entrent par le dos du pied). Les orteils sont en haut ; le gros orteil est à gauche de l'image (pied droit).</p>",
+  "analyse": "<p>Pied normal. Pour lire une radio du pied, suis chaque métatarsien de la base à la tête, puis vérifie l'alignement des articulations du tarse (une luxation de Lisfranc décale les bases des métatarsiens).</p>",
+  "retenir": "Pied : <b>14 phalanges, 5 métatarsiens, 7 os du tarse</b>. Calcanéum : mieux vu de <b>profil</b>.",
+  "marks": [
+   {
+    "t": "a",
+    "x1": 0.92,
+    "y1": 0.5,
+    "x2": 0.78,
+    "y2": 0.48,
+    "l": "5e métatarsien"
+   },
+   {
+    "t": "e",
+    "x": 0.48,
+    "y": 0.75,
+    "rx": 0.25,
+    "ry": 0.12,
+    "l": "Tarse"
+   }
+  ]
+ },
+ {
+  "id": "n_bassin_enfant_1",
+  "img": "wm2/n_bassin2_1.jpg",
+  "region": "mi",
+  "type": "normal",
+  "modality": "rx",
+  "plane": "face",
+  "title": "Bassin normal d'un enfant de 22 mois",
+  "q": "Garçon de 22 mois, suspicion de malformation de hanche ; la radiographie est normale. Concernant ce cliché :",
+  "opts": [
+   [
+    "On voit de larges zones claires entre les os, car une grande partie du squelette de l'enfant est encore en cartilage",
+    true,
+    "Le cartilage ne se voit pas en radio (il est de densité « eau »). Les os paraissent donc séparés par des espaces vides."
+   ],
+   [
+    "Les têtes fémorales sont de petits noyaux d'ossification arrondis",
+    true,
+    "Chez le petit enfant, la tête du fémur n'est ossifiée qu'en son centre : un petit rond blanc, entouré de cartilage invisible."
+   ],
+   [
+    "Chez le nourrisson de moins de 4 mois, on explore les hanches par échographie plutôt que par radiographie",
+    true,
+    "Avant l'ossification de la tête, l'échographie voit le cartilage. Après 4 mois environ, la radio devient utile."
+   ],
+   [
+    "Les espaces clairs autour des têtes fémorales sont des fractures",
+    false,
+    "Ce sont des <b>cartilages</b> normaux de l'enfant, pas des fractures."
+   ],
+   [
+    "Les deux hanches doivent être comparées pour rechercher une asymétrie",
+    true,
+    "Une tête plus petite, moins bien couverte ou décalée vers le haut et le dehors évoque une luxation congénitale."
+   ]
+  ],
+  "lecture": "<p>Radiographie du bassin de face d'un petit enfant. Le squelette est en partie cartilagineux : ailes iliaques, ischions et pubis sont séparés par des espaces clairs (cartilage en Y du cotyle, synchondroses).</p>",
+  "analyse": "<p>Bassin normal pour l'âge : noyaux des têtes fémorales symétriques, bien centrés dans les cotyles. Connaître l'aspect normal du squelette de l'enfant évite de prendre les cartilages pour des fractures.</p>",
+  "retenir": "Enfant : <b>cartilage invisible</b> en radio → espaces clairs normaux. Hanche du nourrisson &lt; 4 mois : <b>échographie</b>.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.31,
+    "y": 0.58,
+    "rx": 0.06,
+    "ry": 0.06,
+    "l": "Noyau tête fémorale"
+   },
+   {
+    "t": "e",
+    "x": 0.7,
+    "y": 0.58,
+    "rx": 0.06,
+    "ry": 0.06
+   }
+  ]
+ },
+ {
+  "id": "mi_pertroch_1",
+  "img": "wm2/f_pertroch_1.jpg",
+  "region": "mi",
+  "type": "trauma",
+  "modality": "rx",
+  "plane": "face",
+  "title": "Fracture pertrochantérienne non déplacée (trait surligné en rouge)",
+  "q": "Femme de 79 ans, chute, douleur de la hanche droite. Sur ce cliché, un radiologue a surligné le trait en rouge. Concernant cette image :",
+  "opts": [
+   [
+    "Le trait de fracture passe entre le grand et le petit trochanter",
+    true,
+    "Le trait rouge descend obliquement du grand trochanter (relief externe) vers le petit trochanter (relief interne) : fracture <b>pertrochantérienne</b>."
+   ],
+   [
+    "Il s'agit du côté droit du patient",
+    true,
+    "La fracture est à gauche de l'image, donc à droite du patient."
+   ],
+   [
+    "Une fracture pertrochantérienne est extra-capsulaire et bien vascularisée, donc consolide habituellement bien",
+    true,
+    "Contrairement au col fémoral, cette zone est hors de la capsule de la hanche et riche en os spongieux bien vascularisé : la tête n'est pas menacée de nécrose."
+   ],
+   [
+    "Le traitement habituel chez la personne âgée est une ostéosynthèse (clou ou vis-plaque) pour permettre un lever rapide",
+    true,
+    "L'objectif est de remettre la patiente debout très vite pour éviter les complications du décubitus."
+   ],
+   [
+    "Une fracture pertrochantérienne siège sur le col du fémur, sous la tête",
+    false,
+    "Le col est <b>au-dessus</b>, entre la tête et les trochanters. La pertrochantérienne siège plus bas, dans la région des trochanters."
+   ]
+  ],
+  "lecture": "<p>Radiographie du bassin de face. Repère le fémur droit (à gauche de l'image) : tête, col, puis le massif trochantérien avec le grand trochanter en dehors et le petit trochanter en dedans.</p>",
+  "analyse": "<p>Fracture pertrochantérienne droite non déplacée, à trait oblique. On note aussi un bassin déminéralisé (sujet âgé). Les fractures de l'extrémité supérieure du fémur se classent en <b>cervicales</b> (col, risque de nécrose de la tête) et <b>trochantériennes</b> (consolident bien mais saignent davantage).</p>",
+  "retenir": "Extrémité supérieure du fémur : <b>col</b> (intra-capsulaire, nécrose possible) vs <b>trochanter</b> (extra-capsulaire, consolide bien).",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.1,
+    "y": 0.42,
+    "rx": 0.08,
+    "ry": 0.12,
+    "l": "Trait pertrochantérien"
+   }
+  ]
+ },
+ {
+  "id": "ms_boisvert_1",
+  "img": "wm2/f_boisvert_2.jpg",
+  "region": "ms",
+  "type": "pediatrie",
+  "modality": "rx",
+  "plane": "face",
+  "title": "Fracture en bois vert du radius distal (enfant)",
+  "q": "Enfant de 8 ans, chute sur la main. Radiographie de l'avant-bras de face. Concernant cette image :",
+  "opts": [
+   [
+    "L'extrémité inférieure du radius est angulée et sa corticale est interrompue d'un côté",
+    true,
+    "Au-dessus du poignet, le radius (côté pouce) fait un petit angle : une corticale est cassée, l'autre est seulement pliée."
+   ],
+   [
+    "Une fracture qui casse une seule corticale alors que l'autre plie s'appelle une fracture en bois vert",
+    true,
+    "Comme une branche verte : l'os de l'enfant, souple et entouré d'un périoste épais, plie avant de casser complètement."
+   ],
+   [
+    "Les cartilages de croissance du radius et de l'ulna sont visibles",
+    true,
+    "Bandes claires transversales près du poignet : physes normales."
+   ],
+   [
+    "Ce type de fracture n'existe que chez l'adulte",
+    false,
+    "La fracture en bois vert est <b>propre à l'enfant</b>, dont l'os est plus souple."
+   ],
+   [
+    "On compare l'axe de l'os sur la face et le profil pour mesurer l'angulation",
+    true,
+    "Une angulation trop importante doit être corrigée (réduction) avant l'immobilisation plâtrée."
+   ]
+  ],
+  "lecture": "<p>Radiographie de l'avant-bras d'enfant de face : radius et ulna parallèles, poignet en haut. Suis chaque corticale : elle doit être droite et continue.</p>",
+  "analyse": "<p>Fracture incomplète en bois vert de la métaphyse distale du radius, avec angulation. Traitement : réduction si besoin puis plâtre.</p>",
+  "retenir": "Enfant : <b>bois vert</b> (une corticale cassée, l'autre pliée), <b>motte de beurre</b> (corticale tassée), <b>décollement épiphysaire</b>.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.43,
+    "y": 0.46,
+    "rx": 0.08,
+    "ry": 0.08,
+    "l": "Bois vert"
+   }
+  ]
+ },
+ {
+  "id": "os_meta_bassin_1",
+  "img": "wm2/o_meta_2.jpg",
+  "region": "global",
+  "type": "tumeur",
+  "modality": "rx",
+  "plane": "face",
+  "title": "Métastase lytique de l'aile iliaque",
+  "q": "Patient de 50 ans, douleur de la fesse droite. Radiographie du bassin avec des flèches blanches (image difficile). Concernant cette image :",
+  "opts": [
+   [
+    "Les flèches entourent une zone où l'os iliaque droit a disparu (lyse)",
+    true,
+    "Près de l'articulation sacro-iliaque droite, l'os normalement dense est remplacé par une zone grise mal limitée : l'os est détruit."
+   ],
+   [
+    "Une lésion lytique mal limitée chez un adulte de plus de 40 ans évoque d'abord une métastase ou un myélome",
+    true,
+    "C'est la règle : après 40 ans, une lyse osseuse agressive est une métastase (ou un myélome) jusqu'à preuve du contraire."
+   ],
+   [
+    "Les cancers les plus souvent responsables de métastases osseuses sont le sein, la prostate, le poumon, le rein et la thyroïde",
+    true,
+    "Moyen mnémotechnique : « PPRST » (Prostate, Poumon, Rein, Sein, Thyroïde)."
+   ],
+   [
+    "Le côté atteint est le côté gauche du patient",
+    false,
+    "Le marqueur « R » est du côté gauche de l'image, où se trouve la lésion : c'est le côté <b>droit</b> du patient."
+   ],
+   [
+    "Le bilan comprend la recherche du cancer primitif et une biopsie de la lésion osseuse",
+    true,
+    "La biopsie confirme qu'il s'agit d'une métastase et indique son origine."
+   ]
+  ],
+  "lecture": "<p>Radiographie du bassin de face. Compare les deux ailes iliaques et les deux articulations sacro-iliaques : à droite du patient (gauche de l'image), l'os a disparu par endroits.</p>",
+  "analyse": "<p>Volumineuse lésion ostéolytique de l'aile iliaque droite, près de l'articulation sacro-iliaque, avec rupture de la corticale. Chez ce patient, il s'agissait d'une métastase.</p>",
+  "retenir": "Lyse osseuse après 40 ans = <b>métastase ou myélome</b>. Ostéophiles : <b>prostate, poumon, rein, sein, thyroïde</b>.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.24,
+    "y": 0.33,
+    "rx": 0.1,
+    "ry": 0.13,
+    "l": "Lyse osseuse"
+   }
+  ]
+ }
+]

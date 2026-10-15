@@ -1,0 +1,518 @@
+[
+ {
+  "id": "mi_weber_1",
+  "img": "mpx/mb_weber2_0.png",
+  "region": "mi",
+  "type": "trauma",
+  "modality": "rx",
+  "plane": "face",
+  "title": "Fracture de cheville Weber C (fibula haute)",
+  "q": "Entorse grave de la cheville en torsion. Deux clichés de face de la même cheville. Concernant ces images :",
+  "opts": [
+   [
+    "On voit un trait de fracture oblique sur la fibula (péroné)",
+    true,
+    "La fibula est l'os fin, en dehors du tibia. Une longue ligne noire oblique la traverse, plusieurs centimètres au-dessus de la cheville."
+   ],
+   [
+    "Le trait de fracture fibulaire est situé au-dessus de l'articulation entre le tibia et la fibula (syndesmose)",
+    true,
+    "Le trait commence bien au-dessus de l'interligne de la cheville : c'est le critère de la fracture <b>Weber C</b>."
+   ],
+   [
+    "Dans la classification de Weber, plus le trait fibulaire est haut, plus la fracture est instable",
+    true,
+    "Weber A : sous l'interligne (stable) ; B : à hauteur de l'interligne ; C : au-dessus, avec rupture des ligaments qui unissent tibia et fibula (instable, souvent chirurgicale)."
+   ],
+   [
+    "La fibula est l'os le plus épais de la jambe",
+    false,
+    "C'est le <b>tibia</b> qui porte le poids du corps et qui est épais. La fibula est fine, en dehors."
+   ],
+   [
+    "La fracture est sans aucune importance car la fibula ne porte pas de poids",
+    false,
+    "La fibula forme la <b>malléole externe</b>, qui stabilise la cheville avec la pince tibio-fibulaire. Une fracture Weber C déstabilise toute la cheville."
+   ]
+  ],
+  "lecture": "<p>Radiographies de cheville de face (deux clichés légèrement différents). Repères : le <b>tibia</b> (gros os, au centre-gauche), sa <b>malléole interne</b> ; la <b>fibula</b> (os fin, à droite de chaque cliché) et sa <b>malléole externe</b> ; le <b>talus</b> (astragale) en dessous, emboîté dans la « mortaise » formée par les deux malléoles.</p><p>Astuce : suis le contour de chaque os de haut en bas, comme avec un crayon. Une fracture est une <b>interruption</b> de ce contour ou une ligne noire qui traverse l'os.</p>",
+  "analyse": "<p>Fracture oblique de la diaphyse distale de la fibula, à environ 5 à 8 cm au-dessus de l'interligne : <b>Weber C</b>. Il faut chercher en plus une lésion du côté interne (fracture de la malléole interne ou rupture du ligament deltoïde) et un élargissement de l'espace entre tibia et fibula (diastasis).</p>",
+  "retenir": "Weber : position du trait fibulaire par rapport à la syndesmose. <b>A</b> sous, <b>B</b> à hauteur, <b>C</b> au-dessus = instable.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.36,
+    "y": 0.38,
+    "rx": 0.06,
+    "ry": 0.17,
+    "l": "Trait de fracture"
+   },
+   {
+    "t": "a",
+    "x1": 0.15,
+    "y1": 0.93,
+    "x2": 0.2,
+    "y2": 0.71,
+    "l": "Interligne de la cheville"
+   }
+  ]
+ },
+ {
+  "id": "mi_maisonneuve_1",
+  "img": "mpx/mb_cheville2_2.png",
+  "region": "mi",
+  "type": "trauma",
+  "modality": "rx",
+  "plane": "face",
+  "title": "Fracture de Maisonneuve (fibula proximale)",
+  "q": "Torsion violente de la cheville droite ; on fait aussi une radio de toute la jambe. Concernant cette image :",
+  "opts": [
+   [
+    "On voit une fracture de la partie haute de la fibula, sous le genou",
+    true,
+    "Juste sous le genou, l'os fin du côté externe (la fibula) est cassé en plusieurs morceaux : fracture du col de la fibula."
+   ],
+   [
+    "Une fracture de la fibula haute après une torsion de cheville correspond à une fracture de Maisonneuve",
+    true,
+    "La torsion de la cheville se propage le long de la membrane qui relie tibia et fibula et casse la fibula tout en haut."
+   ],
+   [
+    "Devant une torsion de cheville douloureuse, il faut palper toute la fibula jusqu'au genou",
+    true,
+    "Sinon on rate cette fracture : la radio de cheville seule peut paraître presque normale."
+   ],
+   [
+    "Le nerf fibulaire commun, qui contourne le col de la fibula, peut être lésé",
+    true,
+    "Il passe juste autour du col : sa lésion donne un pied tombant (le patient ne peut plus relever le pied)."
+   ],
+   [
+    "Le genou est vu de profil sur ce cliché",
+    false,
+    "On voit les deux condyles fémoraux côte à côte et les deux os de la jambe séparés : c'est une incidence de <b>face</b>."
+   ]
+  ],
+  "lecture": "<p>Radiographie de la jambe droite (« R ») de face, du genou en haut à la cheville en bas. Le <b>tibia</b> est l'os épais du côté interne, la <b>fibula</b> l'os fin du côté externe (à gauche de l'image ici).</p>",
+  "analyse": "<p>Fracture comminutive (plusieurs fragments) du col et de la métaphyse proximale de la fibula. Associée à une lésion ligamentaire de la cheville, c'est une fracture de <b>Maisonneuve</b>, instable, souvent opérée.</p>",
+  "retenir": "Torsion de cheville + douleur en haut de la jambe = <b>Maisonneuve</b> : radio de toute la jambe. Risque pour le <b>nerf fibulaire commun</b>.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.3,
+    "y": 0.31,
+    "rx": 0.06,
+    "ry": 0.12,
+    "l": "Fibula fracturée"
+   }
+  ]
+ },
+ {
+  "id": "mi_tibia_1",
+  "img": "mpx/mb_cheville2_5.png",
+  "region": "mi",
+  "type": "trauma",
+  "modality": "rx",
+  "plane": "profil",
+  "title": "Fracture oblique du tibia distal + phlyctène",
+  "q": "Traumatisme de la jambe droite. Radiographie de profil de la cheville. Concernant cette image :",
+  "opts": [
+   [
+    "Il s'agit d'un cliché de profil",
+    true,
+    "On voit le pied de côté : le calcanéum (talon) en bas à droite, les orteils vers la gauche, le tibia et la fibula superposés."
+   ],
+   [
+    "Un trait oblique traverse le bas du tibia avec un déplacement des fragments",
+    true,
+    "Au-dessus de la cheville, une longue ligne oblique sépare deux fragments décalés l'un par rapport à l'autre."
+   ],
+   [
+    "La fracture n'atteint pas l'articulation de la cheville (extra-articulaire)",
+    true,
+    "Le trait s'arrête au-dessus de la surface articulaire du tibia : la cheville elle-même est intacte."
+   ],
+   [
+    "L'ombre arrondie en arrière de la jambe correspond à une phlyctène, une bulle de la peau",
+    true,
+    "Après un gros traumatisme, la peau gonflée peut former des bulles (phlyctènes) qui apparaissent comme une ombre ronde dans les parties molles. Elles retardent la chirurgie."
+   ],
+   [
+    "Le calcanéum est l'os situé en avant du tibia",
+    false,
+    "Le <b>calcanéum</b> est l'os du <b>talon</b>, en arrière et en bas. En avant du tibia, ce sont le talus puis les os du tarse."
+   ]
+  ],
+  "lecture": "<p>Radiographie de cheville de <b>profil</b>. Repères : tibia et fibula (superposés) qui descendent, le <b>talus</b> (astragale) en dessous, puis le <b>calcanéum</b> (talon) en arrière et les os du tarse en avant.</p>",
+  "analyse": "<p>Fracture oblique déplacée de la métaphyse distale du tibia, extra-articulaire, et opacité arrondie des parties molles postérieures (phlyctène). Les fractures du tibia, os sous-cutané, sont souvent <b>ouvertes</b> : on surveille la peau.</p>",
+  "retenir": "Toujours dire si une fracture est <b>articulaire ou extra-articulaire</b>. Tibia = os sous la peau : risque de fracture <b>ouverte</b> et de souffrance cutanée.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.42,
+    "y": 0.34,
+    "rx": 0.1,
+    "ry": 0.17,
+    "l": "Trait oblique"
+   },
+   {
+    "t": "a",
+    "x1": 0.85,
+    "y1": 0.18,
+    "x2": 0.7,
+    "y2": 0.35,
+    "l": "Phlyctène"
+   }
+  ]
+ },
+ {
+  "id": "mi_m5_1",
+  "img": "mpx/mb_metatarse_1.png",
+  "region": "mi",
+  "type": "trauma",
+  "modality": "rx",
+  "plane": "face",
+  "title": "Fracture de la base du 5e métatarsien",
+  "q": "Femme de 73 ans, entorse en « varus » (pied tourné en dedans), douleur du bord externe du pied gauche. Concernant cette radiographie :",
+  "opts": [
+   [
+    "La flèche montre un fin trait transversal à la base du 5e métatarsien",
+    true,
+    "Le 5e métatarsien est le long os du bord externe du pied (côté petit orteil). À sa base, une fine ligne noire transversale le traverse."
+   ],
+   [
+    "Le 5e métatarsien est l'os du côté du gros orteil",
+    false,
+    "Le 1er métatarsien est côté gros orteil ; le <b>5e</b> est côté <b>petit orteil</b>, au bord externe du pied."
+   ],
+   [
+    "Une entorse de cheville peut s'accompagner d'une fracture de la base du 5e métatarsien",
+    true,
+    "Le tendon du court fibulaire, qui s'insère sur la base du 5e métatarsien, peut l'arracher lors d'une entorse en varus : il faut l'examiner systématiquement."
+   ],
+   [
+    "Les fractures de la jonction entre base et diaphyse (fracture de Jones) consolident souvent mal",
+    true,
+    "Cette zone est mal vascularisée : risque de retard de consolidation ou de pseudarthrose."
+   ],
+   [
+    "Il s'agit d'un pied droit",
+    false,
+    "Le repère « L » indique un pied <b>gauche</b>."
+   ]
+  ],
+  "lecture": "<p>Radiographie du pied de face (dorso-plantaire). De haut en bas : phalanges des orteils, 5 <b>métatarsiens</b> (longs os du pied), puis les os du tarse (cunéiformes, cuboïde, naviculaire) et le talon en bas.</p>",
+  "analyse": "<p>Trait de fracture transversal non déplacé à la base du 5e métatarsien, en dehors de l'articulation. Piège : chez l'enfant, un petit noyau d'ossification à cet endroit (apophyse) est normal ; il est parallèle à l'os, alors qu'une fracture est perpendiculaire.</p>",
+  "retenir": "Entorse en varus : examiner la <b>malléole externe</b> et la <b>base du 5e métatarsien</b>. Fracture de Jones = consolidation difficile.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.32,
+    "y": 0.58,
+    "rx": 0.05,
+    "ry": 0.04,
+    "l": "Base du 5e métatarsien"
+   }
+  ]
+ },
+ {
+  "id": "mi_tta_1",
+  "img": "mpx/mb_rotule_2.png",
+  "region": "mi",
+  "type": "trauma",
+  "modality": "rx",
+  "plane": "profil",
+  "title": "Rupture du tendon rotulien : rotule trop haute",
+  "q": "Jeune sportif, impossible de tendre le genou gauche après une réception de saut. Radiographie de profil. Concernant cette image :",
+  "opts": [
+   [
+    "La rotule (patella) paraît anormalement haute par rapport au fémur",
+    true,
+    "Normalement, de profil, la rotule est à hauteur de l'articulation, devant l'extrémité du fémur. Ici elle est remontée sur la face avant du fémur."
+   ],
+   [
+    "Une rotule trop haute après un traumatisme évoque une rupture du tendon rotulien",
+    true,
+    "Le tendon rotulien relie la rotule au tibia. S'il se rompt, le quadriceps tire la rotule vers le haut : c'est la <b>patella alta</b>."
+   ],
+   [
+    "L'impossibilité d'étendre activement la jambe est le signe clinique clé",
+    true,
+    "L'appareil extenseur (quadriceps, rotule, tendon rotulien) est interrompu : le patient ne peut plus tendre le genou ni lever la jambe tendue."
+   ],
+   [
+    "La rotule est un os situé en arrière du genou",
+    false,
+    "La rotule est <b>en avant</b> du genou, dans le tendon du quadriceps (c'est un os sésamoïde)."
+   ],
+   [
+    "Le tendon rotulien s'insère sur la tubérosité tibiale antérieure",
+    true,
+    "La tubérosité est le relief osseux de la face avant du tibia, sous le genou. Ici, un petit fragment osseux a été arraché avec le tendon."
+   ]
+  ],
+  "lecture": "<p>Radiographie du genou gauche de <b>profil</b> : fémur en haut, tibia en bas, rotule en avant (à gauche de l'image). La ligne oblique blanche qui traverse l'image est un artéfact du support.</p>",
+  "analyse": "<p>Rotule ascensionnée (patella alta) et petit fragment osseux en avant de l'articulation, arraché de la tubérosité tibiale : <b>rupture du tendon rotulien</b> avec arrachement osseux. Traitement chirurgical.</p>",
+  "retenir": "Rotule <b>trop haute</b> = tendon rotulien rompu ; rotule <b>trop basse</b> = tendon quadricipital rompu. Signe clé : extension active impossible.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.3,
+    "y": 0.4,
+    "rx": 0.1,
+    "ry": 0.13,
+    "l": "Rotule remontée"
+   }
+  ]
+ },
+ {
+  "id": "mi_bipartite_1",
+  "img": "mpx/mb_rotule_0.png",
+  "region": "mi",
+  "type": "normal",
+  "modality": "rx",
+  "plane": "face",
+  "title": "Rotule bipartite : une variante normale",
+  "q": "Jeune homme de 18 ans tombé dans l'escalier, douleur de la rotule droite. Radiographie des deux genoux de face. Concernant ces images :",
+  "opts": [
+   [
+    "On voit les deux genoux côte à côte, de face",
+    true,
+    "Le repère « R » est à gauche (genou droit) et « L » à droite (genou gauche)."
+   ],
+   [
+    "Un petit fragment osseux est séparé de la rotule droite, en haut et en dehors",
+    true,
+    "En regardant à travers le fémur, la rotule droite présente un petit morceau en haut et en dehors, séparé par une ligne claire régulière."
+   ],
+   [
+    "Un fragment aux bords lisses, arrondis et bordés d'une corticale évoque une rotule bipartite (variante normale)",
+    true,
+    "Une fracture récente a des bords nets, irréguliers, « coupants » et sans corticale. Une rotule bipartite a des bords arrondis et corticalisés : c'est un point d'ossification qui ne s'est pas soudé."
+   ],
+   [
+    "La rotule bipartite est située le plus souvent en haut et en dehors",
+    true,
+    "C'est sa localisation typique (quadrant supéro-latéral). Elle est souvent bilatérale : comparer avec l'autre genou aide."
+   ],
+   [
+    "Toute ligne claire dans un os est forcément une fracture",
+    false,
+    "Il existe de nombreuses <b>variantes normales</b> (rotule bipartite, noyaux d'ossification, cartilages de croissance, os accessoires du pied) qu'il faut savoir reconnaître."
+   ]
+  ],
+  "lecture": "<p>Radiographie des deux genoux de face. La rotule se projette <b>sur</b> l'extrémité du fémur (elle est devant) : on la devine comme un ovale un peu plus dense au-dessus de l'interligne.</p>",
+  "analyse": "<p>Fragment supéro-latéral de la rotule droite, aux contours lisses et corticalisés : <b>rotule bipartite</b>, variante anatomique. La douleur peut venir d'une irritation de la jonction, mais ce n'est pas une fracture récente.</p>",
+  "retenir": "Fracture récente : bords <b>irréguliers, non corticalisés</b>. Variante : bords <b>lisses, arrondis, corticalisés</b>. Comparer avec le côté opposé.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.24,
+    "y": 0.3,
+    "rx": 0.05,
+    "ry": 0.06,
+    "l": "Fragment bipartite"
+   }
+  ]
+ },
+ {
+  "id": "mi_col_1",
+  "img": "mpx/mb_col_1.png",
+  "region": "mi",
+  "type": "trauma",
+  "modality": "rx",
+  "plane": "face",
+  "title": "Fracture de fatigue du col fémoral",
+  "q": "Jeune femme militaire, douleur de la hanche droite apparue en augmentant fortement ses courses à pied. Concernant cette radiographie (image difficile) :",
+  "opts": [
+   [
+    "On voit la hanche droite : tête fémorale ronde dans le cotyle (acetabulum) du bassin",
+    true,
+    "La tête du fémur est la boule qui s'emboîte dans la cavité du bassin ; le col fémoral relie la tête à la diaphyse."
+   ],
+   [
+    "Il existe une fine ligne plus dense (blanche) sur le bord inférieur du col fémoral",
+    true,
+    "Sur le bord bas du col, une petite bande blanche transversale : c'est l'os qui se renforce autour d'une fissure (condensation)."
+   ],
+   [
+    "Une fracture de fatigue apparaît souvent comme une bande de condensation plutôt qu'un trait noir",
+    true,
+    "L'os soumis à des micro-traumatismes répétés se fissure et se répare en même temps : on voit le cal (blanc) avant de voir le trait."
+   ],
+   [
+    "Une radio normale élimine une fracture de fatigue",
+    false,
+    "Au début, la radio est souvent <b>normale</b>. L'IRM est l'examen le plus sensible (œdème de l'os)."
+   ],
+   [
+    "Une fracture de fatigue du côté supérieur (en tension) du col est moins grave que du côté inférieur",
+    false,
+    "C'est l'inverse : le côté <b>supérieur</b> (en tension) risque de se déplacer et impose souvent une chirurgie. Le côté inférieur (en compression), comme ici, est plus stable."
+   ]
+  ],
+  "lecture": "<p>Radiographie de la hanche droite de face. Repères : tête fémorale, <b>col</b> (portion oblique), grand trochanter (relief en dehors), petit trochanter (relief en dedans, plus bas), puis la diaphyse.</p><p>Méthode : suis la corticale du col, en haut puis en bas, et cherche une bande blanche ou noire qui la traverse.</p>",
+  "analyse": "<p>Fine condensation linéaire du versant inférieur du col fémoral droit : <b>fracture de fatigue</b> (de stress) en compression. Contexte typique : augmentation brutale de l'entraînement (militaires, coureurs), parfois carences ou troubles des règles chez la femme sportive.</p>",
+  "retenir": "Fracture de fatigue = bande de <b>condensation</b> plus qu'un trait. Radio souvent normale au début → <b>IRM</b>. Col fémoral côté supérieur = risque de déplacement.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.4,
+    "y": 0.53,
+    "rx": 0.06,
+    "ry": 0.05,
+    "l": "Condensation"
+   }
+  ]
+ },
+ {
+  "id": "mi_col_2",
+  "img": "mpx/mb_col_4.png",
+  "region": "mi",
+  "type": "trauma",
+  "modality": "rx",
+  "plane": "face",
+  "title": "Fracture non déplacée du col fémoral (sujet âgé, os déminéralisé)",
+  "q": "Femme âgée, chute de sa hauteur, douleur de la hanche droite mais marche encore possible. Radiographie du bassin de face (image difficile). Concernant cette image :",
+  "opts": [
+   [
+    "L'os de tout le bassin paraît peu dense (gris, peu contrasté) : il est déminéralisé",
+    true,
+    "Les os sont presque aussi gris que les parties molles, avec une corticale fine : c'est l'aspect de l'<b>ostéoporose</b>."
+   ],
+   [
+    "Il faut comparer les deux cols fémoraux pour repérer une anomalie discrète",
+    true,
+    "La comparaison droite-gauche est la meilleure arme du débutant : une asymétrie de forme ou de densité attire l'œil."
+   ],
+   [
+    "Une fracture du col non déplacée peut laisser le patient marcher",
+    true,
+    "Les fragments s'emboîtent et tiennent : le patient peut marcher, ce qui fait parfois passer la fracture inaperçue jusqu'à ce qu'elle se déplace."
+   ],
+   [
+    "Si la radio est douteuse et la douleur persiste, on complète par une IRM ou un scanner",
+    true,
+    "L'IRM détecte des fractures invisibles en radio, en particulier chez le sujet ostéoporotique."
+   ],
+   [
+    "Les fractures du col du fémur du sujet âgé sont rares et sans conséquence",
+    false,
+    "Elles sont <b>très fréquentes</b> et graves : perte d'autonomie, complications du décubitus, mortalité importante dans l'année. On opère rapidement."
+   ]
+  ],
+  "lecture": "<p>Radiographie du bassin de face : sacrum au centre, ailes iliaques, les deux trous obturés (grands ovales noirs), les deux hanches. La droite du patient est à gauche de l'image (repère « L » en haut à droite).</p>",
+  "analyse": "<p>Fracture transversale <b>non déplacée</b> du col fémoral droit sur un os ostéoporotique : trait à peine visible. Classification de Garden : I-II non déplacées (on peut fixer la fracture), III-IV déplacées (souvent prothèse chez le sujet âgé, car la tête risque la nécrose).</p>",
+  "retenir": "Sujet âgé + chute + hanche douloureuse = col fémoral jusqu'à preuve du contraire. Comparer droite/gauche. Radio douteuse → <b>IRM</b>.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.17,
+    "y": 0.44,
+    "rx": 0.07,
+    "ry": 0.06,
+    "l": "Col fémoral droit"
+   }
+  ]
+ },
+ {
+  "id": "mi_toddler_1",
+  "img": "mpx/mb_tibia_0.png",
+  "region": "mi",
+  "type": "pediatrie",
+  "modality": "rx",
+  "plane": "face",
+  "title": "Fracture du trotteur (tibia de l'enfant)",
+  "q": "Enfant de 2 ans qui refuse de marcher depuis une chute banale. Radiographie de la jambe droite de face (image difficile). Concernant cette image :",
+  "opts": [
+   [
+    "On voit les cartilages de croissance aux extrémités des os",
+    true,
+    "Les bandes noires près du genou et de la cheville sont les cartilages de croissance (physes), normaux chez l'enfant."
+   ],
+   [
+    "Un très fin trait spiralé (en hélice) parcourt la partie basse du tibia",
+    true,
+    "Sur le tibia (l'os le plus large), dans sa moitié inférieure, une ligne très fine et oblique traverse l'os. Il faut zoomer pour la voir."
+   ],
+   [
+    "Cette fracture du jeune enfant qui commence à marcher s'appelle fracture du trotteur (toddler's fracture)",
+    true,
+    "Fracture spiroïde non déplacée du tibia, par torsion lors d'une chute banale, entre 9 mois et 3 ans."
+   ],
+   [
+    "Un trait spiroïde est dû à un choc direct perpendiculaire à l'os",
+    false,
+    "Un trait <b>spiroïde</b> (en spirale) est dû à une <b>torsion</b>. Un choc direct donne plutôt un trait <b>transversal</b>."
+   ],
+   [
+    "Chez un enfant qui ne marche pas encore, une fracture spiroïde doit faire évoquer une maltraitance",
+    true,
+    "Chez le nourrisson qui ne marche pas, une telle fracture est inexpliquée : il faut évoquer des sévices. Chez l'enfant qui trotte, elle est typique d'un accident banal."
+   ]
+  ],
+  "lecture": "<p>Radiographie de la jambe d'un jeune enfant, de face. Le <b>tibia</b> est l'os le plus épais (à droite de l'image), la <b>fibula</b> l'os fin (à gauche). Les extrémités sont encore en partie cartilagineuses (invisibles) chez l'enfant.</p>",
+  "analyse": "<p>Fin trait spiroïde, non déplacé, du tiers distal de la diaphyse tibiale. Parfois invisible au début : il apparaît sur les clichés de contrôle quand le cal se forme (bande de condensation, réaction du périoste).</p>",
+  "retenir": "Trait <b>spiroïde</b> = torsion ; <b>transversal</b> = choc direct. Enfant de 1-3 ans qui boite : penser <b>fracture du trotteur</b>.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.56,
+    "y": 0.6,
+    "rx": 0.08,
+    "ry": 0.12,
+    "l": "Trait spiroïde"
+   }
+  ]
+ },
+ {
+  "id": "mi_scinti_1",
+  "img": "mpx/mb_tibia_3.png",
+  "region": "mi",
+  "type": "trauma",
+  "modality": "scinti",
+  "plane": "",
+  "title": "Scintigraphie osseuse : fracture de fatigue du tibia",
+  "q": "Jeune militaire de 19 ans, douleur de la jambe droite à la 4e semaine de classes, radios normales. Concernant cet examen :",
+  "opts": [
+   [
+    "Il s'agit d'une scintigraphie osseuse",
+    true,
+    "Image floue en « taches » où les os sont gris et les zones actives très blanches : c'est un traceur radioactif fixé sur l'os, pas une radio."
+   ],
+   [
+    "Il existe une hyperfixation intense et localisée du tibia droit",
+    true,
+    "Sur la jambe droite (« R »), sous le genou, une tache très blanche ressort nettement : l'os y travaille beaucoup (réparation)."
+   ],
+   [
+    "Les fixations symétriques autour des genoux et des chevilles sont normales chez le sujet jeune",
+    true,
+    "Les zones de croissance et les articulations fixent normalement un peu plus : c'est symétrique, donc normal."
+   ],
+   [
+    "La scintigraphie osseuse est spécifique : une hyperfixation signe toujours une fracture",
+    false,
+    "Elle est très <b>sensible</b> mais <b>peu spécifique</b> : fracture, infection, tumeur, arthrose… tout ce qui fait travailler l'os fixe le traceur. Le contexte fait le diagnostic."
+   ],
+   [
+    "Chez ce patient, l'aspect évoque une fracture de fatigue du tibia",
+    true,
+    "Contexte d'entraînement intensif récent + douleur + hyperfixation focale = fracture de stress."
+   ]
+  ],
+  "lecture": "<p>Scintigraphie osseuse des jambes, vue de face : R = droite, L = gauche. On injecte un traceur radioactif qui se fixe sur l'os en train de se remodeler ; une caméra détecte le rayonnement. L'image montre la <b>fonction</b> de l'os, pas sa forme fine.</p>",
+  "analyse": "<p>Hyperfixation focale et intense du tiers supérieur de la diaphyse tibiale droite : <b>fracture de fatigue</b>. Aujourd'hui, l'IRM remplace souvent la scintigraphie (pas d'irradiation, plus précise).</p>",
+  "retenir": "Scintigraphie osseuse : <b>sensible mais pas spécifique</b>. Hyperfixation = os qui travaille (fracture, infection, tumeur, arthrose).",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.26,
+    "y": 0.45,
+    "rx": 0.07,
+    "ry": 0.07,
+    "l": "Hyperfixation"
+   }
+  ]
+ }
+]

@@ -1,0 +1,104 @@
+<h1>Les bases pour lire une image</h1>
+<p class="muted">À lire une fois avant de commencer, puis à rouvrir dès qu'un mot de la correction te bloque.</p>
+
+<article class="card">
+<h2>1. Quel examen ? Reconnaître la modalité</h2>
+<div class="tbl"><table>
+<tr><th>Examen</th><th>Principe</th><th>Comment le reconnaître</th><th>Vocabulaire</th></tr>
+<tr><td><b>Radiographie</b> (« radio », Rx)</td><td>Rayons X qui traversent le corps, image <b>en projection</b> : tout est superposé sur une seule image.</td><td>Une seule image « plate », on voit à la fois l'avant et l'arrière du corps. Os bien blancs.</td><td><b>Opacité</b> (zone blanche), <b>clarté</b> ou <b>hyperclarté</b> (zone noire). On dit aussi radio-opaque / radio-transparent.</td></tr>
+<tr><td><b>Scanner</b> (TDM, tomodensitométrie, CT en anglais)</td><td>Rayons X qui tournent autour du patient → l'ordinateur reconstruit des <b>coupes</b> fines.</td><td>Coupe d'un corps entier entourée d'un anneau de table en dessous. Os très blancs, graisse gris foncé, air noir.</td><td><b>Hyperdense</b> (plus blanc), <b>hypodense</b> (plus noir), <b>isodense</b>. Densité mesurée en unités Hounsfield (UH).</td></tr>
+<tr><td><b>IRM</b></td><td>Champ magnétique + ondes radio, pas de rayons X. Le signal dépend de l'eau et de la graisse des tissus.</td><td>Coupes très détaillées des tissus mous (cerveau, moelle, ménisques), l'os cortical est <b>noir</b>.</td><td><b>Hypersignal</b> (blanc), <b>hyposignal</b> (noir). Séquences T1, T2, FLAIR, diffusion…</td></tr>
+<tr><td><b>Échographie</b></td><td>Ultrasons réfléchis par les tissus. Pas d'irradiation.</td><td>Image en éventail (ou rectangle), grain « neigeux », fond noir, petites inscriptions de la machine.</td><td><b>Hyperéchogène</b> (blanc), <b>hypoéchogène</b> (gris foncé), <b>anéchogène</b> (tout noir = liquide). Cône d'ombre derrière un calcul.</td></tr>
+<tr><td><b>Mammographie</b></td><td>Radiographie du sein comprimé.</td><td>Sein en forme de triangle/demi-cercle, incidences face (CC) et oblique (MLO).</td><td>Masse, microcalcifications, distorsion architecturale.</td></tr>
+<tr><td><b>Angiographie</b></td><td>Produit de contraste injecté dans un vaisseau, puis radiographies.</td><td>Seuls les vaisseaux apparaissent (arbre noir ou blanc sur fond gris).</td><td>Sténose, occlusion, anévrisme, extravasation.</td></tr>
+</table></div>
+</article>
+
+<article class="card">
+<h2>2. Les plans de coupe</h2>
+<div class="tbl"><table>
+<tr><th>Plan</th><th>Il coupe le corps…</th><th>Ce que tu vois</th></tr>
+<tr><td><b>Axial</b> (transversal, horizontal)</td><td>en tranches horizontales, comme un saucisson</td><td>Une coupe « vue d'en bas » : rond ou ovale. Plan par défaut du scanner.</td></tr>
+<tr><td><b>Coronal</b> (frontal)</td><td>en tranches parallèles au front, de l'avant vers l'arrière</td><td>Le patient « de face » : on voit la gauche et la droite, le haut et le bas.</td></tr>
+<tr><td><b>Sagittal</b></td><td>en tranches de gauche à droite (plan de profil)</td><td>Le patient « de profil » : on voit l'avant, l'arrière, le haut et le bas. Le sagittal <b>médian</b> passe pile au milieu (on voit toute la colonne, le corps calleux…).</td></tr>
+</table></div>
+<h3>La convention qui piège tout le monde</h3>
+<p>Une coupe axiale se regarde <b>comme si tu étais aux pieds du patient couché</b>, et une radio de face comme si le patient était <b>en face de toi</b>. Donc <b>la droite du patient est à gauche de l'écran</b>. Sur une radio de thorax, le cœur (qui pointe à gauche du patient) apparaît à droite de l'image. En axial, le foie (à droite du patient) est à gauche de l'image.</p>
+<h3>Haut, bas, avant, arrière</h3>
+<p>En axial, l'<b>avant</b> du patient (le ventre, le nez) est en <b>haut de l'image</b>, le dos en bas, côté table.</p>
+</article>
+
+<article class="card">
+<h2>3. Pourquoi c'est blanc ou noir</h2>
+<h3>Radiographie : les 5 densités, du plus noir au plus blanc</h3>
+<p><b>Air</b> (poumons, gaz digestifs) → <b>graisse</b> → <b>eau / tissus mous</b> (muscles, cœur, sang, liquide) → <b>calcium</b> (os, calcifications) → <b>métal</b> (prothèse, plomb, produit de contraste).</p>
+<p>Deux structures de même densité qui se touchent n'ont plus de bord visible entre elles : c'est le <b>signe de la silhouette</b>. Une pneumonie du lobe moyen efface le bord droit du cœur parce qu'elle est en contact avec lui.</p>
+<h3>Scanner : l'échelle de Hounsfield</h3>
+<div class="tbl"><table>
+<tr><th>Tissu</th><th>Densité (UH)</th><th>Aspect</th></tr>
+<tr><td>Air</td><td>−1000</td><td>noir</td></tr>
+<tr><td>Graisse</td><td>−100</td><td>gris très foncé</td></tr>
+<tr><td>Eau, LCS, liquide simple</td><td>0</td><td>gris foncé</td></tr>
+<tr><td>Parenchymes (foie, muscle, cerveau)</td><td>+30 à +60</td><td>gris</td></tr>
+<tr><td><b>Sang frais coagulé</b></td><td>+60 à +80</td><td><b>blanc-gris : un hématome récent est hyperdense</b></td></tr>
+<tr><td>Produit de contraste iodé, calcium</td><td>+100 à +400</td><td>blanc</td></tr>
+<tr><td>Os cortical</td><td>+1000</td><td>blanc franc</td></tr>
+</table></div>
+<p><b>Les fenêtres</b> : la même coupe peut être affichée en fenêtre <b>parenchymateuse</b> (poumons visibles, tout le reste blanc), <b>médiastinale / tissus mous</b> (organes bien visibles, poumons tout noirs) ou <b>osseuse</b> (détail de l'os). Pour savoir quelle fenêtre on regarde : si les poumons sont tout noirs sans vaisseaux, c'est une fenêtre médiastinale.</p>
+<p><b>Injecté ou pas ?</b> Si l'aorte et les vaisseaux sont bien blancs, il y a du produit de contraste iodé. Temps <b>artériel</b> : l'aorte est très blanche, les veines peu. Temps <b>portal</b> : le foie et la veine porte sont rehaussés.</p>
+<h3>IRM : T1 ou T2 ?</h3>
+<div class="tbl"><table>
+<tr><th></th><th>Liquide (LCS, urine, œdème)</th><th>Graisse</th><th>Astuce</th></tr>
+<tr><td><b>T1</b></td><td>noir</td><td>blanche</td><td>« anatomique » : la substance blanche du cerveau est plus claire que la grise.</td></tr>
+<tr><td><b>T2</b></td><td><b>blanc</b></td><td>assez blanche</td><td>« pathologique » : l'œdème et le LCS brillent. Les ventricules sont blancs.</td></tr>
+<tr><td><b>FLAIR</b></td><td>LCS noir</td><td>—</td><td>Un T2 où l'on a éteint le LCS : les lésions près des ventricules (SEP) ressortent en blanc.</td></tr>
+<tr><td><b>Diffusion</b></td><td>—</td><td>—</td><td>Un AVC ischémique de quelques heures apparaît en blanc vif.</td></tr>
+</table></div>
+<p>Avec du <b>gadolinium</b> (produit de contraste IRM, en T1), ce qui se rehausse devient blanc : tumeurs, abcès, inflammation.</p>
+</article>
+
+<article class="card">
+<h2>4. Décrire une fracture (méthode)</h2>
+<ol>
+<li><b>L'os et le segment</b> : quel os, et où ? Épiphyse (extrémité, articulaire), métaphyse (zone évasée), diaphyse (le « tube »). Proximal = côté racine du membre, distal = côté extrémité.</li>
+<li><b>Le trait</b> : <b>transversal</b> (perpendiculaire à l'os, choc direct), <b>oblique</b>, <b>spiroïde</b> (en spirale, torsion), <b>comminutif</b> (≥ 3 fragments), <b>en aile de papillon</b>. Il est <b>articulaire</b> s'il atteint le cartilage d'une articulation.</li>
+<li><b>Le déplacement</b> du fragment distal par rapport au proximal : translation, angulation, chevauchement (raccourcissement), rotation. Une fracture <b>non déplacée</b> peut être très discrète.</li>
+<li><b>Ouverte ou fermée</b> (la peau est-elle percée ?) : clinique, rarement visible sur la radio (air dans les tissus mous).</li>
+<li><b>Chez l'enfant</b> : os souple et cartilage de croissance. Fracture <b>en bois vert</b> (une seule corticale cassée), <b>en motte de beurre</b> (corticale tassée), <b>décollement épiphysaire</b> classé selon <b>Salter-Harris</b> (I à V).</li>
+<li><b>Luxation</b> = les surfaces articulaires ne sont plus en contact. <b>Subluxation</b> = contact partiel.</li>
+</ol>
+<p>Toujours demander <b>deux incidences</b> perpendiculaires (face + profil) : une fracture peut être invisible sur une seule.</p>
+</article>
+
+<article class="card">
+<h2>5. Décrire une lésion osseuse (tumeur ?)</h2>
+<ul>
+<li><b>Lytique</b> (l'os est détruit, zone plus noire) ou <b>condensante</b> (os plus blanc, ex. métastases de prostate) ou mixte.</li>
+<li><b>Limites</b> : nettes et cerclées d'un liseré blanc = lésion lente, plutôt <b>bénigne</b>. Floues, « mitées » ou « perméatives » = lésion agressive, évoquer <b>malin</b> ou infection.</li>
+<li><b>Réaction du périoste</b> (la membrane autour de l'os) : continue et lisse = plutôt bénin ; <b>en bulbe d'oignon</b> (lamellaire, Ewing), <b>en feu d'herbe / spicules</b> et <b>triangle de Codman</b> (ostéosarcome) = agressif.</li>
+<li><b>Âge</b> : avant 20 ans, penser ostéosarcome et Ewing ; après 40 ans, une lésion lytique est une <b>métastase</b> ou un <b>myélome</b> jusqu'à preuve du contraire.</li>
+<li>Les cancers qui donnent le plus de métastases osseuses : <b>sein, prostate, poumon, rein, thyroïde</b>.</li>
+</ul>
+</article>
+
+<article class="card">
+<h2>6. Lire une radio de thorax de face</h2>
+<ol>
+<li><b>Qualité</b> : identité, incidence (face PA debout, ou AP couché qui grossit le cœur), inspiration (6 arcs antérieurs de côtes au-dessus de la coupole droite), rotation (épineuses à égale distance des extrémités internes des clavicules).</li>
+<li><b>Contenant</b> : os (côtes, clavicules), parties molles.</li>
+<li><b>Contenu</b> : médiastin, cœur (<b>index cardio-thoracique</b> = largeur du cœur / largeur du thorax, normal &lt; 0,5), hiles, poumons (opacités, clartés), plèvre (culs-de-sac costo-diaphragmatiques pointus et libres), coupoles, et <b>sous les coupoles</b> (air libre ?).</li>
+</ol>
+<p><b>Opacité</b> pulmonaire = quelque chose a remplacé l'air (liquide, pus, tumeur, poumon affaissé). <b>Hyperclarté</b> = trop d'air (pneumothorax, emphysème).</p>
+</article>
+
+<article class="card">
+<h2>7. Mots qui reviennent souvent</h2>
+<div class="tbl"><table>
+<tr><td><b>Effet de masse</b></td><td>une lésion pousse les structures voisines (ligne médiane déviée, ventricule écrasé).</td></tr>
+<tr><td><b>Rehaussement</b> / prise de contraste</td><td>la zone devient plus blanche après injection : elle est vascularisée.</td></tr>
+<tr><td><b>Niveau hydro-aérique</b></td><td>ligne horizontale entre liquide (en bas) et air (en haut), visible sur un cliché debout : occlusion, abcès, épanchement mixte.</td></tr>
+<tr><td><b>Extra-axial / intra-axial</b></td><td>en neuro : en dehors du cerveau (méninges, os) / dans le cerveau lui-même.</td></tr>
+<tr><td><b>Homolatéral / controlatéral</b></td><td>du même côté / du côté opposé.</td></tr>
+<tr><td><b>Bilatéral, diffus, focal</b></td><td>des deux côtés / partout / localisé.</td></tr>
+</table></div>
+</article>

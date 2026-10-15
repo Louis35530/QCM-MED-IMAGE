@@ -1,0 +1,451 @@
+[
+ {
+  "id": "os_schema_1",
+  "img": "mpx/os_tcg_0.png",
+  "region": "global",
+  "type": "tumeur",
+  "modality": "rx",
+  "plane": "",
+  "exam": false,
+  "title": "Schéma : où siègent les tumeurs osseuses dans un os long",
+  "q": "Ce schéma (en anglais) montre l'extrémité d'un os long et le siège habituel de chaque tumeur. Parmi les propositions suivantes, lesquelles sont exactes ?",
+  "opts": [
+   [
+    "La physe (« physis ») est le cartilage de croissance, représenté par la ligne pointillée",
+    true,
+    "Elle sépare l'<b>épiphyse</b> (l'extrémité, en dessous sur le schéma) de la <b>métaphyse</b> (la zone évasée, au-dessus). Plus haut, l'os devient un tube : la <b>diaphyse</b>."
+   ],
+   [
+    "L'ostéosarcome (« osteosarcoma ») siège typiquement dans la métaphyse",
+    true,
+    "La métaphyse est la zone de croissance la plus active : c'est là que naît l'ostéosarcome, surtout autour du genou (fémur distal, tibia proximal)."
+   ],
+   [
+    "Le chondroblastome siège dans l'épiphyse, sous le cartilage articulaire",
+    true,
+    "Il est sous la physe, dans l'épiphyse : c'est l'une des rares tumeurs épiphysaires de l'enfant."
+   ],
+   [
+    "La tumeur à cellules géantes (« giant cell tumor ») est excentrée et s'étend jusqu'à l'extrémité de l'os, chez l'adulte jeune",
+    true,
+    "Elle naît dans la métaphyse et s'étend dans l'épiphyse jusque sous le cartilage, une fois la physe fermée (après la croissance)."
+   ],
+   [
+    "Les lésions à cellules rondes (« round cell lesions », dont le sarcome d'Ewing) siègent dans l'épiphyse",
+    false,
+    "Le schéma les place dans la <b>diaphyse</b> (en haut). Le sarcome d'Ewing et les lymphomes osseux sont typiquement diaphysaires."
+   ]
+  ],
+  "lecture": "<p>Schéma pédagogique (pas une vraie image) : un os long vu en coupe. Vocabulaire indispensable : <b>épiphyse</b> (extrémité articulaire), <b>physe</b> (cartilage de croissance), <b>métaphyse</b> (zone évasée sous la physe), <b>diaphyse</b> (le tube central).</p><p>Traductions : <i>fibrous dysplasia</i> = dysplasie fibreuse ; <i>solitary bone cyst</i> = kyste osseux essentiel ; <i>non-ossifying fibroma</i> = fibrome non ossifiant ; <i>enchondroma</i> = enchondrome.</p>",
+  "analyse": "<p>Devant une lésion osseuse, les radiologues raisonnent avec : l'<b>âge</b> du patient, l'<b>os</b> touché, la <b>localisation</b> dans l'os (épiphyse, métaphyse, diaphyse ; centrale ou excentrée), et l'<b>aspect agressif ou non</b> (limites, réaction du périoste). Ce schéma résume la localisation.</p>",
+  "retenir": "Épiphyse : <b>chondroblastome</b>, tumeur à cellules géantes (adulte jeune). Métaphyse : <b>ostéosarcome</b>, la plupart des tumeurs bénignes. Diaphyse : <b>Ewing</b>, lymphome."
+ },
+ {
+  "id": "os_osteosarc_1",
+  "img": "mpx/os_osteosarcome_2.png",
+  "region": "mi",
+  "type": "tumeur",
+  "modality": "rx",
+  "plane": "profil",
+  "title": "Ostéosarcome du fémur distal",
+  "q": "Adolescent, douleur nocturne du genou depuis plusieurs semaines. Radiographie du fémur de profil (image difficile). Concernant cette image :",
+  "opts": [
+   [
+    "La partie basse du fémur a un aspect anormal, flou et hétérogène, qui déborde dans les parties molles",
+    true,
+    "Au-dessus du genou, l'os n'a plus son contour net et régulier : la corticale est floue, l'intérieur est marbré et un voile dense déborde en dehors de l'os."
+   ],
+   [
+    "Une lésion aux limites floues qui détruit la corticale est une lésion agressive",
+    true,
+    "Une lésion bénigne pousse lentement : l'os a le temps de faire un liseré net autour d'elle. Une lésion agressive détruit l'os plus vite qu'il ne peut se défendre : limites floues."
+   ],
+   [
+    "L'ostéosarcome est la tumeur osseuse primitive maligne la plus fréquente de l'adolescent",
+    true,
+    "Il survient surtout entre 10 et 25 ans, autour du genou (là où la croissance est la plus active)."
+   ],
+   [
+    "Une douleur osseuse nocturne persistante chez un adolescent est banale et ne justifie aucune radio",
+    false,
+    "Une douleur osseuse qui réveille la nuit, persistante, doit <b>toujours</b> faire faire une radiographie : c'est le signe d'appel des tumeurs osseuses."
+   ],
+   [
+    "Le premier site de métastases de l'ostéosarcome est le poumon",
+    true,
+    "Le bilan comprend donc un <b>scanner thoracique</b>, en plus de l'IRM de tout l'os et d'une biopsie dans un centre spécialisé."
+   ]
+  ],
+  "lecture": "<p>Radiographie du fémur de profil, genou en bas. Suis la corticale (bord blanc de l'os) de haut en bas : elle est nette en haut, puis devient floue et irrégulière dans le tiers inférieur.</p>",
+  "analyse": "<p>Lésion agressive de la région métaphyso-diaphysaire distale du fémur : os condensé et lysé par endroits, corticale détruite, réaction du périoste et masse des parties molles contenant de l'os tumoral (aspect « en nuage »). La biopsie confirme l'<b>ostéosarcome</b>.</p>",
+  "retenir": "Ostéosarcome : <b>adolescent</b>, <b>autour du genou</b>, métaphyse, lésion agressive (limites floues, périoste en spicules, triangle de Codman), métastases <b>pulmonaires</b>.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.58,
+    "y": 0.7,
+    "rx": 0.11,
+    "ry": 0.16,
+    "l": "Lésion agressive"
+   }
+  ]
+ },
+ {
+  "id": "os_parosteal_1",
+  "img": "mpx/os_osteosarcome_1.png",
+  "region": "mi",
+  "type": "tumeur",
+  "modality": "rx",
+  "plane": "profil",
+  "title": "Ostéosarcome parostéal (fémur, profil)",
+  "q": "Homme de 24 ans, masse dure derrière le genou droit qui grossit lentement. Radiographie de profil. Concernant cette image :",
+  "opts": [
+   [
+    "Une masse très dense (blanche, ossifiée) est accolée à la face postérieure du fémur, au-dessus du genou",
+    true,
+    "En arrière du bas du fémur, une masse blanche en forme de nuage dense se colle à l'os."
+   ],
+   [
+    "La masse est située à la surface de l'os, pas à l'intérieur de la cavité médullaire",
+    true,
+    "Elle part de la corticale et se développe vers l'extérieur : c'est une tumeur de <b>surface</b>."
+   ],
+   [
+    "L'ostéosarcome parostéal est une forme d'ostéosarcome de surface, de croissance lente",
+    true,
+    "Il naît de la face externe de l'os (le périoste), typiquement derrière le fémur distal, chez l'adulte jeune. Il est moins agressif que l'ostéosarcome classique mais reste malin."
+   ],
+   [
+    "Toute masse dense collée à un os est forcément bénigne",
+    false,
+    "Une masse ossifiée peut être bénigne (ostéochondrome, myosite ossifiante) ou maligne (ostéosarcome parostéal). L'imagerie en coupes et la biopsie tranchent."
+   ],
+   [
+    "Il s'agit d'un genou gauche",
+    false,
+    "Le repère « R » indique un genou <b>droit</b>."
+   ]
+  ],
+  "lecture": "<p>Radiographie du fémur et du genou droit de profil : diaphyse fémorale oblique, genou en bas à gauche. Repère la face <b>postérieure</b> du fémur (côté creux du genou, en bas à droite de l'os).</p>",
+  "analyse": "<p>Volumineuse masse ossifiée, lobulée, appendue à la corticale postérieure de la métaphyse fémorale distale : <b>ostéosarcome parostéal</b>. Différence avec l'ostéochondrome : l'ostéochondrome est en continuité avec la cavité médullaire de l'os, pas l'ostéosarcome parostéal.</p>",
+  "retenir": "Masse ossifiée de la <b>face postérieure du fémur distal</b> chez l'adulte jeune = penser <b>ostéosarcome parostéal</b>.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.39,
+    "y": 0.77,
+    "rx": 0.1,
+    "ry": 0.11,
+    "l": "Masse ossifiée"
+   }
+  ]
+ },
+ {
+  "id": "os_ewing_1",
+  "img": "mpx/os_ewing_1.png",
+  "region": "mi",
+  "type": "tumeur",
+  "modality": "rx",
+  "plane": "face",
+  "title": "Sarcome d'Ewing de l'aile iliaque",
+  "q": "Homme de 22 ans, douleur de la hanche droite depuis 6 mois. Radiographie du bassin (image difficile ; le produit blanc au centre est un contraste dans le tube digestif). Concernant cette image :",
+  "opts": [
+   [
+    "L'aile iliaque droite a un aspect moucheté, hétérogène, différent de la gauche",
+    true,
+    "Compare les deux ailes iliaques (les grands os plats en haut) : à droite du patient (gauche de l'image), l'os est tacheté, avec des zones plus claires (lysées)."
+   ],
+   [
+    "Comparer le côté droit et le côté gauche est la méthode la plus simple pour repérer une anomalie du bassin",
+    true,
+    "Le bassin est symétrique : toute différence entre les deux côtés attire l'œil."
+   ],
+   [
+    "Le sarcome d'Ewing touche surtout l'enfant et l'adulte jeune",
+    true,
+    "Il survient surtout entre 5 et 25 ans, dans les os plats (bassin) ou la diaphyse des os longs."
+   ],
+   [
+    "Le sarcome d'Ewing est une tumeur bénigne",
+    false,
+    "C'est une tumeur <b>maligne</b> très agressive, qui métastase aux poumons et aux os."
+   ],
+   [
+    "La réaction du périoste typique du sarcome d'Ewing est « en bulbe d'oignon »",
+    true,
+    "Le périoste se soulève en plusieurs couches successives (lamellaire), comme les pelures d'un oignon."
+   ]
+  ],
+  "lecture": "<p>Radiographie du bassin de face. La droite du patient est à gauche de l'image. Le blanc au centre est du produit de contraste dans le rectum et le côlon (examen digestif associé) : ce n'est pas l'os.</p>",
+  "analyse": "<p>Lésion ostéolytique mouchetée (« mitée ») de l'aile iliaque droite, avec une masse des parties molles suspectée. Ce patient avait aussi une lésion de la tête fémorale droite et des métastases pulmonaires.</p>",
+  "retenir": "Ewing : <b>enfant/adulte jeune</b>, os plats ou <b>diaphyse</b>, lyse mitée, périoste en <b>bulbe d'oignon</b>, grosse masse des parties molles.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.2,
+    "y": 0.3,
+    "rx": 0.15,
+    "ry": 0.17,
+    "l": "Aile iliaque mouchetée"
+   }
+  ]
+ },
+ {
+  "id": "os_metapoumon_1",
+  "img": "mpx/os_ewing_0.png",
+  "region": "thorax",
+  "type": "tumeur",
+  "modality": "rx",
+  "plane": "face",
+  "title": "Métastases pulmonaires d'un sarcome (« lâcher de ballons »)",
+  "q": "Même patient de 22 ans (sarcome d'Ewing). Radiographie du thorax de face (image difficile). Concernant cette image :",
+  "opts": [
+   [
+    "On voit des opacités arrondies dans les bases pulmonaires",
+    true,
+    "Dans le bas des deux poumons, des nodules ronds et blancs se détachent sur le poumon noir, à travers les côtes."
+   ],
+   [
+    "Des nodules pulmonaires multiples et arrondis chez un patient cancéreux évoquent des métastases",
+    true,
+    "Les cellules tumorales arrivent par le sang et se fixent dans les capillaires pulmonaires : nodules ronds, de tailles variées, surtout aux bases (mieux perfusées)."
+   ],
+   [
+    "Des métastases nombreuses et arrondies sont parfois décrites en « lâcher de ballons »",
+    true,
+    "Image de multiples ballons ronds dispersés dans les poumons."
+   ],
+   [
+    "Le scanner thoracique est moins sensible que la radiographie pour les petits nodules",
+    false,
+    "C'est l'inverse : le <b>scanner</b> détecte des nodules de quelques millimètres invisibles en radio. Il fait partie du bilan d'extension de tout sarcome."
+   ],
+   [
+    "Les nodules se projettent parfois sur le cœur ou les coupoles, d'où l'intérêt de bien regarder ces zones",
+    true,
+    "Une partie des poumons est cachée derrière le cœur et sous les coupoles : ce sont des zones à regarder exprès."
+   ]
+  ],
+  "lecture": "<p>Radiographie de thorax de face. Méthode pour chercher des nodules : balaye chaque poumon de haut en bas, <b>en comparant</b> droite et gauche à la même hauteur, sans oublier derrière le cœur et sous les coupoles.</p>",
+  "analyse": "<p>Plusieurs nodules arrondis des bases, surtout à droite près du cœur et à gauche en dehors : métastases pulmonaires du sarcome d'Ewing.</p>",
+  "retenir": "Nodules pulmonaires <b>multiples, ronds</b>, de tailles variées chez un cancéreux = <b>métastases</b>. Bilan par <b>scanner</b>.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.33,
+    "y": 0.73,
+    "rx": 0.05,
+    "ry": 0.045,
+    "l": "Nodule"
+   },
+   {
+    "t": "e",
+    "x": 0.74,
+    "y": 0.79,
+    "rx": 0.05,
+    "ry": 0.045,
+    "l": "Nodule"
+   }
+  ]
+ },
+ {
+  "id": "os_myelome_1",
+  "img": "mpx/os_myelome_0.png",
+  "region": "global",
+  "type": "tumeur",
+  "modality": "rx",
+  "plane": "profil",
+  "title": "Myélome : crâne « à l'emporte-pièce »",
+  "q": "Femme de 55 ans, douleurs osseuses, anémie, protéines sanguines anormales. Radiographie du crâne de profil (image difficile). Concernant cette image :",
+  "opts": [
+   [
+    "Il s'agit d'une radiographie du crâne de profil",
+    true,
+    "On voit la boîte crânienne de côté, le visage à gauche, avec les dents en bas."
+   ],
+   [
+    "La voûte du crâne contient de multiples petites zones claires arrondies",
+    true,
+    "Sur l'os de la voûte, de petits trous gris foncé ronds, bien découpés, sont dispersés : on parle de lésions « à l'emporte-pièce »."
+   ],
+   [
+    "Des lacunes multiples « à l'emporte-pièce » de la voûte évoquent un myélome multiple",
+    true,
+    "Le myélome est une prolifération de plasmocytes dans la moelle osseuse : chaque amas détruit l'os autour de lui, sans réaction de défense."
+   ],
+   [
+    "Le myélome est un cancer qui touche surtout l'enfant",
+    false,
+    "Il touche surtout l'<b>adulte de plus de 60 ans</b>."
+   ],
+   [
+    "Les lésions du myélome fixent très fortement à la scintigraphie osseuse",
+    false,
+    "C'est un piège classique : les lésions du myélome sont purement <b>lytiques</b>, sans réaction de l'os, et fixent souvent <b>peu</b> à la scintigraphie. On utilise plutôt le scanner basse dose ou l'IRM corps entier."
+   ]
+  ],
+  "lecture": "<p>Radiographie du crâne de profil. La voûte (le « casque » osseux au-dessus du cerveau) est normalement homogène, avec seulement les sillons des vaisseaux. Cherche des trous ronds et nets.</p>",
+  "analyse": "<p>Multiples petites lacunes lytiques arrondies de la voûte, à bords nets, sans liseré de condensation : aspect classique du <b>myélome multiple</b>. Signes biologiques associés (moyen mnémotechnique CRAB) : hyperCalcémie, insuffisance Rénale, Anémie, lésions osseuses (Bone).</p>",
+  "retenir": "Myélome : lacunes <b>à l'emporte-pièce</b> (crâne, rachis, côtes, bassin), sujet âgé. Lésion lytique après 40 ans = <b>métastase ou myélome</b>.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.45,
+    "y": 0.32,
+    "rx": 0.25,
+    "ry": 0.17,
+    "l": "Lacunes multiples"
+   }
+  ]
+ },
+ {
+  "id": "os_myelome_2",
+  "img": "mpx/os_myelome_1.png",
+  "region": "ms",
+  "type": "tumeur",
+  "modality": "rx",
+  "plane": "face",
+  "title": "Myélome : humérus « mité »",
+  "q": "Même maladie, radiographie de l'humérus droit. Concernant cette image :",
+  "opts": [
+   [
+    "La diaphyse de l'humérus contient de nombreuses petites zones claires",
+    true,
+    "Le long du tube de l'humérus, l'os est criblé de petits trous clairs : on dirait un tissu mangé par les mites."
+   ],
+   [
+    "La face interne de la corticale paraît rongée (festonnée)",
+    true,
+    "L'intérieur de la paroi de l'os est grignoté par la moelle tumorale : on parle d'érosion endostée."
+   ],
+   [
+    "Un aspect « mité » ou « perméatif » de l'os évoque une lésion agressive",
+    true,
+    "De nombreuses petites lacunes mal limitées signifient que l'os est envahi rapidement (myélome, lymphome, Ewing, infection)."
+   ],
+   [
+    "L'os ainsi fragilisé risque une fracture pathologique",
+    true,
+    "Une fracture <b>pathologique</b> survient sur un os malade, pour un traumatisme minime."
+   ],
+   [
+    "L'humérus est l'os de l'avant-bras",
+    false,
+    "L'humérus est l'os du <b>bras</b> (entre l'épaule et le coude). L'avant-bras contient le radius et l'ulna."
+   ]
+  ],
+  "lecture": "<p>Radiographie de l'épaule et du bras droit (« R »). L'humérus part de l'épaule (en haut à droite) et descend en diagonale vers le coude (en bas à gauche).</p>",
+  "analyse": "<p>Innombrables lacunes lytiques de la cavité médullaire de l'humérus, avec érosion de la face interne de la corticale : atteinte diffuse du myélome.</p>",
+  "retenir": "Aspect <b>mité / perméatif</b> = lésion agressive. Os criblé de lacunes = risque de <b>fracture pathologique</b>.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.32,
+    "y": 0.45,
+    "rx": 0.13,
+    "ry": 0.09,
+    "l": "Os criblé de lacunes"
+   }
+  ]
+ },
+ {
+  "id": "os_exostose_1",
+  "img": "mpx/os_osteochondrome_0.png",
+  "region": "mi",
+  "type": "tumeur",
+  "modality": "rx",
+  "plane": "face",
+  "title": "Ostéochondrome (exostose) du tibia",
+  "q": "Garçon de 14 ans, petite bosse dure sous le genou gauche. Radiographie de face (image difficile). Concernant cette image :",
+  "opts": [
+   [
+    "Une petite excroissance osseuse part de la métaphyse du tibia, vers l'extérieur de l'os",
+    true,
+    "Sous le genou, sur le bord du tibia, un petit éperon osseux dépasse du contour : c'est une <b>exostose</b>."
+   ],
+   [
+    "Les cartilages de croissance sont encore visibles",
+    true,
+    "On voit la bande claire de la physe au bas du fémur et en haut du tibia : patient en croissance."
+   ],
+   [
+    "L'ostéochondrome est la tumeur osseuse bénigne la plus fréquente",
+    true,
+    "C'est une excroissance d'os recouverte de cartilage, qui pousse avec l'enfant et s'arrête à la fin de la croissance."
+   ],
+   [
+    "L'exostose est typiquement dirigée vers l'articulation la plus proche",
+    false,
+    "Elle s'éloigne de l'articulation : elle est dirigée vers la <b>diaphyse</b> (« elle fuit le genou »)."
+   ],
+   [
+    "Une exostose qui grossit après la fin de la croissance doit faire craindre une transformation maligne",
+    true,
+    "Rarement, la coiffe de cartilage peut dégénérer en chondrosarcome : une exostose qui redevient douloureuse ou grossit chez l'adulte doit être explorée."
+   ]
+  ],
+  "lecture": "<p>Radiographie du genou gauche de face d'un adolescent : fémur en haut, tibia et fibula en bas, cartilages de croissance visibles. Suis le contour du tibia sous l'articulation : il doit être lisse.</p>",
+  "analyse": "<p>Petite exostose de la métaphyse tibiale proximale, en continuité avec l'os (la corticale et la moelle de l'exostose se continuent avec celles du tibia) : <b>ostéochondrome</b>, bénin.</p>",
+  "retenir": "Ostéochondrome = tumeur osseuse bénigne <b>la plus fréquente</b> : éperon métaphysaire qui <b>fuit l'articulation</b>, en continuité avec l'os.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.32,
+    "y": 0.79,
+    "rx": 0.05,
+    "ry": 0.06,
+    "l": "Exostose"
+   }
+  ]
+ },
+ {
+  "id": "os_tcg_1",
+  "img": "mpx/os_tcg_2.png",
+  "region": "mi",
+  "type": "tumeur",
+  "modality": "rx",
+  "plane": "face",
+  "title": "Tumeur à cellules géantes du fémur distal",
+  "q": "Homme de 34 ans, douleur progressive du genou gauche. Radiographie de face. Concernant cette image :",
+  "opts": [
+   [
+    "Il existe une zone claire (lytique) excentrée dans l'extrémité inférieure du fémur",
+    true,
+    "Dans le condyle fémoral, d'un seul côté de l'os, une grande zone plus sombre remplace l'os normal."
+   ],
+   [
+    "La lésion s'étend jusque sous la surface articulaire",
+    true,
+    "Elle arrive presque au contact du cartilage du genou : elle occupe l'épiphyse et la métaphyse."
+   ],
+   [
+    "Lésion lytique excentrée, épiphyso-métaphysaire, chez un adulte jeune : c'est le profil de la tumeur à cellules géantes",
+    true,
+    "Elle survient après la fermeture des cartilages de croissance (20-40 ans), surtout autour du genou."
+   ],
+   [
+    "La tumeur à cellules géantes est toujours maligne d'emblée",
+    false,
+    "Elle est le plus souvent <b>bénigne</b> mais localement agressive (elle détruit l'os et récidive souvent après chirurgie)."
+   ],
+   [
+    "Le repère « L » indique un genou gauche",
+    true,
+    "Le marqueur « L » (left) en haut à droite indique le côté gauche."
+   ]
+  ],
+  "lecture": "<p>Radiographie du genou gauche de face. L'extrémité du fémur se termine par deux condyles arrondis. Compare la densité des deux condyles : l'un est nettement plus sombre.</p>",
+  "analyse": "<p>Lésion lytique excentrée du condyle fémoral latéral, épiphyso-métaphysaire, à limites assez nettes sans liseré de condensation, atteignant l'os sous le cartilage : <b>tumeur à cellules géantes</b> (ostéoclastome).</p>",
+  "retenir": "Tumeur à cellules géantes : <b>adulte jeune</b> (physe fermée), lytique, <b>excentrée</b>, jusque <b>sous le cartilage</b>, autour du genou. Bénigne mais agressive localement.",
+  "marks": [
+   {
+    "t": "e",
+    "x": 0.6,
+    "y": 0.43,
+    "rx": 0.1,
+    "ry": 0.12,
+    "l": "Lésion lytique"
+   }
+  ]
+ }
+]

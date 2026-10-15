@@ -1,0 +1,100 @@
+[
+{
+ "id": "art_pr_1", "img": "mpx/os_pr2_2.png", "region": "ms", "type": "chronique", "modality": "rx", "plane": "face",
+ "title": "Polyarthrite rhumatoïde : destruction des métacarpo-phalangiennes",
+ "q": "Femme suivie pour une polyarthrite rhumatoïde ancienne. Radiographie de la main gauche, légendée. Concernant cette image :",
+ "opts": [
+  ["Le cadre orange entoure les articulations métacarpo-phalangiennes (MCP)", true, "MCP joints = articulations entre les métacarpiens (os de la paume) et les premières phalanges des doigts."],
+  ["Les MCP sont détruites et les doigts sont déviés (luxés) vers le côté de l'ulna", true, "Les têtes des métacarpiens sont érodées et les phalanges ont glissé vers le bord ulnaire (côté auriculaire) : c'est le « coup de vent cubital »."],
+  ["La polyarthrite rhumatoïde atteint typiquement les MCP et les interphalangiennes proximales, de façon bilatérale et symétrique", true, "Elle épargne en général les interphalangiennes distales, contrairement à l'arthrose."],
+  ["Les érosions osseuses de la polyarthrite sont dues à l'inflammation de la membrane synoviale", true, "La synoviale enflammée (pannus) ronge l'os au bord de l'articulation : ce sont les <b>érosions marginales</b>."],
+  ["L'arthrose et la polyarthrite rhumatoïde touchent typiquement les mêmes articulations de la main", false, "L'<b>arthrose</b> touche surtout les interphalangiennes <b>distales</b> et la base du pouce ; la <b>polyarthrite</b> touche les <b>MCP</b>, les interphalangiennes proximales et le poignet."]
+ ],
+ "lecture": "<p>Radiographie de la main légendée : <b>ulna</b> et <b>radius</b> en bas, les métacarpiens (2nd à 5th) au milieu, les articulations MCP encadrées. La broche métallique dans le pouce est un matériel d'opération.</p>",
+ "analyse": "<p>Destruction des articulations métacarpo-phalangiennes avec subluxation des doigts vers le bord ulnaire, pincements articulaires et destruction du carpe : polyarthrite rhumatoïde évoluée. Signes précoces à connaître : <b>déminéralisation</b> autour des articulations (en bande), <b>pincement</b> de l'interligne, <b>érosions</b> marginales.</p>",
+ "retenir": "Polyarthrite rhumatoïde : <b>MCP + IPP + poignets</b>, bilatérale et symétrique : déminéralisation en bande, pincement, <b>érosions</b>, déviation ulnaire.",
+ "marks": [{"t":"e","x":0.48,"y":0.25,"rx":0.25,"ry":0.13,"l":"MCP détruites","ly":0.06}]
+},
+{
+ "id": "art_arthrose_1", "img": "mpx/os_arthrose2_4.png", "region": "ms", "type": "chronique", "modality": "rx", "plane": "face",
+ "title": "Arthrose digitale érosive (aspect en « aile de mouette »)",
+ "q": "Femme de 70 ans, doigts douloureux avec des nodosités au bout des doigts. Radiographie centrée sur un doigt. Concernant cette image :",
+ "opts": [
+  ["On voit la phalange distale, la phalange moyenne et le début de la phalange proximale", true, "De haut en bas : la petite phalange du bout du doigt, l'articulation interphalangienne distale, la phalange moyenne, puis l'interphalangienne proximale."],
+  ["L'articulation interphalangienne distale (en haut) a un contour irrégulier en forme d'ailes de mouette", true, "La surface articulaire est érodée au centre et bordée d'excroissances sur les côtés : le contour ressemble à une mouette en vol."],
+  ["L'arthrose de la main touche typiquement les interphalangiennes distales", true, "Les nodosités d'Heberden (au niveau des interphalangiennes distales) sont la signature clinique de l'arthrose digitale."],
+  ["Le pincement d'une articulation correspond à une diminution de l'espace entre deux os", true, "Le cartilage, invisible en radio, s'use : les deux os se rapprochent. Le pincement est le premier signe radiographique d'arthrose."],
+  ["Les ostéophytes sont des zones de destruction de l'os", false, "Les <b>ostéophytes</b> sont au contraire des <b>excroissances</b> osseuses (« becs de perroquet ») qui se forment au bord de l'articulation arthrosique."]
+ ],
+ "lecture": "<p>Radiographie d'un doigt de face, le bout du doigt en haut. Une articulation normale : deux surfaces lisses, parallèles, séparées par un espace régulier (le cartilage, invisible).</p>",
+ "analyse": "<p>Interphalangienne distale pincée, érodée au centre, avec ostéophytes latéraux : aspect en <b>aile de mouette</b> de l'<b>arthrose érosive</b>. Les 4 signes de l'arthrose : <b>pincement</b>, <b>ostéophytes</b>, <b>condensation</b> de l'os sous le cartilage, <b>géodes</b> (petits kystes).</p>",
+ "retenir": "Arthrose : <b>pincement, ostéophytes, condensation, géodes</b>. Main : interphalangiennes <b>distales</b> (Heberden). Érosive = « aile de mouette ».",
+ "marks": [{"t":"e","x":0.50,"y":0.33,"rx":0.18,"ry":0.06,"l":"Aile de mouette"}]
+},
+{
+ "id": "art_salter_1", "img": "mpx/os_salter_1.png", "region": "ms", "type": "pediatrie", "modality": "rx", "plane": "face",
+ "title": "Décollement épiphysaire du radius (Salter-Harris II)",
+ "q": "Garçon de 11 ans, chute sur la main gauche. Radiographie du poignet dans un plâtre (le quadrillage vient du plâtre). Image difficile. Concernant cette image :",
+ "opts": [
+  ["On voit le cartilage de croissance du radius distal (bande claire juste au-dessus du poignet)", true, "Au bas du radius, une fine bande sombre transversale sépare l'épiphyse (en bas) de la métaphyse (au-dessus) : c'est la physe."],
+  ["Le trait de fracture traverse la métaphyse et rejoint le cartilage de croissance", true, "Un trait part de la métaphyse et rejoint la physe, détachant un petit fragment triangulaire de métaphyse avec l'épiphyse."],
+  ["Un trait qui passe par la physe et emporte un fragment de métaphyse correspond au type II de Salter-Harris", true, "C'est le type le plus fréquent (environ 75 %), de bon pronostic."],
+  ["Les fractures qui traversent l'épiphyse jusqu'à l'articulation (types III et IV) peuvent perturber la croissance", true, "Elles atteignent la couche germinative du cartilage : risque d'arrêt de croissance et d'inégalité de longueur. Elles nécessitent une réduction parfaite."],
+  ["Le cartilage de croissance est visible chez l'adulte", false, "Il se ferme (s'ossifie) à la fin de la croissance. Chez l'adulte, il n'en reste qu'une fine ligne cicatricielle."]
+ ],
+ "lecture": "<p>Radiographie du poignet gauche (« L ») de face dans un plâtre. Le quadrillage gris est la trame du plâtre, pas l'os. Repère le radius (côté pouce, à droite de l'image) et sa physe, juste au-dessus des os du carpe.</p>",
+ "analyse": "<p>Fracture de la métaphyse distale du radius étendue à la physe : <b>Salter-Harris II</b>.</p><table><tr><td>I</td><td>trait uniquement dans la physe</td></tr><tr><td>II</td><td>physe + métaphyse (le plus fréquent)</td></tr><tr><td>III</td><td>physe + épiphyse (articulaire)</td></tr><tr><td>IV</td><td>métaphyse + physe + épiphyse</td></tr><tr><td>V</td><td>écrasement de la physe</td></tr></table>",
+ "retenir": "Salter-Harris : I à V selon le trajet du trait par rapport à la <b>physe</b>. II = le plus fréquent. III-IV = articulaires, risque de trouble de croissance.",
+ "marks": [{"t":"e","x":0.55,"y":0.62,"rx":0.09,"ry":0.05,"l":"Physe + trait métaphysaire"}]
+},
+{
+ "id": "art_epiphysiolyse_1", "img": "mpx/os_necrose_1.png", "region": "mi", "type": "pediatrie", "modality": "rx", "plane": "face",
+ "title": "Épiphysiolyse fémorale supérieure (glissement de la tête fémorale)",
+ "q": "Adolescent de 13 ans en surpoids, boiterie et douleur du genou gauche depuis 3 semaines. Radiographie du bassin en position « grenouille » (image difficile). Concernant cette image :",
+ "opts": [
+  ["La position « grenouille » (hanches fléchies, cuisses écartées) donne une vue de profil des cols fémoraux", true, "C'est l'incidence qui montre le mieux un glissement de la tête fémorale vers l'arrière."],
+  ["Il faut comparer les deux têtes fémorales : à gauche, la tête paraît glissée en bas et en arrière par rapport au col", true, "Du côté gauche (droite de l'image), la tête (épiphyse) ne « coiffe » plus bien le col : elle a glissé sur le cartilage de croissance, comme une boule de glace qui glisse du cornet."],
+  ["Une douleur du genou chez l'adolescent peut venir de la hanche", true, "C'est une douleur <b>projetée</b> (nerf obturateur). Devant une douleur du genou sans anomalie du genou, toujours examiner la hanche."],
+  ["L'épiphysiolyse touche surtout l'adolescent en surpoids, en période de croissance rapide", true, "Le cartilage de croissance, fragilisé à la puberté, cède sous un poids important."],
+  ["Le traitement habituel est la simple attelle de repos", false, "Le traitement est <b>chirurgical</b> : on fixe la tête par une vis pour arrêter le glissement (voir la carte suivante). L'appui est interdit en attendant."]
+ ],
+ "lecture": "<p>Radiographie du bassin en incidence de Lauenstein (« grenouille »). « R » en bas à gauche = droite du patient. Compare la forme du raccord tête/col des deux côtés.</p>",
+ "analyse": "<p>Glissement postéro-médial discret de l'épiphyse fémorale gauche : <b>épiphysiolyse</b> (en anglais <i>SCFE</i>). Sur une radio de face, la ligne de Klein (tracée le long du bord supérieur du col) ne coupe plus la tête quand elle a glissé.</p>",
+ "retenir": "Adolescent en surpoids + boiterie + douleur de <b>genou</b> = penser <b>épiphysiolyse</b> fémorale. Incidence « grenouille ». Traitement : <b>vissage</b>, sans appui.",
+ "marks": [{"t":"e","x":0.82,"y":0.55,"rx":0.08,"ry":0.08,"l":"Tête fémorale glissée"},
+           {"t":"e","x":0.20,"y":0.55,"rx":0.08,"ry":0.08,"l":"Côté sain"}]
+},
+{
+ "id": "art_epiphysiolyse_2", "img": "mpx/os_necrose_2.png", "region": "mi", "type": "pediatrie", "modality": "rx", "plane": "face",
+ "title": "Épiphysiolyse : après vissage",
+ "q": "Même patient, radiographie de contrôle après l'opération. Concernant cette image :",
+ "opts": [
+  ["La structure très blanche et filetée dans le col fémoral gauche est une vis", true, "Le métal est plus blanc que l'os ; on voit les filets de la vis qui traverse le col jusque dans la tête."],
+  ["La vis fixe la tête fémorale pour empêcher la poursuite du glissement", true, "C'est le traitement de l'épiphysiolyse : on « épingle » la tête sur le col sans chercher à la remettre en place."],
+  ["Une complication grave de l'épiphysiolyse est la nécrose de la tête fémorale", true, "Les vaisseaux qui nourrissent la tête passent le long du col : le glissement peut les étirer et priver la tête de sang."],
+  ["Le métal apparaît noir en radiographie", false, "Le métal arrête presque tous les rayons X : il est <b>plus blanc que l'os</b>."],
+  ["L'épiphysiolyse est bilatérale dans une proportion importante de cas", true, "Environ 20 à 40 % des cas touchent les deux hanches : on surveille de près l'autre côté (et parfois on le visse préventivement)."]
+ ],
+ "lecture": "<p>Même incidence « grenouille ». Le métal (vis) est le plus blanc de l'image.</p>",
+ "analyse": "<p>Vissage du col fémoral gauche (fixation in situ). On contrôle que la vis est bien centrée dans la tête et ne dépasse pas dans l'articulation.</p>",
+ "retenir": "Métal = <b>plus blanc que l'os</b>. Épiphysiolyse : <b>vissage in situ</b>, risque de nécrose, surveiller l'autre hanche.",
+ "marks": [{"t":"a","x1":0.70,"y1":0.88,"x2":0.85,"y2":0.60,"l":"Vis"}]
+},
+{
+ "id": "art_paget_1", "img": "mpx/os_paget_1.png", "region": "global", "type": "chronique", "modality": "rx", "plane": "face",
+ "title": "Maladie de Paget du fémur",
+ "q": "Homme de 75 ans, fémur gauche douloureux et un peu arqué, phosphatases alcalines élevées. Radiographie du fémur de face. Concernant cette image :",
+ "opts": [
+  ["L'extrémité inférieure du fémur est élargie, avec une corticale épaissie et des travées osseuses grossières", true, "Au-dessus du genou, l'os est plus large qu'il ne devrait, sa paroi est épaisse et sa structure interne est faite de grosses travées désordonnées."],
+  ["Dans la diaphyse, la limite entre os malade et os sain est nette, en forme de flamme ou de « brin d'herbe »", true, "La zone de résorption progresse le long de la diaphyse avec un front en V : signe en « brin d'herbe »."],
+  ["La maladie de Paget est un trouble du remodelage osseux : l'os est détruit puis reconstruit de façon anarchique", true, "Les ostéoclastes détruisent trop vite, les ostéoblastes reconstruisent un os épais mais fragile et mal organisé."],
+  ["Un os pagétique est plus solide qu'un os normal", false, "Il est plus <b>épais</b> mais plus <b>fragile</b> : risque de déformation (os arqué) et de fractures."],
+  ["La maladie de Paget touche surtout le sujet de plus de 50 ans", true, "Elle est rare avant 40 ans et touche surtout le bassin, le fémur, le crâne, le rachis et le tibia."]
+ ],
+ "lecture": "<p>Radiographie du fémur de face, genou en bas. Compare la largeur et la texture de l'os en haut (diaphyse plus normale) et en bas (épiphyse et métaphyse modifiées).</p>",
+ "analyse": "<p>Atteinte pagétique du fémur distal : élargissement de l'os, épaississement de la corticale, trabéculation grossière, et front de résorption en « brin d'herbe » dans la diaphyse. Biologie : <b>phosphatases alcalines élevées</b>, calcémie normale.</p>",
+ "retenir": "Paget : sujet âgé, os <b>élargi, épaissi, travées grossières</b>, PAL élevées. Os épais mais <b>fragile</b>.",
+ "marks": [{"t":"e","x":0.52,"y":0.84,"rx":0.30,"ry":0.12,"l":"Os élargi, travées grossières","ly":0.72},
+           {"t":"a","x1":0.15,"y1":0.40,"x2":0.55,"y2":0.55,"l":"Front « en brin d'herbe »"}]
+}
+]
