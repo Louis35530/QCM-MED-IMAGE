@@ -92,7 +92,7 @@ function annotateWith(root, glossRe, firstOnly) {
   const seen = new Set();
   if (firstOnly) root.querySelectorAll('abbr.ac').forEach(a => seen.add(a.dataset.k));
   const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
-    acceptNode: n => n.parentElement.closest('abbr,.L,button.btn,script,style,input,textarea') ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT,
+    acceptNode: n => n.parentElement.closest('abbr,.L,.btn,h1,h2,.verdict,script,style,input,textarea') ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT,
   });
   const nodes = []; while (walker.nextNode()) nodes.push(walker.currentNode);
   for (const n of nodes) {
@@ -128,7 +128,7 @@ document.addEventListener('click', e => {
   pop.style.top = (below ? r.bottom + 8 : r.top - 8 - pop.offsetHeight) + window.scrollY + 'px';
 }, true);
 window.addEventListener('scroll', () => { pop.hidden = true; }, { passive: true });
-new MutationObserver(() => annotate(app)).observe(app, { childList: true, subtree: true });
+new MutationObserver(() => app.querySelectorAll('.stem,.opt,.correction,.bases').forEach(annotate)).observe(app, { childList: true, subtree: true });
 
 /* ---------- repères sur l'image (ce qu'il fallait voir) ---------- */
 // card.marks : [{t:'e', x, y, rx, ry, l}] ellipse (coordonnées en fraction de l'image, 0-1)
@@ -152,7 +152,7 @@ function figHTML(card, id) {
 
 /* ---------- écrans ---------- */
 const routes = {};
-function go(name, arg) { window.scrollTo(0, 0); setNav(name); (routes[name] || routes.home)(arg); }
+function go(name, arg) { document.body.classList.remove('quiz'); window.scrollTo(0, 0); setNav(name); (routes[name] || routes.home)(arg); }
 document.addEventListener('click', e => { const b = e.target.closest('[data-go]'); if (b) go(b.dataset.go); });
 
 routes.home = () => {
@@ -224,7 +224,7 @@ let S = null;
 function startSession(mode, queue, title) {
   if (!queue.length) { alert('Rien à réviser ici pour le moment.'); return; }
   S = { mode, queue, i: 0, title: title || (mode === 'review' ? 'Révision du jour' : 'Entraînement'), results: [] };
-  setNav(''); showQ();
+  setNav(''); document.body.classList.add('quiz'); showQ();
 }
 
 function showQ() {
@@ -289,8 +289,11 @@ function showQ() {
     const goodLetters = optEls.filter(el => card.opts[+el.dataset.oi].ok).map(el => el.querySelector('.L').textContent).join('');
     $('#qAfter').innerHTML = `<div class="verdict ${pts === 1 ? 'ok' : pts > 0 ? 'part' : 'bad'}">
       ${pts === 1 ? 'Parfait.' : pts > 0 ? 'Presque : ' + (pts === .5 ? '1 erreur' : '2 erreurs') + '.' : 'Raté.'}
-      Bonne${nGood > 1 ? 's' : ''} réponse${nGood > 1 ? 's' : ''} : ${goodLetters}</div>`;
+      Bonne${nGood > 1 ? 's' : ''} réponse${nGood > 1 ? 's' : ''} : ${goodLetters}</div>
+      ${card.marks && card.marks.length ? '<button class="btn see-marks" id="qSeeMarks">◎ Voir sur l’image ce qu’il fallait repérer</button>' : ''}`;
+    if ($('#qSeeMarks')) $('#qSeeMarks').onclick = () => openViewer(card, true);
     $('#qCorr').innerHTML = correctionHTML(card);
+    requestAnimationFrame(() => $('#qAfter').scrollIntoView({ behavior: 'smooth', block: 'center' }));
     const actions = $('#qActions');
     if (S.mode === 'review' || S.mode === 'train') {
       const sug = pts === 1 ? 3 : pts > 0 ? 2 : 1;
@@ -342,6 +345,7 @@ function finish() {
   const r = S.results, title = S.title;
   const total = r.reduce((a, x) => a + x.pts, 0);
   S.key = null;
+  document.body.classList.remove('quiz');
   if (!r.length) { S = null; go('home'); return; }
   S = null;
   app.innerHTML = `
