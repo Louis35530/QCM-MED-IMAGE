@@ -147,7 +147,47 @@ function marksSVG(marks) {
     <defs><marker id="mkArrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffd400"/></marker></defs>${shapes}</svg>${labels}`;
 }
 function figHTML(card, id) {
-  return `<div class="fig" id="${id}"><img src="${imgSrc(card)}" alt="Image médicale à analyser" draggable="false"><div class="mk-layer" hidden>${card.marks && card.marks.length ? marksSVG(card.marks) : ''}</div></div>`;
+  return `<div class="fig" id="${id}"><img src="${imgSrc(card)}" alt="Image médicale à analyser" draggable="false"><div class="mk-layer" hidden>${card.marks && card.marks.length ? marksSVG(card.marks) : ''}${sideOverlay(card)}</div></div>`;
+}
+
+
+/* ---------- le piège droite / gauche ---------- */
+const SIDE_RE = /\b(droit|droite|droits|droites|gauche|gauches)\b/i;
+const sideCard = c => SIDE_RE.test([c.q].concat(c.opts.map(o => o.t)).join(' '));
+// étiquettes de côté : seulement là où la convention radiologique s'applique sans ambiguïté
+const sideLabels = c => ['axial', 'coronal', 'face'].includes(c.plane) && ['neuro', 'thorax', 'abdomen', 'rachis', 'global', 'face'].includes(c.region);
+const SIDE_SVG = `<svg viewBox="0 0 320 150" class="side-svg" role="img" aria-label="Le patient couché vu depuis ses pieds">
+  <rect x="8" y="8" width="140" height="134" rx="10" fill="none" stroke="currentColor" stroke-opacity=".35"/>
+  <text x="78" y="26" text-anchor="middle" font-size="11" fill="currentColor">L'écran</text>
+  <ellipse cx="78" cy="82" rx="52" ry="38" fill="none" stroke="currentColor" stroke-width="2"/>
+  <text x="40" y="86" text-anchor="middle" font-size="13" font-weight="700" fill="#ffd400">D</text>
+  <text x="116" y="86" text-anchor="middle" font-size="13" font-weight="700" fill="#4fb0c6">G</text>
+  <text x="78" y="56" text-anchor="middle" font-size="10" fill="currentColor">avant (ventre)</text>
+  <text x="78" y="114" text-anchor="middle" font-size="10" fill="currentColor">dos</text>
+  <text x="78" y="136" text-anchor="middle" font-size="10" fill="currentColor" opacity=".7">gauche de l'écran = DROITE</text>
+  <path d="M160 75 h28" stroke="currentColor" stroke-width="2" marker-end="url(#sideArr)"/>
+  <defs><marker id="sideArr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0L10,5L0,10z" fill="currentColor"/></marker></defs>
+  <g transform="translate(200,20)">
+    <text x="55" y="0" text-anchor="middle" font-size="11" fill="currentColor">Toi, aux pieds du patient</text>
+    <rect x="20" y="14" width="70" height="100" rx="30" fill="none" stroke="currentColor" stroke-width="2"/>
+    <circle cx="55" cy="30" r="12" fill="none" stroke="currentColor" stroke-width="2"/>
+    <text x="10" y="70" text-anchor="middle" font-size="13" font-weight="700" fill="#ffd400">D</text>
+    <text x="100" y="70" text-anchor="middle" font-size="13" font-weight="700" fill="#4fb0c6">G</text>
+    <text x="55" y="128" text-anchor="middle" font-size="10" fill="currentColor">ses pieds, face à toi</text>
+  </g></svg>`;
+function sideBox(c) {
+  if (!sideCard(c)) return '';
+  return `<div class="side-box"><b>Le piège droite / gauche (à lire si tu t'es trompé de côté)</b>
+    ${SIDE_SVG}
+    <p>En imagerie, on regarde toujours le patient <b>comme s'il était en face de toi</b> (radiographie de face) ou <b>comme si tu étais à ses pieds</b> alors qu'il est couché sur le dos (coupe axiale de scanner ou d'IRM). Dans les deux cas, <b>sa droite se retrouve à TA gauche</b>, comme quand tu serres la main de quelqu'un en face de toi.</p>
+    <p>Donc : <b>ce qui est à gauche de l'écran est à droite du patient</b>, et inversement. C'est vrai pour les radiographies de face, les coupes axiales et coronales de scanner et d'IRM.</p>
+    <p><b>Les repères qui aident :</b> la lettre <b>R</b> (right = droite) ou <b>L</b> (left = gauche) imprimée sur le cliché ; au thorax, la pointe du <b>cœur</b> et la <b>bulle d'air de l'estomac</b> sont à gauche du patient (donc à droite de l'écran) ; à l'abdomen, le <b>foie</b> est à droite du patient (à gauche de l'écran).</p>
+    <p class="muted small">Exception : les radiographies des mains et des pieds sont souvent affichées « comme on regarde sa propre main ». Fie-toi alors à la lettre R/L.</p>
+  </div>`;
+}
+function sideOverlay(c) {
+  if (!sideLabels(c)) return '';
+  return `<span class="side-tag l">Droite du patient</span><span class="side-tag r">Gauche du patient</span>`;
 }
 
 /* ---------- écrans ---------- */
@@ -284,7 +324,7 @@ function showQ() {
     const pts = scoreQ(card, chosen);
     S.results.push({ id: card.id, pts, chosen: [...chosen] });
     revealOpts(card, chosen, optEls);
-    if (card.marks && card.marks.length) { $('#qMk').hidden = false; setMarks(true); }
+    if ((card.marks && card.marks.length) || sideLabels(card)) { $('#qMk').hidden = false; setMarks(true); }
     const nGood = card.opts.filter(o => o.ok).length;
     const goodLetters = optEls.filter(el => card.opts[+el.dataset.oi].ok).map(el => el.querySelector('.L').textContent).join('');
     $('#qAfter').innerHTML = `<div class="verdict ${pts === 1 ? 'ok' : pts > 0 ? 'part' : 'bad'}">
@@ -335,6 +375,7 @@ function correctionHTML(card) {
   return `<div class="card correction">
     <h2>Correction détaillée</h2>
     ${card.lecture ? `<h3>Comment lire cette image</h3>${card.lecture}` : ''}
+    ${sideBox(card)}
     ${card.analyse ? `<h3>Ce qu'il faut voir</h3>${card.analyse}` : ''}
     ${card.retenir ? `<div class="retenir"><b>À retenir</b><br>${card.retenir}</div>` : ''}
     ${s ? `<div class="source">Image : <a href="${esc(s.u)}" target="_blank" rel="noopener">${esc(s.t)}</a>${s.a ? ' — ' + esc(s.a) : ''} · ${esc(s.l)}</div>` : ''}
