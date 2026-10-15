@@ -195,6 +195,25 @@ const routes = {};
 function go(name, arg) { document.body.classList.remove('quiz'); window.scrollTo(0, 0); setNav(name); (routes[name] || routes.home)(arg); }
 document.addEventListener('click', e => { const b = e.target.closest('[data-go]'); if (b) go(b.dataset.go); });
 
+/* ---------- ouverture en plein écran (sans barre Safari) ---------- */
+const isStandalone = () => window.navigator.standalone === true || window.matchMedia('(display-mode: standalone)').matches;
+const isIOS = () => /iPhone|iPad|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+function installBanner() {
+  if (isStandalone() || !isIOS() || store.get('hideInstall', false)) return '';
+  return `<div class="card install" id="install">
+    <b>Tu vois la barre de Safari ? Installe Radio QCM en plein écran</b>
+    <ol>
+      <li>Supprime l'ancienne icône de l'écran d'accueil (appui long → Supprimer le signet).</li>
+      <li>Ouvre ce site dans <b>Safari</b> (pas Chrome, pas l'app Google).</li>
+      <li>Touche le bouton <b>Partager</b> <span class="ios-share" aria-hidden="true">⬆︎</span> (carré avec une flèche vers le haut, en bas de l'écran ; si besoin touche d'abord « … »).</li>
+      <li>Choisis <b>« Sur l'écran d'accueil »</b>.</li>
+      <li>Vérifie que l'option <b>« Ouvrir en tant qu'app web »</b> est <b>activée</b> (iOS récent), puis touche <b>Ajouter</b>.</li>
+      <li>Lance Radio QCM depuis la nouvelle icône : plus de barre d'adresse, et ça marche hors connexion.</li>
+    </ol>
+    <button class="btn ghost small" id="hideInstall">Ne plus afficher</button>
+  </div>`;
+}
+
 routes.home = () => {
   const cards = allCards();
   const due = cards.filter(isDue).length;
@@ -223,8 +242,10 @@ routes.home = () => {
     <div class="grid">${tiles(DATA.regions, 'region')}</div>
     <div class="section-title"><h2>Par type d'image ou de lésion</h2></div>
     <div class="grid">${tiles(DATA.types, 'type')}</div>
+    ${installBanner()}
     <p class="muted small" style="margin-top:24px">Nouveau ? Commence par <a href="#" data-go="bases">Les bases</a> : plans de coupe, densités, T1/T2… en 5 minutes.</p>`;
   $('#startReview').onclick = () => startSession('review', buildReviewQueue());
+  if ($('#hideInstall')) $('#hideInstall').onclick = () => { store.set('hideInstall', true); $('#install').remove(); };
   app.querySelectorAll('[data-theme-key]').forEach(b => b.onclick = () => routes.theme({ key: b.dataset.themeKey, val: b.dataset.themeVal }));
 };
 
